@@ -43,17 +43,10 @@ SPARK_HOME=$HOME/code/spark
 
 for ASSEMBLY in $(find . -type f -name git-all-spark-scala-assembly*.jar)
 do
-   echo "Running: "$SPARK_HOME/bin/spark-submit \
-      --master $SPARK_MASTER_URI $ASSEMBLY \
-      --generate --blocks 12 --block_size 1024 --nodes 1 \
-      --nparts 1 --cores 12 \
-      --json $JOB_JSON >> $JOB_LOG
+   echo "Running: "$SPARK_HOME/bin/spark-submit --master $SPARK_MASTER_URI $ASSEMBLY "$@" >> $JOB_LOG
 
-   $SPARK_HOME/bin/spark-submit \
-      --master $SPARK_MASTER_URI $ASSEMBLY \
-      --generate --blocks 12 --block_size 1024 --nodes 1 \
-      --nparts 1 --cores 12 \
-      --json $JOB_JSON >> $JOB_LOG
+   $SPARK_HOME/bin/spark-submit --master $SPARK_MASTER_URI $ASSEMBLY "$@" >> $JOB_LOG
+
 done
 
 #

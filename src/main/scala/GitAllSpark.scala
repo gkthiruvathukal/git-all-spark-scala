@@ -22,17 +22,15 @@ object GitAllSparkScala {
     val experiment = Experiment("simplemap-spark-scala")
     val sc = new SparkContext()
 
-    val rdd = sc.parallelize(1 to 100000, 48)
+    val rdd = sc.parallelize(1 to config.files, config.nodes * config.cores)
 
-    val rdd2 = rdd.map { i => makeScratchDir(i).toString }
+    val rdd2 = rdd.map { i => makeScratchDir(i).loc }
 
-    val result = rdd2.reduce(_ + "\n" + _)
-
-    println(result)
-
+    val sumLOC = rdd2.reduce(_ + _)
+    println(s"cumulative LOC = $sumLOC")
   }
 
-  case class Info(hostname: String, path: String)
+  case class Info(hostname: String, path: String, loc: Int)
 
   def makeScratchDir(id: Int): Info = {
     import ammonite.ops._
@@ -42,7 +40,19 @@ object GitAllSparkScala {
     mkdir ! path
     val path2 = root / "scratch" / "SE_HPC" / id.toString
     mkdir ! path2
-    Info(InetAddress.getLocalHost().getHostName(), path2.toString)
+    val filePath = path2 / "AmmoniteExample.scala"
+    println(s"Writing to $filePath")
+    write(filePath, """|object amm extends App {
+                       |   ammonite.Main().run()
+                       |}
+                       |""".stripMargin('|'))
+
+    println(s"wc -l $filePath")
+    val result = %%('wc, "-l", filePath)
+
+    println(result)
+    val crudeLOC = result.out.string.split(" ")(0).toInt
+    Info(InetAddress.getLocalHost().getHostName(), path2.toString, crudeLOC)
   }
 
   def parseCommandLine(args: Array[String]): Option[Config] = {
@@ -57,18 +67,12 @@ object GitAllSparkScala {
       opt[String]('d', "dst") action { (x, c) =>
         c.copy(dst = Some(x))
       } text ("d/dst is a String property")
-      opt[Int]('b', "blocks") action { (x, c) =>
-        c.copy(blocks = x)
-      } text ("b/blocks is a int property")
-      opt[Int]('s', "block_size") action { (x, c) =>
-        c.copy(blockSize = x)
-      } text (s"s/blockSize is an int property (number of Megabytes (MB)")
+      opt[Int]('f', "files") action { (x, c) =>
+        c.copy(files = x)
+      } text ("f/files is an int property")
       opt[Int]('n', "nodes") action { (x, c) =>
         c.copy(nodes = x)
       } text ("n/nodes is an int property")
-      opt[Int]('p', "nparts") action { (x, c) =>
-        c.copy(nparts = x)
-      } text ("p/nparts is an int property")
       opt[Int]('c', "cores") action { (x, c) =>
         c.copy(cores = x)
       } text ("c/cores is an int property (default to 12 for dual-hexcore on Cooley)")
@@ -108,13 +112,12 @@ object GitAllSparkScala {
   case class Config(
       src: Option[String] = None,
       dst: Option[String] = None,
-      cores: Int = 12,
       generate: Boolean = false,
       blocks: Int = 1,
       blockSize: Int = 1, // 1 MB
-      nparts: Int = 1,
-      size: Int = 1,
       nodes: Int = 1,
+      cores: Int = 12,
+      files: Int = 1,
       jsonFilename: Option[String] = None,
       xmlFilename: Option[String] = None
   ) {
@@ -127,8 +130,7 @@ object GitAllSparkScala {
         <property key="generate" value={ generate.toString }/>
         <property key="blocks" value={ blocks.toString }/>
         <property key="blockSize" value={ blockSize.toString } unit="MB"/>
-        <property key="nparts" value={ nparts.toString }/>
-        <property key="size" value={ size.toString }/>
+        <property key="files" value={ files.toString }/>
         <property key="nodes" value={ nodes.toString }/>
         <property key="json" value={ jsonFilename.getOrElse("") }/>
         <property key="xml" value={ xmlFilename.getOrElse("") }/>
@@ -139,7 +141,7 @@ object GitAllSparkScala {
       val properties = ("src" -> src.getOrElse("")) ~ ("dst" -> dst.getOrElse("")) ~ ("cores" -> cores.toString) ~
         ("generate" -> generate.toString) ~ ("blocks" -> blocks.toString) ~ ("blockSize" -> blockSize.toString) ~
         ("blockSizeUnit" -> "MB") ~
-        ("nparts" -> nparts.toString) ~ ("size" -> size.toString) ~ ("nodes" -> nodes.toString) ~
+        ("files" -> files.toString) ~ ("nodes" -> nodes.toString) ~
         ("jsonFilename" -> jsonFilename.getOrElse("")) ~ ("xmlFilename" -> xmlFilename.getOrElse(""))
       ("config" -> properties)
     }

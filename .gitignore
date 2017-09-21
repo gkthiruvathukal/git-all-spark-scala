@@ -112,6 +112,7 @@ scala-2.11/
 .scala_dependencies
 .worksheet
 .idea/
-project/*
 git-all-scala.iml
 */target/*
+project/target/
+project/project/
