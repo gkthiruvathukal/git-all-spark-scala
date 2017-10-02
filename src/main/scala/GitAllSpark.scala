@@ -13,6 +13,16 @@ import java.net.InetAddress
 
 object GitAllSparkScala {
 
+  def simpleTimer[A](block: => A): (A, Double) = {
+    val t0 = System.nanoTime()
+
+    // This runs the block of code
+    val result = block
+
+    val t1 = System.nanoTime()
+    (result, t1 - t0)
+  }
+
   def main(args: Array[String]) {
     val config = parseCommandLine(args).getOrElse(Config())
     val experiment = Experiment("git-all-spark-scala")
@@ -38,21 +48,30 @@ object GitAllSparkScala {
     }
 
     //Clones repo into source folder
-    if (config.gitClone) {
-      System.out.println("Cloning to " + srcRoot.toString)
-      %.git("clone", repoURL)(srcRoot)
+
+    val localcloneTime = simpleTimer {
+      if (config.gitClone) {
+        System.out.println("Cloning to " + srcRoot.toString)
+        %.git("clone", repoURL)(srcRoot)
+      }
     }
-    val rdd = sc.parallelize(hashCodes(srcRoot, sourceFolder), config.nodes * config.cores)
 
-    val rdd2 = rdd.map { hash => doGitClone(config, hash).toString }
+    val hashFetchTime = simpleTimer {
+      val rdd = sc.parallelize(hashCodes(srcRoot, sourceFolder), config.nodes * config.cores)
 
-    val result = rdd2.reduce(_ + "\n" + _)
+      val rdd2 = rdd.map { hash => doGitClone(config, hash).toString }
 
-    println(result)
+      val result = rdd2.reduce(_ + "\n" + _)
+
+      println(result)
+    }
+
+    printf("Clone time %.2f seconds", localcloneTime._2 / 1.0e9)
+    printf("Hash fetch time %.2f seconds", hashFetchTime._2 / 1.0e9)
 
   }
 
-  case class Info(hostname: String, path: String)
+  case class Info(hostname: String, path: String, hashCheckoutTime: Double, clocTime: Double)
 
   def doGitClone(config: Config, hash: String): Info = {
     val srcRoot = Path(new java.io.File(config.srcRoot.getOrElse("/projects/SE_HPC")))
@@ -67,16 +86,21 @@ object GitAllSparkScala {
     }
     mkdir ! destinationPath / hash
     var currentPath = destinationPath / hash
-    %.git('init)(currentPath)
-    %%("git", "remote", "add", "upstream", sourcePath)(currentPath)
-    %%("git", "fetch", "upstream")(currentPath)
-    %%("git", "checkout", hash)(currentPath)
-    if (config.cloc) {
-      val lines = %%("cloc", currentPath)(destinationPath)
-      println(lines)
+    val hashCheckoutTime = simpleTimer {
+      %.git('init)(currentPath)
+      %%("git", "remote", "add", "upstream", sourcePath)(currentPath)
+      %%("git", "fetch", "upstream")(currentPath)
+      %%("git", "checkout", hash)(currentPath)
+    }
+
+    val clocTime = simpleTimer {
+      if (config.cloc) {
+        val lines = %%("cloc", currentPath)(destinationPath)
+        println(lines)
+      }
     }
     val commitHashPath = destinationPath / hash
-    Info(InetAddress.getLocalHost.getHostName, commitHashPath.toString)
+    Info(InetAddress.getLocalHost.getHostName, commitHashPath.toString, hashCheckoutTime._2, clocTime._2)
   }
 
   def parseCommandLine(args: Array[String]): Option[Config] = {
