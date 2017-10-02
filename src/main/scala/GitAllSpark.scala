@@ -60,9 +60,11 @@ object GitAllSparkScala {
     }
 
     val hashFetchTime = simpleTimer {
-      val rdd = sc.parallelize(hashCodes(srcRoot, sourceFolder), config.nodes * config.cores)
+      val commits = hashCodes(srcRoot, sourceFolder)
 
-      val rdd2 = rdd.map { hash => doGitClone(config, hash).toString }
+      val rdd = sc.parallelize(config.start until commits.length by config.stride, config.nodes * config.cores)
+
+      val rdd2 = rdd.map { pos => doGitClone(config, commits(pos)).toString }
 
       val result = rdd2.reduce(_ + "\n" + _)
 
@@ -168,6 +170,12 @@ object GitAllSparkScala {
       opt[Unit]("git-clone") action { (x, c) =>
         c.copy(gitClone = true)
       }
+      opt[Int]("start") action { (x, c) =>
+        c.copy(start = x)
+      } text ("start is an int property")
+      opt[Int]("stride") action { (x, c) =>
+        c.copy(stride = x)
+      } text ("stride is an int property")
       help("help") text ("prints this usage text")
     }
     parser.parse(args, Config())
@@ -222,6 +230,8 @@ object GitAllSparkScala {
       dstRoot: Option[String] = None,
       url: Option[String] = None,
       cloc: Boolean = false,
+      start: Int = 0,
+      stride: Int = 1,
       gitClone: Boolean = false,
       xmlFilename: Option[String] = None
   ) {
@@ -236,6 +246,8 @@ object GitAllSparkScala {
         <property key="dst-root" value={ dstRoot.getOrElse("") }/>
         <property key="url" value={ url.getOrElse("") }/>
         <property key="cloc" value={ cloc.toString }/>
+        <property key="start" value={ start.toString }/>
+        <property key="stride" value={ stride.toString }/>
         <property key="git-clone" value={ gitClone.toString }/>
         <property key="xml" value={ xmlFilename.getOrElse("") }/>
       </config>
