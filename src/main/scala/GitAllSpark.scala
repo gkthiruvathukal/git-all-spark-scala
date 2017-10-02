@@ -10,6 +10,9 @@ import ammonite.ops._
 import ammonite.ops.ImplicitWd._
 import org.json4s.JsonDSL._
 import java.net.InetAddress
+import java.io.File
+import java.io._
+import scala.util.Try
 
 object GitAllSparkScala {
 
@@ -69,6 +72,10 @@ object GitAllSparkScala {
     printf("Clone time %.2f seconds", localcloneTime._2 / 1.0e9)
     printf("Hash fetch time %.2f seconds", hashFetchTime._2 / 1.0e9)
 
+    val report = Report(localcloneTime._2, hashFetchTime._2)
+    if (config.xmlFilename.isDefined)
+      writeXmlReport(experiment, config, report)
+
   }
 
   case class Info(hostname: String, path: String, hashCheckoutTime: Double, clocTime: Double)
@@ -87,10 +94,34 @@ object GitAllSparkScala {
     mkdir ! destinationPath / hash
     var currentPath = destinationPath / hash
     val hashCheckoutTime = simpleTimer {
-      %.git('init)(currentPath)
-      %%("git", "remote", "add", "upstream", sourcePath)(currentPath)
-      %%("git", "fetch", "upstream")(currentPath)
-      %%("git", "checkout", hash)(currentPath)
+      val r1 = Try {
+        System.out.println("git init " + currentPath.toString)
+        %.git('init)(currentPath)
+        true
+      }
+
+      val r2 = Try {
+        System.out.println("git remote add upstream " + sourcePath.toString + " " + currentPath.toString)
+        %%("git", "remote", "add", "upstream", sourcePath)(currentPath)
+        true
+      }
+      val r3 = Try {
+        System.out.println("git fetch upstream " + currentPath.toString)
+        %%("git", "fetch", "upstream")(currentPath)
+        true
+      }
+
+      val r4 = Try {
+        System.out.println("git checkout " + currentPath.toString + " " + hash)
+        %%("git", "checkout", hash)(currentPath)
+        true
+      }
+
+      val success = r1.getOrElse(false) && r2.getOrElse(false) && r3.getOrElse(false) && r4.getOrElse(false)
+      if (success)
+        System.out.println("doGitClone(): git succeeded in cleckout of hash " + hash)
+      else
+        System.out.println("doGitClone(): git failed in checkout of hash " + hash)
     }
 
     val clocTime = simpleTimer {
@@ -100,7 +131,7 @@ object GitAllSparkScala {
       }
     }
     val commitHashPath = destinationPath / hash
-    Info(InetAddress.getLocalHost.getHostName, commitHashPath.toString, hashCheckoutTime._2, clocTime._2)
+    Info(InetAddress.getLocalHost.getHostName, commitHashPath.toString, hashCheckoutTime._2 / 1e9, clocTime._2 / 1e9)
   }
 
   def parseCommandLine(args: Array[String]): Option[Config] = {
@@ -118,9 +149,6 @@ object GitAllSparkScala {
       opt[Int]('c', "cores") action { (x, c) =>
         c.copy(cores = x)
       } text ("c/cores is an int property (default to 12 for dual-hexcore on Cooley)")
-      opt[String]('j', "json") action { (x, c) =>
-        c.copy(jsonFilename = Some(x))
-      } text (s"json <filename>is where to write JSON reports")
       opt[String]('x', "xml") action { (x, c) =>
         c.copy(xmlFilename = Some(x))
       } text (s"xml <filename> is where to write XML reports")
@@ -159,19 +187,25 @@ object GitAllSparkScala {
     def toJSON(): org.json4s.JsonAST.JObject = ("experiment" -> ("id" -> name))
   }
 
-  case class Report(mapTime: Double, shiftTime: Double, avgTime: Double) {
+  case class Report(cloneTime: Double, hashCheckoutTime: Double) {
     def toXML(): xml.Node = {
       <report>
-        <time id="mapTime" t={ mapTime.toString } unit="ns"/>
-        <time id="shiftTime" t={ shiftTime.toString } unit="ns"/>
-        <time id="avgTime" t={ avgTime.toString } unit="ns"/>
+        <time id="clone-time" t={ cloneTime.toString } unit="s"/>
+        <time id="hash-fetch-time" t={ hashCheckoutTime.toString } unit="s"/>
       </report>
     }
+  }
 
-    def toJSON(): org.json4s.JsonAST.JObject = {
-      val timeData = ("mapTime" -> mapTime.toString) ~ ("shiftTime" -> shiftTime.toString) ~ ("avgTime" -> avgTime.toString)
-      ("report" -> timeData)
-    }
+  def writeXmlReport(exp: Experiment, config: Config, data: Report): Unit = {
+    val results = <results>
+                    { exp.toXML }{ config.toXML }{ data.toXML }
+                  </results>
+    val pprinter = new scala.xml.PrettyPrinter(80, 2) // scalastyle:ignore
+    val file = new File(config.xmlFilename.get)
+    val bw = new BufferedWriter(new FileWriter(file))
+    println("Wrote to XML file " + config.xmlFilename.get)
+    bw.write(pprinter.format(results)) // scalastyle:ignore
+    bw.close()
   }
 
   // command-line parameters
@@ -179,47 +213,29 @@ object GitAllSparkScala {
   case class Config(
       src: Option[String] = None,
       dst: Option[String] = None,
-      cores: Int = 12,
-      generate: Boolean = false,
-      blocks: Int = 1,
-      blockSize: Int = 1, // 1 MB
-      nparts: Int = 1,
-      size: Int = 1,
+      cores: Int = 4,
       nodes: Int = 1,
-      jsonFilename: Option[String] = None,
-      xmlFilename: Option[String] = None,
       srcRoot: Option[String] = None,
       dstRoot: Option[String] = None,
       url: Option[String] = None,
-      start: Option[Int] = None,
-      stride: Option[Int] = None,
       cloc: Boolean = false,
-      gitClone: Boolean = false
+      gitClone: Boolean = false,
+      xmlFilename: Option[String] = None
   ) {
 
     def toXML(): xml.Elem = {
       <config>
         <property key="src" value={ src.getOrElse("") }/>
-        <property key="dst" value={ src.getOrElse("") }/>
+        <property key="dst" value={ dst.getOrElse("") }/>
         <property key="cores" value={ cores.toString }/>
-        <property key="generate" value={ generate.toString }/>
-        <property key="blocks" value={ blocks.toString }/>
-        <property key="blockSize" value={ blockSize.toString } unit="MB"/>
-        <property key="nparts" value={ nparts.toString }/>
-        <property key="size" value={ size.toString }/>
         <property key="nodes" value={ nodes.toString }/>
-        <property key="json" value={ jsonFilename.getOrElse("") }/>
+        <property key="src-root" value={ srcRoot.getOrElse("") }/>
+        <property key="dst-root" value={ dstRoot.getOrElse("") }/>
+        <property key="url" value={ url.getOrElse("") }/>
+        <property key="cloc" value={ cloc.toString }/>
+        <property key="git-clone" value={ gitClone.toString }/>
         <property key="xml" value={ xmlFilename.getOrElse("") }/>
       </config>
-    }
-
-    def toJSON(): org.json4s.JsonAST.JObject = {
-      val properties = ("src" -> src.getOrElse("")) ~ ("dst" -> dst.getOrElse("")) ~ ("cores" -> cores.toString) ~
-        ("generate" -> generate.toString) ~ ("blocks" -> blocks.toString) ~ ("blockSize" -> blockSize.toString) ~
-        ("blockSizeUnit" -> "MB") ~
-        ("nparts" -> nparts.toString) ~ ("size" -> size.toString) ~ ("nodes" -> nodes.toString) ~
-        ("jsonFilename" -> jsonFilename.getOrElse("")) ~ ("xmlFilename" -> xmlFilename.getOrElse(""))
-      ("config" -> properties)
     }
 
   }
