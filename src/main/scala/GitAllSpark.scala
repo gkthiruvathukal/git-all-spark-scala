@@ -67,12 +67,13 @@ object GitAllSparkScala {
       val result = rdd2.reduce(_ + "\n" + _)
 
       println(result)
+      rdd.count()
     }
 
     printf("Clone time %.2f seconds", localcloneTime._2 / 1.0e9)
     printf("Hash fetch time %.2f seconds", hashFetchTime._2 / 1.0e9)
 
-    val report = Report(localcloneTime._2, hashFetchTime._2)
+    val report = Report(localcloneTime._2 / 1e9, hashFetchTime._2 / 1e9, hashFetchTime._1, (hashFetchTime._2 / hashFetchTime._1 / 1e9))
     if (config.xmlFilename.isDefined)
       writeXmlReport(experiment, config, report)
 
@@ -187,11 +188,13 @@ object GitAllSparkScala {
     def toJSON(): org.json4s.JsonAST.JObject = ("experiment" -> ("id" -> name))
   }
 
-  case class Report(cloneTime: Double, hashCheckoutTime: Double) {
+  case class Report(cloneTime: Double, hashCheckoutTime: Double, commits: Long, avgTimePerCommit: Double) {
     def toXML(): xml.Node = {
       <report>
         <time id="clone-time" t={ cloneTime.toString } unit="s"/>
         <time id="hash-fetch-time" t={ hashCheckoutTime.toString } unit="s"/>
+        <time id="hash-fetch-time-per-commit" t={ avgTimePerCommit.toString } unit="s"/>
+        <commits n={ commits.toString }/>
       </report>
     }
   }
