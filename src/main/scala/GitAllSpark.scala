@@ -64,9 +64,9 @@ object GitAllSparkScala {
 
       val rdd = sc.parallelize(config.start until commits.length by config.stride, config.nodes * config.cores)
 
-      val rdd2 = rdd.map { pos => doGitClone(config, commits(pos)).toString }
+      val rdd2 = rdd.map { pos => pprint.stringify(doGitClone(config, commits(pos))) }
 
-      val result = rdd2.reduce(_ + "\n" + _)
+      val result = rdd2.reduce(_ + "\n\n" + _)
 
       println(result)
       rdd.count()
