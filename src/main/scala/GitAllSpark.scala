@@ -64,7 +64,7 @@ object GitAllSparkScala {
 
       val rdd = sc.parallelize(config.start until commits.length by config.stride, config.nodes * config.cores)
 
-      val rdd2 = rdd.map { pos => pprint.stringify(doGitClone(config, commits(pos))) }
+      val rdd2 = rdd.map { pos => doGitClone(config, commits(pos)).toXML.toString }
 
       val result = rdd2.reduce(_ + "\n\n" + _)
 
@@ -81,7 +81,16 @@ object GitAllSparkScala {
 
   }
 
-  case class Info(hostname: String, path: String, hashCheckoutTime: Double, clocTime: Double, loc: Option[CountLOC])
+  case class Info(hostname: String, path: String, hashCheckoutTime: Double, clocTime: Double, loc: Option[CountLOC]) {
+    def toXML(): xml.Node = {
+      <info>
+        <hostname>{ hostname }</hostname>
+        <path>{ path }</path>
+        <cloc_time>{ clocTime.toString }</cloc_time>
+        { if (loc.isDefined) loc.get.toXML() else <cloc/> }
+      </info>
+    }
+  }
 
   def doGitClone(config: Config, hash: String): Info = {
     val srcRoot = Path(new java.io.File(config.srcRoot.getOrElse("/projects/SE_HPC")))

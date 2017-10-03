@@ -1,12 +1,24 @@
 
 package se_hpc
 
-case class CountLOC(header: Header, languages: Seq[Language])
+case class CountLOC(header: Header, languages: Seq[Language]) {
+  def toXML(): xml.Elem = {
+    <cloc> { header.toXML } <languages> { languages map { _.toXML } } </languages> </cloc>
+  }
+}
 
 case class Header(clocUrl: String, clocVersion: String, elapsedSeconds: Double, nFiles: Long, nLines: Long,
-  filesPerSecond: Double, linesPerSecond: Double)
+    filesPerSecond: Double, linesPerSecond: Double) {
+  def toXML(): xml.Node = {
+    <header url={ clocUrl.toString } cloc_version={ clocVersion.toString } elapsed_seconds={ elapsedSeconds.toString } number_of_files={ nFiles.toString } number_of_lines={ nLines.toString } files_per_second={ filesPerSecond.toString } lines_per_second={ linesPerSecond.toString }/>
+  }
+}
 
-case class Language(name: String, filesCount: Long, blank: Long, comment: Long, code: Long)
+case class Language(name: String, filesCount: Long, blank: Long, comment: Long, code: Long) {
+  def toXML(): xml.Node = {
+    <language name={ name } files={ filesCount.toString } blank={ blank.toString } comment={ comment.toString } code={ code.toString }/>
+  }
+}
 
 object CountLOC {
   def apply(text: String): CountLOC = {
