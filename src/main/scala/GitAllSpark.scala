@@ -129,8 +129,11 @@ object GitAllSparkScala {
 
     val clocTime = simpleTimer {
       if (config.cloc) {
-        val lines = %%("cloc", currentPath)(destinationPath)
-        println(lines)
+        val output = %%("cloc", "--xml", "--quiet", currentPath)(destinationPath)
+        val xmlDocument = output.out.lines drop (1) reduce (_ + "\n" + _)
+        val cloc = CountLOC(xmlDocument)
+        System.out.println("CountLOC Results")
+        System.out.println(cloc)
       }
     }
     val commitHashPath = destinationPath / hash

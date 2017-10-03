@@ -1,9 +1,7 @@
 
-import scala.xml._
+package se_hpc
 
-case class CountLOC(header: Header, languages: Seq[Language]) {
-
-}
+case class CountLOC(header: Header, languages: Seq[Language])
 
 case class Header(clocUrl: String, clocVersion: String, elapsedSeconds: Double, nFiles: Long, nLines: Long,
   filesPerSecond: Double, linesPerSecond: Double)
@@ -39,6 +37,7 @@ object CountLOC {
     CountLOC(Header(cloc_url, cloc_version, elapsed_seconds, n_files, n_lines, files_per_second, lines_per_second), languages)
   }
 
+  // TODO: Make unit tests for this...
   def main(args: Array[String]): Unit = {
     val testDocument =
       """<?xml version="1.0"?><results>
