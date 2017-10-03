@@ -76,3 +76,37 @@ So what is happening above?
 - `--xml` write the performance data as an XML report. This is the only format supported.
 
 
+Performance Report
+--------------------
+
+The performance report allows you to look at how long it took to do the clone and to analyze all commits.
+We also show the average time to fetch each commit and perform the analysis. The report can be helpful
+to understand how long you'd need to do all commits, especially for a large repository like Linux.
+
+```xml
+<results>
+  <experiment id="git-all-spark-scala"/>
+  <config>
+    <property key="src" value="sbt"/>
+    <property key="dst" value="sbt-commits"/>
+    <property key="cores" value="12"/>
+    <property key="nodes" value="4"/>
+    <property key="src-root" value=""/>
+    <property key="dst-root" value=""/>
+    <property key="url" value="https://github.com/sbt/sbt.git"/>
+    <property key="cloc" value="true"/>
+    <property key="clocPath" value="/home/thiruvat/local/bin/cloc"/>
+    <property key="start" value="0"/>
+    <property key="stride" value="100"/>
+    <property key="git-clone" value="true"/>
+    <property key="xml" value="sbt-partial-results.xml"/>
+  </config>
+  <report>
+    <time id="clone-time" t="4.53710968" unit="s"/>
+    <time id="hash-fetch-plus-loc-time" t="203.767256509" unit="s"/>
+    <time id="hash-fetch-plus-loc-time-per-commit" t="3.574864149280702" unit="s"/>
+    <commits n="57"/>
+  </report>
+</results>
+
+```
