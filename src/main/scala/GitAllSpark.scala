@@ -81,7 +81,7 @@ object GitAllSparkScala {
 
   }
 
-  case class Info(hostname: String, path: String, hashCheckoutTime: Double, clocTime: Double)
+  case class Info(hostname: String, path: String, hashCheckoutTime: Double, clocTime: Double, loc: Option[CountLOC])
 
   def doGitClone(config: Config, hash: String): Info = {
     val srcRoot = Path(new java.io.File(config.srcRoot.getOrElse("/projects/SE_HPC")))
@@ -127,17 +127,23 @@ object GitAllSparkScala {
         System.out.println("doGitClone(): git failed in checkout of hash " + hash)
     }
 
+    val commitHashPath = destinationPath / hash
+
+    // TODO: Put actual cloc in RDD to avoid option here.
     val clocTime = simpleTimer {
       if (config.cloc) {
-        val output = %%("cloc", "--xml", "--quiet", currentPath)(destinationPath)
+        val output = %%(config.clocPath.get, "--xml", "--quiet", currentPath)
         val xmlDocument = output.out.lines drop (1) reduce (_ + "\n" + _)
         val cloc = CountLOC(xmlDocument)
-        System.out.println("CountLOC Results")
-        System.out.println(cloc)
+        Some(cloc)
+      } else {
+        None
       }
     }
-    val commitHashPath = destinationPath / hash
-    Info(InetAddress.getLocalHost.getHostName, commitHashPath.toString, hashCheckoutTime._2 / 1e9, clocTime._2 / 1e9)
+
+    // return value
+    Info(InetAddress.getLocalHost.getHostName, commitHashPath.toString, hashCheckoutTime._2 / 1e9,
+      clocTime._2 / 1e9, clocTime._1)
   }
 
   def parseCommandLine(args: Array[String]): Option[Config] = {
@@ -170,6 +176,9 @@ object GitAllSparkScala {
       opt[Unit]("cloc") action { (x, c) =>
         c.copy(cloc = true)
       }
+      opt[String]("cloc-path") action { (x, c) =>
+        c.copy(clocPath = Some(x))
+      } text ("u/url is a String property")
       opt[Unit]("git-clone") action { (x, c) =>
         c.copy(gitClone = true)
       }
@@ -203,8 +212,8 @@ object GitAllSparkScala {
     def toXML(): xml.Node = {
       <report>
         <time id="clone-time" t={ cloneTime.toString } unit="s"/>
-        <time id="hash-fetch-time" t={ hashCheckoutTime.toString } unit="s"/>
-        <time id="hash-fetch-time-per-commit" t={ avgTimePerCommit.toString } unit="s"/>
+        <time id="hash-fetch-plus-loc-time" t={ hashCheckoutTime.toString } unit="s"/>
+        <time id="hash-fetch-plus-loc-time-per-commit" t={ avgTimePerCommit.toString } unit="s"/>
         <commits n={ commits.toString }/>
       </report>
     }
@@ -233,6 +242,7 @@ object GitAllSparkScala {
       dstRoot: Option[String] = None,
       url: Option[String] = None,
       cloc: Boolean = false,
+      clocPath: Option[String] = Some("/usr/bin/cloc"),
       start: Int = 0,
       stride: Int = 1,
       gitClone: Boolean = false,
@@ -249,6 +259,7 @@ object GitAllSparkScala {
         <property key="dst-root" value={ dstRoot.getOrElse("") }/>
         <property key="url" value={ url.getOrElse("") }/>
         <property key="cloc" value={ cloc.toString }/>
+        <property key="clocPath" value={ clocPath.getOrElse("").toString }/>
         <property key="start" value={ start.toString }/>
         <property key="stride" value={ stride.toString }/>
         <property key="git-clone" value={ gitClone.toString }/>
