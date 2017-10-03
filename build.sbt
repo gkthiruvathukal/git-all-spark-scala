@@ -17,5 +17,7 @@ libraryDependencies ++= Seq(
   "com.github.scopt" %% "scopt" % "3.6.0",
   "com.novocode" % "junit-interface" % "latest.release" % Test,
   "org.scalatest" %% "scalatest" % "latest.release" % Test,
-  "com.lihaoyi" %% "ammonite-ops" % "1.0.0"
+  "com.lihaoyi" %% "ammonite-ops" % "1.0.0",
+  "com.lihaoyi" %% "pprint" % "0.4.3"
+
 )
