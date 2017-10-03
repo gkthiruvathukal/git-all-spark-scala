@@ -91,8 +91,8 @@ to understand how long you'd need to do all commits, especially for a large repo
     <property key="dst" value="sbt-commits"/>
     <property key="cores" value="12"/>
     <property key="nodes" value="4"/>
-    <property key="src-root" value=""/>
-    <property key="dst-root" value=""/>
+    <property key="src-root" value="/projects"/>
+    <property key="dst-root" value="/scratch"/>
     <property key="url" value="https://github.com/sbt/sbt.git"/>
     <property key="cloc" value="true"/>
     <property key="clocPath" value="/home/thiruvat/local/bin/cloc"/>
