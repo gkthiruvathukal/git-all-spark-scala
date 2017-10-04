@@ -159,48 +159,48 @@ object GitAllSparkScala {
   def parseCommandLine(args: Array[String]): Option[Config] = {
     val parser = new scopt.OptionParser[Config]("scopt") {
       head("simplemap-spark-scala", "0.1.x")
-      opt[String]('s', "src") action { (x, c) =>
+      opt[String]("src") action { (x, c) =>
         c.copy(src = Some(x))
-      } text ("s/src is a String property")
-      opt[String]('d', "dst") action { (x, c) =>
+      } text ("src (String) is the name of the source folder (should match repo name) and not a path")
+      opt[String]("dst") action { (x, c) =>
         c.copy(dst = Some(x))
-      } text ("d/dst is a String property")
-      opt[Int]('n', "nodes") action { (x, c) =>
+      } text ("dst (String) is the name of the destination folder and not a path")
+      opt[Int]("nodes") action { (x, c) =>
         c.copy(nodes = x)
-      } text ("n/nodes is an int property")
-      opt[Int]('c', "cores") action { (x, c) =>
+      } text ("nodes (int) is the number of cluster nodes")
+      opt[Int]("cores") action { (x, c) =>
         c.copy(cores = x)
-      } text ("c/cores is an int property (default to 12 for dual-hexcore on Cooley)")
-      opt[String]('x', "xml") action { (x, c) =>
+      } text ("cores (int) is the number of cores on each cluster node")
+      opt[String]("xml") action { (x, c) =>
         c.copy(xmlFilename = Some(x))
-      } text (s"xml <filename> is where to write XML reports")
+      } text (s"xml (string) is the name or path to a filename for writing the performance report")
       opt[String]("src-root") action { (x, c) =>
         c.copy(srcRoot = Some(x))
-      } text ("srcRoot is a base directory for cloning stuff")
+      } text ("src-root (String) is the base directory where the --src folder will be cloned")
       opt[String]("dst-root") action { (x, c) =>
         c.copy(dstRoot = Some(x))
-      } text ("dstRoot is a base directory for fetching hashes")
-      opt[String]('u', "url") action { (x, c) =>
+      } text ("dst-root (String) is the base base directory where the --dst folder will be created for staging commits")
+      opt[String]("url") action { (x, c) =>
         c.copy(url = Some(x))
-      } text ("u/url is a String property")
+      } text ("url (String) is the repo URL. This URL must work with git clone on your computer.")
       opt[Unit]("cloc") action { (x, c) =>
         c.copy(cloc = true)
-      }
+      } text ("cloc sets a flag to run the cloc line-counting tool")
       opt[String]("cloc-path") action { (x, c) =>
         c.copy(clocPath = Some(x))
-      } text ("u/url is a String property")
+      } text ("cloc-path (String) indicates the location of the cloc tool. Only used if cloc option is enabled.")
       opt[String]("cloc-report") action { (x, c) =>
         c.copy(clocReportPath = Some(x))
-      } text ("cloc-path is a String property")
+      } text ("cloc-report (String) is the path where to write the cloc report. Only used if cloc option is enabled.")
       opt[Unit]("git-clone") action { (x, c) =>
         c.copy(gitClone = true)
-      }
+      } text ("git-clone indicates whether the clone is to be performed by the Spark driver code")
       opt[Int]("start") action { (x, c) =>
         c.copy(start = x)
-      } text ("start is an int property")
+      } text ("start (int) is the commit (by position) on master where to start (defaults to 0). Useful when you have extremely large repositories.")
       opt[Int]("stride") action { (x, c) =>
         c.copy(stride = x)
-      } text ("stride is an int property")
+      } text ("stride (int) is how many commits to skip (by position) on master (defaults to 1). Useful when you have extremely large repositories.")
       help("help") text ("prints this usage text")
     }
     parser.parse(args, Config())
