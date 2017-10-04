@@ -12,26 +12,26 @@ Usage
 ------
 
 ```shell
-$ $SPARK_HOME/bin/spark-submit $(find target -name  git-all-spark-scala-assembly*.jar | head -n1) --help
+$ ~/code/spark/bin/spark-submit $(find target -name  git-all-spark-scala-assembly*.jar | head -n1) --help
 simplemap-spark-scala 0.1.x
 Usage: scopt [options]
 
-  -s, --src <value>    s/src is a String property
-  -d, --dst <value>    d/dst is a String property
-  -n, --nodes <value>  n/nodes is an int property
-  -c, --cores <value>  c/cores is an int property (default to 12 for dual-hexcore on Cooley)
-  -x, --xml <value>    xml <filename> is where to write XML reports
-  --src-root <value>   srcRoot is a base directory for cloning stuff
-  --dst-root <value>   dstRoot is a base directory for fetching hashes
-  -u, --url <value>    u/url is a String property
-  --cloc               
-  --cloc-path <value>  u/url is a String property
-  --git-clone          
-  --start <value>      start is an int property
-  --stride <value>     stride is an int property
-  --help               prints this usage text
+  --src <value>          src (String) is the name of the source folder (should match repo name) and not a path
+  --dst <value>          dst (String) is the name of the destination folder and not a path
+  --nodes <value>        nodes (int) is the number of cluster nodes
+  --cores <value>        cores (int) is the number of cores on each cluster node
+  --xml <value>          xml (string) is the name or path to a filename for writing the performance report
+  --src-root <value>     src-root (String) is the base directory where the --src folder will be cloned
+  --dst-root <value>     dst-root (String) is the base base directory where the --dst folder will be created for staging commits
+  --url <value>          url (String) is the repo URL. This URL must work with git clone on your computer.
+  --cloc                 cloc sets a flag to run the cloc line-counting tool
+  --cloc-path <value>    cloc-path (String) indicates the location of the cloc tool. Only used if cloc option is enabled.
+  --cloc-report <value>  cloc-report (String) is the path where to write the cloc report. Only used if cloc option is enabled.
+  --git-clone            git-clone indicates whether the clone is to be performed by the Spark driver code
+  --start <value>        start (int) is the commit (by position) on master where to start (defaults to 0). Useful when you have extremely large repositories.
+  --stride <value>       stride (int) is how many commits to skip (by position) on master (defaults to 1). Useful when you have extremely large repositories.
+  --help                 prints this usage text
 ```
-
 
 In a cluster environment (at least the one I use) there are typically local and remote (shared)
 filesystems. On my cluster:
@@ -53,7 +53,9 @@ repoistory lives at https://github.com/sbt/sbt.
 
 
 ```shell
-$SPARK_HOME/bin/spark-submit --url https://github.com/sbt/sbt.git --src sbt --dst sbt-commits --git-clone --start 0 --stride 100 --nodes 4 --cores 12 --cloc --cloc-path /home/thiruvat/local/bin/cloc --xml sbt-partial-results.xml
+$SPARK_HOME/bin/spark-submit --url https://github.com/sbt/sbt.git --src sbt --dst sbt-commits \
+   --git-clone --start 0 --stride 100 --nodes 4 --cores 12 \
+   --cloc --cloc-path /home/thiruvat/local/bin/cloc --xml sbt-partial-results.xml
 
 ```
 
