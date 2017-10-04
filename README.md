@@ -110,3 +110,71 @@ to understand how long you'd need to do all commits, especially for a large repo
 </results>
 
 ```
+
+CLOC Report (first of many planned)
+-------------------------------------
+
+The following shows what you get when the `--cloc-path` is used. A beautiful XML report containing all information about how the computation
+was performed is presented. (The format has not yet been finalized.)
+
+As you can see, the details specific to running cloc, which does the actual work of counting KLOC, etc. are shown. The idea being that this
+analysis could be paired with another analysis to compute various derived metrics. As you can see, the details about which programming languages
+are used and how many lines of code, blank lines, and comments are shown by language. Again, this work is done by the `cloc` open source tool, so 
+we simply are presenting this analysis for each commit.
+
+```xml
+<cloc_report>
+  <info>
+    <hostname>cc019.fst.alcf.anl.gov</hostname>
+    <path>
+      /scratch/SE_HPC/sbt-commits/a958fa6484dd6780fc20685a96cdf03b81b1ff1f
+    </path>
+    <cloc_time>5.701680002</cloc_time>
+    <cloc>
+      <header 
+      url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="5.30345392227173" number_of_files="146" number_of_lines="10449" files_per_second="27.529229468154" lines_per_second="1970.22547063522">
+</header>
+      <languages>
+        <language name="Scala" files="129" blank="710" comment="649" code="8864"/>
+        <language name="Java" files="17" blank="31" comment="52" code="143"/>
+      </languages>
+    </cloc>
+  </info>
+  <info>
+    <hostname>cc039.fst.alcf.anl.gov</hostname>
+    <path>
+      /scratch/SE_HPC/sbt-commits/9e6c14f200acbf98547e12ee188ed5e5d5e256bd
+    </path>
+    <cloc_time>53.443537377</cloc_time>
+    <cloc>
+      <header 
+      url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="52.5243098735809" number_of_files="230" number_of_lines="15369" files_per_second="4.37892474082153" lines_per_second="292.607366702983">
+</header>
+      <languages>
+        <language name="Scala" files="207" blank="1091" comment="1469" code="12650"/>
+        <language name="Java" files="14" blank="11" comment="0" code="82"/>
+        <language name="XML" files="8" blank="1" comment="0" code="60"/>
+        <language name="JSP" files="1" blank="0" comment="0" code="5"/>
+      </languages>
+    </cloc>
+  </info>
+  <info>
+    <hostname>cc039.fst.alcf.anl.gov</hostname>
+    <path>
+      /scratch/SE_HPC/sbt-commits/482e041464eb35884d659f6ad8b8b1c87cbc974c
+    </path>
+    <cloc_time>75.785050945</cloc_time>
+    <cloc>
+      <header 
+      url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="74.8971869945526" number_of_files="525" number_of_lines="31584" files_per_second="7.00960905298331" lines_per_second="421.698080627476">
+</header>
+      <languages>
+        <language name="Scala" files="477" blank="2975" comment="2181" code="25843"/>
+        <language name="Java" files="43" blank="68" comment="77" code="400"/>
+        <language name="XML" files="5" blank="1" comment="0" code="39"/>
+      </languages>
+    </cloc>
+  </info>
+  ...
+</cloc_report>
+```
