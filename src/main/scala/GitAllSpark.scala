@@ -64,11 +64,12 @@ object GitAllSparkScala {
 
       val rdd = sc.parallelize(config.start until commits.length by config.stride, config.nodes * config.cores)
 
-      val rdd2 = rdd.map { pos => doGitClone(config, commits(pos)).toXML.toString }
+      val rdd2 = rdd.map { pos => List(doGitClone(config, commits(pos)).toXML) }
 
-      val result = rdd2.reduce(_ + "\n\n" + _)
-
-      println(result)
+      val result = rdd2.reduce(_ ++ _)
+      val report = <cloc_report> { result.toSeq } </cloc_report>
+      if (config.clocReportPath.isDefined)
+        writeClocReport(config, report)
       rdd.count()
     }
 
@@ -188,6 +189,9 @@ object GitAllSparkScala {
       opt[String]("cloc-path") action { (x, c) =>
         c.copy(clocPath = Some(x))
       } text ("u/url is a String property")
+      opt[String]("cloc-report") action { (x, c) =>
+        c.copy(clocReportPath = Some(x))
+      } text ("cloc-path is a String property")
       opt[Unit]("git-clone") action { (x, c) =>
         c.copy(gitClone = true)
       }
@@ -240,6 +244,15 @@ object GitAllSparkScala {
     bw.close()
   }
 
+  def writeClocReport(config: Config, document: xml.Node) {
+    val pprinter = new scala.xml.PrettyPrinter(80, 2) // scalastyle:ignore
+    val file = new File(config.clocReportPath.get)
+    val bw = new BufferedWriter(new FileWriter(file))
+    println("Wrote cloc report file " + config.clocReportPath.get)
+    bw.write(pprinter.format(document)) // scalastyle:ignore
+    bw.close()
+  }
+
   // command-line parameters
 
   case class Config(
@@ -252,6 +265,7 @@ object GitAllSparkScala {
       url: Option[String] = None,
       cloc: Boolean = false,
       clocPath: Option[String] = Some("/usr/bin/cloc"),
+      clocReportPath: Option[String] = None,
       start: Int = 0,
       stride: Int = 1,
       gitClone: Boolean = false,
