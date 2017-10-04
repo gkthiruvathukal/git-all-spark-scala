@@ -125,7 +125,7 @@ we simply are presenting this analysis for each commit.
 ```xml
 <cloc_report>
   <info>
-    <hostname>cc019.fst.alcf.anl.gov</hostname>
+    <hostname>cc019.mycluster.com</hostname>
     <path>
       /scratch/SE_HPC/sbt-commits/a958fa6484dd6780fc20685a96cdf03b81b1ff1f
     </path>
@@ -141,7 +141,7 @@ we simply are presenting this analysis for each commit.
     </cloc>
   </info>
   <info>
-    <hostname>cc039.fst.alcf.anl.gov</hostname>
+    <hostname>cc039.mycluster.com</hostname>
     <path>
       /scratch/SE_HPC/sbt-commits/9e6c14f200acbf98547e12ee188ed5e5d5e256bd
     </path>
@@ -159,7 +159,7 @@ we simply are presenting this analysis for each commit.
     </cloc>
   </info>
   <info>
-    <hostname>cc039.fst.alcf.anl.gov</hostname>
+    <hostname>cc039.mycluster.com</hostname>
     <path>
       /scratch/SE_HPC/sbt-commits/482e041464eb35884d659f6ad8b8b1c87cbc974c
     </path>
