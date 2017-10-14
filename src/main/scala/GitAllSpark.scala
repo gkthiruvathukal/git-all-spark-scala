@@ -116,32 +116,35 @@ object GitAllSparkScala {
     mkdir ! destinationPath / hash
     var currentPath = destinationPath / hash
     val hashCheckoutTime = simpleTimer {
-      val r1 = Try {
-        System.out.println("git init " + currentPath.toString)
-        %.git('init)(currentPath)
+      val success = if (config.checkout) {
+        val r1 = Try {
+          System.out.println("git init " + currentPath.toString)
+          %.git('init)(currentPath)
+          true
+        }
+
+        val r2 = Try {
+          System.out.println("git remote add upstream " + sourcePath.toString + " " + currentPath.toString)
+          %%("git", "remote", "add", "upstream", sourcePath)(currentPath)
+          true
+        }
+        val r3 = Try {
+          System.out.println("git fetch upstream " + currentPath.toString)
+          %%("git", "fetch", "upstream")(currentPath)
+          true
+        }
+
+        val r4 = Try {
+          System.out.println("git checkout " + currentPath.toString + " " + hash)
+          %%("git", "checkout", hash)(currentPath)
+          true
+        }
+
+        /* This above code is allowed to fail. If it does, we still want to know. */
+        List(r1, r2, r3, r4) map { _.getOrElse(false) } reduce (_ && _)
+      } else {
         true
       }
-
-      val r2 = Try {
-        System.out.println("git remote add upstream " + sourcePath.toString + " " + currentPath.toString)
-        %%("git", "remote", "add", "upstream", sourcePath)(currentPath)
-        true
-      }
-      val r3 = Try {
-        System.out.println("git fetch upstream " + currentPath.toString)
-        %%("git", "fetch", "upstream")(currentPath)
-        true
-      }
-
-      val r4 = Try {
-        System.out.println("git checkout " + currentPath.toString + " " + hash)
-        %%("git", "checkout", hash)(currentPath)
-        true
-      }
-
-      /* This above code is allowed to fail. If it does, we still want to know. */
-
-      val success = List(r1, r2, r3, r4) map { _.getOrElse(false) } reduce (_ && _)
       if (success)
         System.out.println("doGitCheckouts(): git succeeded in cleckout of hash " + hash)
       else
@@ -209,6 +212,9 @@ object GitAllSparkScala {
       opt[String]("url") action { (x, c) =>
         c.copy(url = Some(x))
       } text ("url (String) is the repo URL. This URL must work with git clone on your computer.")
+      opt[Unit]("checkout") action { (x, c) =>
+        c.copy(checkout = true)
+      }
       opt[Unit]("cloc") action { (x, c) =>
         c.copy(cloc = true)
       } text ("cloc sets a flag to run the cloc line-counting tool")
@@ -289,6 +295,7 @@ object GitAllSparkScala {
       srcRoot: Option[String] = None,
       dstRoot: Option[String] = None,
       url: Option[String] = None,
+      checkout: Boolean = false,
       cloc: Boolean = false,
       clocPath: Option[String] = Some("/usr/bin/cloc"),
       clocReportPath: Option[String] = None,
