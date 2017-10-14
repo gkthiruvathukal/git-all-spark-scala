@@ -9,7 +9,9 @@ scalacOptions ++= Seq("-deprecation", "-feature", "-unchecked")
 mainClass in assembly := Some("se_hpc.GitAllSparkScala")
 
 resolvers ++= Seq(
+  "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots",
   "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
+
 )
 
 libraryDependencies ++= Seq(
@@ -18,6 +20,6 @@ libraryDependencies ++= Seq(
   "com.novocode" % "junit-interface" % "latest.release" % Test,
   "org.scalatest" %% "scalatest" % "latest.release" % Test,
   "com.lihaoyi" %% "ammonite-ops" % "1.0.0",
-  "com.lihaoyi" %% "pprint" % "0.4.3"
-
+  "com.lihaoyi" %% "pprint" % "0.4.3",
+  "com.chuusai" %% "shapeless" % "2.3.2"
 )

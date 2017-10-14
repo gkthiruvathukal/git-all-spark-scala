@@ -8,23 +8,12 @@ import org.apache.spark.SparkContext
 
 import ammonite.ops._
 import ammonite.ops.ImplicitWd._
-import org.json4s.JsonDSL._
-import java.net.InetAddress
-import java.io.File
+import java.net._
 import java.io._
-import scala.util.Try
+import org.json4s.JsonDSL._
+import scala.util._
 
 object GitAllSparkScala {
-
-  def simpleTimer[A](block: => A): (A, Double) = {
-    val t0 = System.nanoTime()
-
-    // This runs the block of code
-    val result = block
-
-    val t1 = System.nanoTime()
-    (result, t1 - t0)
-  }
 
   def main(args: Array[String]) {
     val config = parseCommandLine(args).getOrElse(Config())
@@ -34,9 +23,11 @@ object GitAllSparkScala {
     val sourceFolder = config.src.getOrElse("")
     val destinationFolder = config.dst.getOrElse("")
 
-    // These defaults are for use on the Cooley cluster...
+    // These defaults are for my cluster, which offers shared storage on /projects
+    // You could also change these if you want to go shared nothing.
+
     val srcRoot = Path(new java.io.File(config.srcRoot.getOrElse("/projects/SE_HPC")))
-    //val dstRoot = Path(new java.io.File(config.dstRoot.getOrElse("/scratch/SE_HPC")))
+    val dstRoot = Path(new java.io.File(config.dstRoot.getOrElse("/projects/SE_HPC")))
 
     //Establishes path for source folder where clone occurs and destination folder which will recieve every commit
     val sourcePath = srcRoot / sourceFolder
@@ -64,36 +55,54 @@ object GitAllSparkScala {
 
       val rdd = sc.parallelize(config.start until commits.length by config.stride, config.nodes * config.cores)
 
-      val rdd2 = rdd.map { pos => List(doGitClone(config, commits(pos)).toXML) }
+      val rdd1 = rdd.map { pos => doGitCheckouts(config, commits(pos)) }
+
+      val rdd2 = rdd1.map { gcf => List(doCloc(config, gcf).toXML) }
 
       val result = rdd2.reduce(_ ++ _)
-      val report = <cloc_report> { result.toSeq } </cloc_report>
+
+      val clocReport = <cloc_report> { result.toSeq } </cloc_report>
       if (config.clocReportPath.isDefined)
-        writeClocReport(config, report)
+        writeClocReport(config, clocReport)
+
       rdd.count()
     }
 
-    printf("Clone time %.2f seconds", localcloneTime._2 / 1.0e9)
-    printf("Hash fetch time %.2f seconds", hashFetchTime._2 / 1.0e9)
+    printf("Clone time %.2f seconds", localcloneTime.time / 1.0e9)
+    printf("Hash fetch time %.2f seconds", hashFetchTime.time / 1.0e9)
 
-    val report = Report(localcloneTime._2 / 1e9, hashFetchTime._2 / 1e9, hashFetchTime._1, (hashFetchTime._2 / hashFetchTime._1 / 1e9))
+    val report = Report(localcloneTime.time / 1e9, hashFetchTime.time / 1e9, hashFetchTime.result, (hashFetchTime.time / hashFetchTime.result / 1e9))
     if (config.xmlFilename.isDefined)
       writeXmlReport(experiment, config, report)
-
   }
 
-  case class Info(hostname: String, path: String, hashCheckoutTime: Double, clocTime: Double, loc: Option[CountLOC]) {
+  /* Simple way of timing a block of code. Results are returned in a case class
+   * where the time and result can be obtained through the corresponding fields.
+   */
+  case class TimedResult[A](time: Double, result: A)
+
+  def simpleTimer[A](block: => A): TimedResult[A] = {
+    val t0 = System.nanoTime()
+
+    // This runs the block of code
+    val result = block
+
+    val t1 = System.nanoTime()
+    TimedResult(t1 - t0, result)
+  }
+
+  case class GitCheckoutPhase(hostname: String, path: String, successful: Boolean, time: Double) {
     def toXML(): xml.Node = {
-      <info>
+      <checkout>
         <hostname>{ hostname }</hostname>
         <path>{ path }</path>
-        <cloc_time>{ clocTime.toString }</cloc_time>
-        { if (loc.isDefined) loc.get.toXML() else <cloc/> }
-      </info>
+        <success>{ successful }</success>
+        <time>{ time }</time>
+      </checkout>
     }
   }
 
-  def doGitClone(config: Config, hash: String): Info = {
+  def doGitCheckouts(config: Config, hash: String): GitCheckoutPhase = {
     val srcRoot = Path(new java.io.File(config.srcRoot.getOrElse("/projects/SE_HPC")))
     val sourceFolder = config.src.getOrElse("")
     val sourcePath = srcRoot / sourceFolder
@@ -130,19 +139,39 @@ object GitAllSparkScala {
         true
       }
 
-      val success = r1.getOrElse(false) && r2.getOrElse(false) && r3.getOrElse(false) && r4.getOrElse(false)
+      /* This above code is allowed to fail. If it does, we still want to know. */
+
+      val success = List(r1, r2, r3, r4) map { _.getOrElse(false) } reduce (_ && _)
       if (success)
-        System.out.println("doGitClone(): git succeeded in cleckout of hash " + hash)
+        System.out.println("doGitCheckouts(): git succeeded in cleckout of hash " + hash)
       else
-        System.out.println("doGitClone(): git failed in checkout of hash " + hash)
+        System.out.println("doGitCheckouts(): git failed in checkout of hash " + hash)
+      success
     }
 
     val commitHashPath = destinationPath / hash
 
-    // TODO: Put actual cloc in RDD to avoid option here.
+    GitCheckoutPhase(InetAddress.getLocalHost.getHostName, commitHashPath.toString, hashCheckoutTime.result, hashCheckoutTime.time / 1e9)
+  }
+
+  /* The CLOC Phase is command-line option selectable. It therefore may or may not produce LOC info.
+   * If it does, you'll be able to evaulate the option.
+   * If it does not, you still get a ClocPhase result, but each of the results would be None.
+   */
+
+  case class ClocPhase(cloc: Option[CountLOC], path: String) {
+    def toXML(): xml.Node = {
+      <cloc>
+        <path>{ path } </path>
+        <report>{ cloc.getOrElse("") }</report>
+      </cloc>
+    }
+  }
+
+  def doCloc(config: Config, gcf: GitCheckoutPhase): ClocPhase = {
     val clocTime = simpleTimer {
       if (config.cloc) {
-        val output = %%(config.clocPath.get, "--xml", "--quiet", currentPath)
+        val output = %%(config.clocPath.get, "--xml", "--quiet", gcf.path)
         val xmlDocument = output.out.lines drop (1) reduce (_ + "\n" + _)
         val cloc = CountLOC(xmlDocument)
         Some(cloc)
@@ -150,10 +179,7 @@ object GitAllSparkScala {
         None
       }
     }
-
-    // return value
-    Info(InetAddress.getLocalHost.getHostName, commitHashPath.toString, hashCheckoutTime._2 / 1e9,
-      clocTime._2 / 1e9, clocTime._1)
+    ClocPhase(clocTime.result, gcf.path)
   }
 
   def parseCommandLine(args: Array[String]): Option[Config] = {
