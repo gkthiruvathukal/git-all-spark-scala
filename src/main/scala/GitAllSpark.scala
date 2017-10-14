@@ -214,7 +214,7 @@ object GitAllSparkScala {
       } text ("url (String) is the repo URL. This URL must work with git clone on your computer.")
       opt[Unit]("checkout") action { (x, c) =>
         c.copy(checkout = true)
-      }
+      } text ("checkout (Boolean) indicates whether we should perform checkouts (default False)")
       opt[Unit]("cloc") action { (x, c) =>
         c.copy(cloc = true)
       } text ("cloc sets a flag to run the cloc line-counting tool")
