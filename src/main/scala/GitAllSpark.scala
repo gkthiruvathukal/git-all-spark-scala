@@ -73,7 +73,7 @@ object GitAllSparkScala {
 
     val report = Report(localcloneTime.time / 1e9, hashFetchTime.time / 1e9, hashFetchTime.result, (hashFetchTime.time / hashFetchTime.result / 1e9))
     if (config.xmlFilename.isDefined)
-      writeXmlReport(experiment, config, report)
+      writePerformanceReport(experiment, config, report)
   }
 
   /* Simple way of timing a block of code. Results are returned in a case class
@@ -166,7 +166,7 @@ object GitAllSparkScala {
     def toXML(): xml.Node = {
       <cloc>
         <path>{ path } </path>
-        <report>{ cloc.getOrElse("") }</report>
+        <report>{ Try { cloc.get.toXML } getOrElse (<cloc/>) }</report>
       </cloc>
     }
   }
@@ -264,7 +264,7 @@ object GitAllSparkScala {
     }
   }
 
-  def writeXmlReport(exp: Experiment, config: Config, data: Report): Unit = {
+  def writePerformanceReport(exp: Experiment, config: Config, data: Report): Unit = {
     val results = <results>
                     { exp.toXML }{ config.toXML }{ data.toXML }
                   </results>
