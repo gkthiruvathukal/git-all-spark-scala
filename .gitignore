@@ -116,3 +116,8 @@ git-all-scala.iml
 */target/*
 project/target/
 project/project/
+
+# qsub files
+*.cobaltlog
+*.error
+*.output
