@@ -43,7 +43,7 @@ object GitAllSparkScala {
 
     //Clones repo into source folder
 
-    val localcloneTime = simpleTimer {
+    val localCloneTime = simpleTimer {
       if (config.gitClone) {
         System.out.println("Cloning to " + srcRoot.toString)
         %.git("clone", repoURL)(srcRoot)
@@ -55,23 +55,33 @@ object GitAllSparkScala {
 
       val rdd = sc.parallelize(config.start until commits.length by config.stride, config.nodes * config.cores)
 
-      val rdd1 = rdd.map { pos => doGitCheckouts(config, commits(pos)) }
+      val rddFetch = rdd.map { pos => doGitCheckouts(config, pos, commits(pos)) }
+      println(rddFetch.count()) // force eval
+      rddFetch
+    }
 
-      val rdd2 = rdd1.map { gcf => List(doCloc(config, gcf).toXML) }
+    val clocTime = simpleTimer {
+      val rdd = hashFetchTime.result
+      val rddCloc = rdd.map { gcp => List(doCloc(config, gcp).toXML) }
 
-      val result = rdd2.reduce(_ ++ _)
+      val result = rddCloc.reduce(_ ++ _)
 
       val clocReport = <cloc_report> { result.toSeq } </cloc_report>
       if (config.clocReportPath.isDefined)
         writeClocReport(config, clocReport)
-
-      rdd.count()
+      rdd.count() // force eval
     }
 
-    printf("Clone time %.2f seconds", localcloneTime.time / 1.0e9)
+    printf("Clone time %.2f seconds", localCloneTime.time / 1.0e9)
     printf("Hash fetch time %.2f seconds", hashFetchTime.time / 1.0e9)
 
-    val report = Report(localcloneTime.time / 1e9, hashFetchTime.time / 1e9, hashFetchTime.result, (hashFetchTime.time / hashFetchTime.result / 1e9))
+    val report = Report(
+      localCloneTime.time / 1e9,
+      hashFetchTime.time / 1e9,
+      clocTime.result,
+      (hashFetchTime.time / clocTime.result / 1e9),
+      (clocTime.time / clocTime.result / 1e9)
+    )
     if (config.xmlFilename.isDefined)
       writePerformanceReport(experiment, config, report)
   }
@@ -91,9 +101,11 @@ object GitAllSparkScala {
     TimedResult(t1 - t0, result)
   }
 
-  case class GitCheckoutPhase(hostname: String, path: String, successful: Boolean, time: Double) {
+  case class GitCheckoutPhase(order: Int, commit: String, hostname: String, path: String, successful: Boolean, time: Double) {
     def toXML(): xml.Node = {
       <checkout>
+        <order>{ order }</order>
+        <commit>{ commit }</commit>
         <hostname>{ hostname }</hostname>
         <path>{ path }</path>
         <success>{ successful }</success>
@@ -102,7 +114,7 @@ object GitAllSparkScala {
     }
   }
 
-  def doGitCheckouts(config: Config, hash: String): GitCheckoutPhase = {
+  def doGitCheckouts(config: Config, id: Int, hash: String): GitCheckoutPhase = {
     val srcRoot = Path(new java.io.File(config.srcRoot.getOrElse("/projects/SE_HPC")))
     val sourceFolder = config.src.getOrElse("")
     val sourcePath = srcRoot / sourceFolder
@@ -154,7 +166,7 @@ object GitAllSparkScala {
 
     val commitHashPath = destinationPath / hash
 
-    GitCheckoutPhase(InetAddress.getLocalHost.getHostName, commitHashPath.toString, hashCheckoutTime.result, hashCheckoutTime.time / 1e9)
+    GitCheckoutPhase(id, hash, InetAddress.getLocalHost.getHostName, commitHashPath.toString, hashCheckoutTime.result, hashCheckoutTime.time / 1e9)
   }
 
   /* The CLOC Phase is command-line option selectable. It therefore may or may not produce LOC info.
@@ -162,19 +174,21 @@ object GitAllSparkScala {
    * If it does not, you still get a ClocPhase result, but each of the results would be None.
    */
 
-  case class ClocPhase(cloc: Option[CountLOC], path: String) {
+  case class ClocPhase(order: Int, commit: String, cloc: Option[CountLOC], path: String) {
     def toXML(): xml.Node = {
       <cloc>
+        <order>{ order }</order>
+        <commit>{ commit }</commit>
         <path>{ path } </path>
         <report>{ Try { cloc.get.toXML } getOrElse (<cloc/>) }</report>
       </cloc>
     }
   }
 
-  def doCloc(config: Config, gcf: GitCheckoutPhase): ClocPhase = {
+  def doCloc(config: Config, gcp: GitCheckoutPhase): ClocPhase = {
     val clocTime = simpleTimer {
       if (config.cloc) {
-        val output = %%(config.clocPath.get, "--xml", "--quiet", gcf.path)
+        val output = %%(config.clocPath.get, "--xml", "--quiet", gcp.path)
         val xmlDocument = output.out.lines drop (1) reduce (_ + "\n" + _)
         val cloc = CountLOC(xmlDocument)
         Some(cloc)
@@ -182,7 +196,7 @@ object GitAllSparkScala {
         None
       }
     }
-    ClocPhase(clocTime.result, gcf.path)
+    ClocPhase(gcp.order, gcp.commit, clocTime.result, gcp.path)
   }
 
   def parseCommandLine(args: Array[String]): Option[Config] = {
@@ -253,12 +267,13 @@ object GitAllSparkScala {
     def toJSON(): org.json4s.JsonAST.JObject = ("experiment" -> ("id" -> name))
   }
 
-  case class Report(cloneTime: Double, hashCheckoutTime: Double, commits: Long, avgTimePerCommit: Double) {
+  case class Report(cloneTime: Double, hashCheckoutTime: Double, commits: Long, avgCheckoutTimePerCommit: Double, avgClocTimePerCommit: Double) {
     def toXML(): xml.Node = {
       <report>
         <time id="clone-time" t={ cloneTime.toString } unit="s"/>
-        <time id="hash-fetch-plus-loc-time" t={ hashCheckoutTime.toString } unit="s"/>
-        <time id="hash-fetch-plus-loc-time-per-commit" t={ avgTimePerCommit.toString } unit="s"/>
+        <time id="hash-checkout-time" t={ hashCheckoutTime.toString } unit="s"/>
+        <time id="hash-checkout-time-per-commit" t={ avgCheckoutTimePerCommit.toString } unit="s"/>
+        <time id="cloc-time-per-commit" t={ avgClocTimePerCommit.toString } unit="s"/>
         <commits n={ commits.toString }/>
       </report>
     }
@@ -314,6 +329,7 @@ object GitAllSparkScala {
         <property key="src-root" value={ srcRoot.getOrElse("") }/>
         <property key="dst-root" value={ dstRoot.getOrElse("") }/>
         <property key="url" value={ url.getOrElse("") }/>
+        <property key="checkout" value={ checkout.toString }/>
         <property key="cloc" value={ cloc.toString }/>
         <property key="clocPath" value={ clocPath.getOrElse("").toString }/>
         <property key="start" value={ start.toString }/>
