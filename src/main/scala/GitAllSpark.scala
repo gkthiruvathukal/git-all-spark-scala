@@ -17,6 +17,8 @@ object GitAllSparkScala {
 
   def main(args: Array[String]) {
     val config = parseCommandLine(args).getOrElse(Config())
+    println("Configuration:")
+    println(config.toXML)
     val experiment = Experiment("git-all-spark-scala")
     val sc = new SparkContext()
     val repoURL = config.url.getOrElse("")
@@ -247,6 +249,15 @@ object GitAllSparkScala {
       opt[Int]("stride") action { (x, c) =>
         c.copy(stride = x)
       } text ("stride (int) is how many commits to skip (by position) on master (defaults to 1). Useful when you have extremely large repositories.")
+      opt[String]("github") action { (x, c) =>
+        val gitPair = x.split("/")
+        if (gitPair.length >= 2) {
+          val org = gitPair(0)
+          val repo = gitPair(1)
+          c.copy(src = Some(repo), dst = Some(repo + "-commits"), url = Some(s"https://github.com/$org/$repo.git"), github = Some(x))
+        } else
+          c.copy(github = Some(x))
+      } text ("github (String) is a user-org/repo-name; implies --url, --src, and --dst")
       help("help") text ("prints this usage text")
     }
     parser.parse(args, Config())
@@ -317,7 +328,8 @@ object GitAllSparkScala {
       start: Int = 0,
       stride: Int = 1,
       gitClone: Boolean = false,
-      xmlFilename: Option[String] = None
+      xmlFilename: Option[String] = None,
+      github: Option[String] = None
   ) {
 
     def toXML(): xml.Elem = {
@@ -329,6 +341,7 @@ object GitAllSparkScala {
         <property key="src-root" value={ srcRoot.getOrElse("") }/>
         <property key="dst-root" value={ dstRoot.getOrElse("") }/>
         <property key="url" value={ url.getOrElse("") }/>
+        <property key="github" value={ github.getOrElse("") }/>
         <property key="checkout" value={ checkout.toString }/>
         <property key="cloc" value={ cloc.toString }/>
         <property key="clocPath" value={ clocPath.getOrElse("").toString }/>
