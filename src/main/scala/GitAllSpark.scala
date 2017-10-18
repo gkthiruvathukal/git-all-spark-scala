@@ -48,7 +48,7 @@ object GitAllSparkScala {
     val localCloneTime = simpleTimer {
       if (config.gitClone) {
         System.out.println("Cloning to " + srcRoot.toString)
-        %.git("clone", repoURL)(srcRoot)
+        Try { %.git("clone", repoURL)(srcRoot) }
       }
     }
 
@@ -190,10 +190,11 @@ object GitAllSparkScala {
   def doCloc(config: Config, gcp: GitCheckoutPhase): ClocPhase = {
     val clocTime = simpleTimer {
       if (config.cloc) {
-        val output = %%(config.clocPath.get, "--xml", "--quiet", gcp.path)
-        val xmlDocument = output.out.lines drop (1) reduce (_ + "\n" + _)
-        val cloc = CountLOC(xmlDocument)
-        Some(cloc)
+        val xmlResult = Try {
+          val output = %%(config.clocPath.get, "--xml", "--quiet", gcp.path)
+          output.out.lines drop (1) reduce (_ + "\n" + _)
+        }
+        Try { CountLOC(xmlResult.get) }.toOption
       } else {
         None
       }
