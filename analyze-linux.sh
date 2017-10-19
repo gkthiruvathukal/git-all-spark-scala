@@ -1,1 +1,0 @@
-qsub -n 16 -t 00:59:00 -A SE_HPC -q pubnet  ./scripts/do-basic.sh --url https://github.com/torvalds/linux.git --src linux --dst linux-commits --git-clone --start 0 --stride 10000 --nodes 16 --cores 12 --xml linux-partial-results.xml
