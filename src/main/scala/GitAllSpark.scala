@@ -58,6 +58,7 @@ object GitAllSparkScala {
       val rdd = sc.parallelize(config.start until commits.length by config.stride, config.nodes * config.cores)
 
       val rddFetch = rdd.map { pos => doGitCheckouts(config, pos, commits(pos)) }
+      // TODO: We might need to write a report of fetches...
       println(rddFetch.count()) // force eval
       rddFetch
     }
@@ -176,14 +177,15 @@ object GitAllSparkScala {
    * If it does not, you still get a ClocPhase result, but each of the results would be None.
    */
 
-  case class ClocPhase(order: Int, commit: String, cloc: Option[CountLOC], path: String) {
+  case class ClocPhase(order: Int, commit: String, cloc: Option[CountLOC], hostname: String, path: String) {
     def toXML(): xml.Node = {
-      <cloc>
+      <cloc_phase>
         <order>{ order }</order>
         <commit>{ commit }</commit>
+        <hostname>{ hostname } </hostname>
         <path>{ path } </path>
         <report>{ Try { cloc.get.toXML } getOrElse (<cloc/>) }</report>
-      </cloc>
+      </cloc_phase>
     }
   }
 
@@ -199,7 +201,7 @@ object GitAllSparkScala {
         None
       }
     }
-    ClocPhase(gcp.order, gcp.commit, clocTime.result, gcp.path)
+    ClocPhase(gcp.order, gcp.commit, clocTime.result, InetAddress.getLocalHost().getHostName(), gcp.path)
   }
 
   def parseCommandLine(args: Array[String]): Option[Config] = {
