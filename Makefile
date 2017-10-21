@@ -6,10 +6,6 @@ SHELL=/bin/bash
 all:
 	sbt assembly
 
-jobs:
-	sbt "run-main dataflows.spark.GenerateBashScripts"
-	chmod -R +x qscripts.d/
-
 cobalt_clean:
 	rm -f *.error *.cobaltlog *.output
 
