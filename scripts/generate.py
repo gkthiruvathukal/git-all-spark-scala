@@ -32,7 +32,9 @@ def get_argparse():
     parser.add_argument('--max_hours', type=int,
                         help="time to run one node", default=10)
     parser.add_argument('--max_nodes', type=int,
-                        help="maximum number of nodes generate", default=120)
+                        help="maximum number of nodes to generate", default=120)
+    parser.add_argument('--min_nodes', type=int,
+                        help="miniimum number of nodes to generate", default=1)
     parser.add_argument('--cores', type=int, help="cores per node", default=12)
     parser.add_argument(
         '--fudge', type=int, help="fudge factor (for minimum cluster scheduling time)", default=15 * 60)
@@ -49,6 +51,7 @@ def generate():
     parser = get_argparse()
     args = parser.parse_args()
 
+    min_nodes = args.min_nodes
     max_nodes = args.max_nodes
     cores = args.cores
     fudge = args.fudge
@@ -62,7 +65,12 @@ def generate():
     seconds = args.max_hours * 60 * 60
 
     print(HEADER)
-    for i in range(1, 1 + int(math.log(max_nodes, 2))):
+    min_log = int(math.log(min_nodes, 2))
+    max_log = int(math.log(max_nodes, 2))
+    min_log = max(1, min_log)
+    max_log = max(min_log+1, max_log)
+
+    for i in range(min_log, max_log+1):
         nodes = 2 ** i
         qsub_time = time.strftime(
             '%H:%M:%S', time.gmtime(seconds / nodes + fudge))
