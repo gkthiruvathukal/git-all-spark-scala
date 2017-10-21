@@ -72,7 +72,7 @@ object GitAllSparkScala {
       val clocReport = <cloc_report> { result.toSeq } </cloc_report>
       if (config.clocReportPath.isDefined)
         writeClocReport(config, clocReport)
-      rdd.count() // force eval
+      rdd.count()
     }
 
     printf("Clone time %.2f seconds", localCloneTime.time / 1.0e9)
@@ -81,9 +81,8 @@ object GitAllSparkScala {
     val report = Report(
       localCloneTime.time / 1e9,
       hashFetchTime.time / 1e9,
-      clocTime.result,
-      (hashFetchTime.time / clocTime.result / 1e9),
-      (clocTime.time / clocTime.result / 1e9)
+      clocTime.time / 1e9,
+      clocTime.result
     )
     if (config.xmlFilename.isDefined)
       writePerformanceReport(experiment, config, report)
@@ -281,13 +280,12 @@ object GitAllSparkScala {
     def toJSON(): org.json4s.JsonAST.JObject = ("experiment" -> ("id" -> name))
   }
 
-  case class Report(cloneTime: Double, hashCheckoutTime: Double, commits: Long, avgCheckoutTimePerCommit: Double, avgClocTimePerCommit: Double) {
+  case class Report(cloneTime: Double, hashCheckoutTime: Double, clocTime: Double, commits: Long) {
     def toXML(): xml.Node = {
       <report>
         <time id="clone-time" t={ cloneTime.toString } unit="s"/>
-        <time id="hash-checkout-time" t={ hashCheckoutTime.toString } unit="s"/>
-        <time id="hash-checkout-time-per-commit" t={ avgCheckoutTimePerCommit.toString } unit="s"/>
-        <time id="cloc-time-per-commit" t={ avgClocTimePerCommit.toString } unit="s"/>
+        <time id="hash-checkout-time" t={ hashCheckoutTime.toString } avg={ (hashCheckoutTime / commits).toString } unit="s"/>
+        <time id="cloc-time" t={ clocTime.toString } avg={ (clocTime / commits).toString } unit="s"/>
         <commits n={ commits.toString }/>
       </report>
     }
