@@ -58,15 +58,15 @@ object GitAllSparkScala {
       val rdd = sc.parallelize(config.start until commits.length by config.stride, config.nodes * config.cores)
 
       val rddFetch = rdd.map { pos => doGitCheckouts(config, pos, commits(pos)) }
-      // TODO: We might need to write a report of fetches...
-      println(rddFetch.count()) // force eval
+      // .cache() needed to prevent re-evaluation.
+      rddFetch.cache()
       rddFetch
     }
 
     val clocTime = simpleTimer {
       val rdd = hashFetchTime.result
       val rddCloc = rdd.map { gcp => List(doCloc(config, gcp).toXML) }
-
+      rddCloc.cache()
       val result = rddCloc.reduce(_ ++ _)
 
       val clocReport = <cloc_report> { result.toSeq } </cloc_report>
