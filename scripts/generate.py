@@ -9,12 +9,6 @@ HEADER = """#/bin/bash
 """
 
 QSUB = """
-if [ "$DEPS" == "" ]; then
-   DEPENDENCIES=""
-else
-   DEPENDENCIES="--dependencies $DEPS"
-fi
-
 
 DEPS=`qsub $DEPENDENCIES -n %(nodes)s -t %(qsub_time)s -A SE_HPC -q pubnet \\
 	./scripts/do-basic.sh \\
@@ -24,6 +18,9 @@ DEPS=`qsub $DEPENDENCIES -n %(nodes)s -t %(qsub_time)s -A SE_HPC -q pubnet \\
 	--cloc --cloc-path /home/thiruvat/local/bin/cloc \\
 	--xml experiments/%(repo)s-performance-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s.xml \\
 	--cloc-report experiments/%(repo)s-cloc-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s.xml`
+
+DEPENDENCIES="--dependencies $DEPS"
+
 """
 
 
