@@ -13,7 +13,7 @@ QSUB = """
 DEPS=`qsub $DEPENDENCIES -n %(nodes)s -t %(qsub_time)s -A SE_HPC -q pubnet \\
 	./scripts/do-basic.sh \\
 	--github %(github)s --git-clone --checkout \\
-	--src-root /projects/SE_HPC --dst-root /scratch/SE_HPC --src %(src)s --dst %(dst)s --start %(start)s --stride %(stride)s \\
+	--src-root /projects/SE_HPC --dst-root /projects/SE_HPC --src %(src)s --dst %(dst)s --start %(start)s --stride %(stride)s \\
 	--nodes %(nodes)s --cores %(cores)s \\
 	--cloc --cloc-path /home/thiruvat/local/bin/cloc \\
 	--xml experiments/%(repo)s-performance-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s.xml \\
@@ -37,7 +37,7 @@ def get_argparse():
         '--fudge', type=int, help="fudge factor (for minimum cluster scheduling time)", default=15 * 60)
     parser.add_argument('--org', type=str, help="GitHub org")
     parser.add_argument('--repo', type=str, help="GitHub repo")
-    parser.add_argument('--start', type=int, help="start commit", default=0)
+    parser.add_argument('--start_range', type=int, nargs='+', help="start, end", default=[0,1])
     parser.add_argument('--stride', type=int,
                         help="stride (skip) commits", default=1)
 
@@ -47,7 +47,6 @@ def get_argparse():
 def generate():
     parser = get_argparse()
     args = parser.parse_args()
-
     min_nodes = args.min_nodes
     max_nodes = args.max_nodes
     cores = args.cores
@@ -57,7 +56,7 @@ def generate():
     src = repo
     dst = repo + "-commits"
     github = "/".join([org, repo])
-    start = args.start
+    start_range = args.start_range
     stride = args.stride
     seconds = args.max_hours * 60 * 60
 
@@ -71,7 +70,8 @@ def generate():
         nodes = 2 ** i
         qsub_time = time.strftime(
             '%H:%M:%S', time.gmtime(seconds / nodes + fudge))
-        print(QSUB % vars())
+        for start in range(start_range[0], start_range[1]+1):
+            print(QSUB % vars())
 
 
 if __name__ == '__main__':
