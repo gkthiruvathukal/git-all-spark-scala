@@ -1,6 +1,5 @@
 import os
 
-
 def get_report_for_fileset(fileset):
     for filename in fileset:
         print("Processing %s" % filename)
@@ -10,7 +9,7 @@ def get_report_for_fileset(fileset):
 
 def get_report_rows(filename):
     import xml.etree.ElementTree as ET
-    tree = ET.parse('astropy-cloc-n16-c12-0-10.xml')
+    tree = ET.parse(filename)
     print(tree.getroot())
     cloc_phase_list = tree.findall("cloc_phase")
     print(len(cloc_phase_list))
@@ -42,8 +41,7 @@ def generate_csv(generator):
 
 # TODO: Make sure to put argparse and remove hard-coding.
 # This is just proof of concept right now.
-fileset = [dir for dir in os.listdir(
-    ".") if dir.startswith("astropy-cloc-n16-c12")]
+fileset = [dir for dir in os.listdir( ".") if dir.startswith("astropy-cloc-n16-c12")]
 print(fileset)
 
 row_gen = get_report_for_fileset(fileset)
