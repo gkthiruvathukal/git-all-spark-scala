@@ -19,31 +19,32 @@ object GitAllSparkScala {
     val config = parseCommandLine(args).getOrElse(Config())
     println("Configuration:")
     println(config.toXML)
-    val experiment = Experiment("git-all-spark-scala")
     val sc = new SparkContext()
     val repoURL = config.url.getOrElse("")
     val sourceFolder = config.src.getOrElse("")
     val destinationFolder = config.dst.getOrElse("")
 
-    // These defaults are for my cluster, which offers shared storage on /projects
-    // You could also change these if you want to go shared nothing.
+    // Initial git clone is performed to srcRoot
+    // This should be a shared folder on the Spark cluster
 
     val srcRoot = Path(new java.io.File(config.srcRoot.getOrElse("/projects/SE_HPC")))
+
+    // The git fetch/git checkout (for each commit) is performed to dstRoot
+    // This need not be shared among all nodes in the Spark cluster
     val dstRoot = Path(new java.io.File(config.dstRoot.getOrElse("/projects/SE_HPC")))
 
-    //Establishes path for source folder where clone occurs and destination folder which will recieve every commit
+    // Because we analyze many projects, we require a subdirectory for each open source project to be analyzed.
     val sourcePath = srcRoot / sourceFolder
 
-    // Initial clone takes place on the driver.
-    // The hash fetches take place on the nodes.
     if (exists ! srcRoot) {
-      println("Source folder already exists - might be ok")
+      println("Source folder already exists (non-fatal)")
     } else {
       println("Creating non-existent root " + srcRoot.toString)
       mkdir ! srcRoot
     }
 
-    //Clones repo into source folder
+    // The use of Try here and elsewhere is to allow any phase to fail.
+    // Ordinarily, failure would only occur if the srcRoot does not contain a valid clone.
 
     val localCloneTime = simpleTimer {
       if (config.gitClone) {
@@ -58,13 +59,18 @@ object GitAllSparkScala {
       val rdd = sc.parallelize(config.start until commits.length by config.stride, config.nodes * config.cores)
 
       val rddFetch = rdd.map { pos => doGitCheckouts(config, pos, commits(pos)) }
-      // .cache() needed to prevent re-evaluation.
+
+      // The cache() here is to ensure this RDD is computed before moving onto the next phase.
+      // RDD calculations are designed to be lazy.
       rddFetch.cache()
       rddFetch
     }
 
     val clocTime = simpleTimer {
       val rdd = hashFetchTime.result
+
+      // List is used here to wrap the XML result so we can perform a reduce properly.
+      // Temporary workaround for not being able to merge Seq[Node] easily (not performance-critical here)
       val rddCloc = rdd.map { gcp => List(doCloc(config, gcp).toXML) }
       rddCloc.cache()
       val result = rddCloc.reduce(_ ++ _)
@@ -75,22 +81,25 @@ object GitAllSparkScala {
       rdd.count()
     }
 
-    printf("Clone time %.2f seconds", localCloneTime.time / 1.0e9)
-    printf("Hash fetch time %.2f seconds", hashFetchTime.time / 1.0e9)
-
     val report = Report(
       localCloneTime.time / 1e9,
       hashFetchTime.time / 1e9,
       clocTime.time / 1e9,
       clocTime.result
     )
+
+    val experiment = Experiment("git-all-spark-scala")
     if (config.xmlFilename.isDefined)
       writePerformanceReport(experiment, config, report)
   }
 
-  /* Simple way of timing a block of code. Results are returned in a case class
-   * where the time and result can be obtained through the corresponding fields.
+  /*
+   * simpleTimer times a block of code and returns a generic TimedResult
+   *
+   * This demonstrates call-by-name style parameter passing in Scala.
+   * The type of the block of code is inferred and returned as the result.
    */
+
   case class TimedResult[A](time: Double, result: A)
 
   def simpleTimer[A](block: => A): TimedResult[A] = {
@@ -103,6 +112,16 @@ object GitAllSparkScala {
     TimedResult(t1 - t0, result)
   }
 
+  /*
+   * Git Checkout Phase
+   *
+   * This is Phase 1 of the computation. For each commit, doGitCheckouts() is run by mapping the
+   * initial RDD (of commits by position) to checkout each hash and stage it in the filesystem for
+   * CLOC (count lines of code) analysis in Phase 2.
+   *
+   * The result of this phase is an RDD of GitCheckoutPhase results, which can also be reported to an XML file
+   * for post processing.
+   */
   case class GitCheckoutPhase(order: Int, commit: String, hostname: String, path: String, successful: Boolean, time: Double) {
     def toXML(): xml.Node = {
       <checkout>
@@ -171,11 +190,31 @@ object GitAllSparkScala {
     GitCheckoutPhase(id, hash, InetAddress.getLocalHost.getHostName, commitHashPath.toString, hashCheckoutTime.result, hashCheckoutTime.time / 1e9)
   }
 
-  /* The CLOC Phase is command-line option selectable. It therefore may or may not produce LOC info.
-   * If it does, you'll be able to evaulate the option.
-   * If it does not, you still get a ClocPhase result, but each of the results would be None.
-   */
+  def hashCodes(rootPath: Path, args: String): Array[String] = {
+    val source = rootPath / args
+    val log = %%("git", "log")(source)
+    val logString = log.toString
+    val logArray = logString.split("\n")
+    val justHashCodes = logArray filter { line => line.startsWith("commit") } map { line => line.split(" ")(1) }
 
+    return justHashCodes
+  }
+
+  /*
+   * CLOC Phase - Count Lines of Code
+   *
+   * This is Phase 2. It assumes that the git checkouts have been staged. We'll know where the actual data
+   * were staged by looking at the GitCheckoutPhase case class (struct) instance to inspect path. This
+   * path will tell us the folder of the checkout.
+   *
+   * doCloc() runs the open source cloc tool to compute the various LOC metrics (lines, blank lines, comment lines)
+   * on all supported languages. We then take this report and return a CountLOC case class instance, which contains
+   * only the necessary information from the cloc tool's output.
+   *
+   * Our ultimate goal is to be able to support other analysis methods (including some of our own, under development).
+   * So subsequent phases can add an analysis method like doCloc() and return a structure/report of information
+   * similar to ClocPhase.
+   */
   case class ClocPhase(order: Int, commit: String, cloc: Option[CountLOC], hostname: String, path: String) {
     def toXML(): xml.Node = {
       <cloc_phase>
@@ -202,6 +241,20 @@ object GitAllSparkScala {
     }
     ClocPhase(gcp.order, gcp.commit, clocTime.result, InetAddress.getLocalHost().getHostName(), gcp.path)
   }
+
+  def writeClocReport(config: Config, document: xml.Node) {
+    val pprinter = new scala.xml.PrettyPrinter(80, 2) // scalastyle:ignore
+    val file = new File(config.clocReportPath.get)
+    val bw = new BufferedWriter(new FileWriter(file))
+    println("Wrote cloc report file " + config.clocReportPath.get)
+    bw.write(pprinter.format(document)) // scalastyle:ignore
+    bw.close()
+  }
+
+  /*
+   * This is for parsing the command line options. We have followed the pattern above by having the
+   * command line option Config be usable to inspect the options set and for the purposes of reporting.
+   */
 
   def parseCommandLine(args: Array[String]): Option[Config] = {
     val parser = new scopt.OptionParser[Config]("scopt") {
@@ -265,55 +318,6 @@ object GitAllSparkScala {
     parser.parse(args, Config())
   }
 
-  def hashCodes(rootPath: Path, args: String): Array[String] = {
-    val source = rootPath / args
-    val log = %%("git", "log")(source)
-    val logString = log.toString
-    val logArray = logString.split("\n")
-    val justHashCodes = logArray filter { line => line.startsWith("commit") } map { line => line.split(" ")(1) }
-
-    return justHashCodes
-  }
-
-  case class Experiment(name: String) {
-    def toXML(): xml.Elem = <experiment id={ name }/>
-    def toJSON(): org.json4s.JsonAST.JObject = ("experiment" -> ("id" -> name))
-  }
-
-  case class Report(cloneTime: Double, hashCheckoutTime: Double, clocTime: Double, commits: Long) {
-    def toXML(): xml.Node = {
-      <report>
-        <time id="clone-time" t={ cloneTime.toString } unit="s"/>
-        <time id="hash-checkout-time" t={ hashCheckoutTime.toString } avg={ (hashCheckoutTime / commits).toString } unit="s"/>
-        <time id="cloc-time" t={ clocTime.toString } avg={ (clocTime / commits).toString } unit="s"/>
-        <commits n={ commits.toString }/>
-      </report>
-    }
-  }
-
-  def writePerformanceReport(exp: Experiment, config: Config, data: Report): Unit = {
-    val results = <results>
-                    { exp.toXML }{ config.toXML }{ data.toXML }
-                  </results>
-    val pprinter = new scala.xml.PrettyPrinter(80, 2) // scalastyle:ignore
-    val file = new File(config.xmlFilename.get)
-    val bw = new BufferedWriter(new FileWriter(file))
-    println("Wrote to XML file " + config.xmlFilename.get)
-    bw.write(pprinter.format(results)) // scalastyle:ignore
-    bw.close()
-  }
-
-  def writeClocReport(config: Config, document: xml.Node) {
-    val pprinter = new scala.xml.PrettyPrinter(80, 2) // scalastyle:ignore
-    val file = new File(config.clocReportPath.get)
-    val bw = new BufferedWriter(new FileWriter(file))
-    println("Wrote cloc report file " + config.clocReportPath.get)
-    bw.write(pprinter.format(document)) // scalastyle:ignore
-    bw.close()
-  }
-
-  // command-line parameters
-
   case class Config(
       src: Option[String] = None,
       dst: Option[String] = None,
@@ -352,6 +356,37 @@ object GitAllSparkScala {
         <property key="xml" value={ xmlFilename.getOrElse("") }/>
       </config>
     }
-
   }
+
+  /*
+   * Performance Report
+   */
+
+  case class Experiment(name: String) {
+    def toXML(): xml.Elem = <experiment id={ name }/>
+  }
+
+  case class Report(cloneTime: Double, hashCheckoutTime: Double, clocTime: Double, commits: Long) {
+    def toXML(): xml.Node = {
+      <report>
+        <time id="clone-time" t={ cloneTime.toString } unit="s"/>
+        <time id="hash-checkout-time" t={ hashCheckoutTime.toString } avg={ (hashCheckoutTime / commits).toString } unit="s"/>
+        <time id="cloc-time" t={ clocTime.toString } avg={ (clocTime / commits).toString } unit="s"/>
+        <commits n={ commits.toString }/>
+      </report>
+    }
+  }
+
+  def writePerformanceReport(exp: Experiment, config: Config, data: Report): Unit = {
+    val results = <results>
+                    { exp.toXML }{ config.toXML }{ data.toXML }
+                  </results>
+    val pprinter = new scala.xml.PrettyPrinter(80, 2) // scalastyle:ignore
+    val file = new File(config.xmlFilename.get)
+    val bw = new BufferedWriter(new FileWriter(file))
+    println("Wrote to XML file " + config.xmlFilename.get)
+    bw.write(pprinter.format(results)) // scalastyle:ignore
+    bw.close()
+  }
+
 }
