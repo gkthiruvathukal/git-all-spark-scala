@@ -1,0 +1,4126 @@
+<cloc_report>
+  <cloc>
+    <order>5490</order>
+    <commit>8e54e5ddde292665dc3c39d55239ab95d8a7f39e</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/8e54e5ddde292665dc3c39d55239ab95d8a7f39e
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.774204969406128" number_of_files="122" number_of_lines="7875" files_per_second="157.581008674722" lines_per_second="10171.7249451921">
+</header>
+        <languages>
+          <language name="Scala" files="106" blank="490" comment="507" code="6676"/>
+          <language name="Java" files="16" blank="26" comment="52" code="124"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5520</order>
+    <commit>33434bc82b4b0459dfc082bc835f4f53ab6faee2</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/33434bc82b4b0459dfc082bc835f4f53ab6faee2
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="8.52059102058411" number_of_files="118" number_of_lines="7680" files_per_second="13.8488045858479" lines_per_second="901.345925587392">
+</header>
+        <languages>
+          <language name="Scala" files="102" blank="474" comment="501" code="6503"/>
+          <language name="Java" files="16" blank="26" comment="52" code="124"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5550</order>
+    <commit>4e15cdcc0bab8e7c47723a3f6514290eeb50e0b8</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/4e15cdcc0bab8e7c47723a3f6514290eeb50e0b8
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="50.1236770153046" number_of_files="242" number_of_lines="17571" files_per_second="4.82805760491411" lines_per_second="350.552893289033">
+</header>
+        <languages>
+          <language name="Scala" files="218" blank="1205" comment="1647" code="14540"/>
+          <language name="Java" files="14" blank="11" comment="0" code="82"/>
+          <language name="XML" files="9" blank="1" comment="1" code="79"/>
+          <language name="JSP" files="1" blank="0" comment="0" code="5"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5580</order>
+    <commit>7cfcf44bf35b530d592db943ce0e3d7547843c4d</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/7cfcf44bf35b530d592db943ce0e3d7547843c4d
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="45.673180103302" number_of_files="227" number_of_lines="17203" files_per_second="4.9700940351992" lines_per_second="376.654306993532">
+</header>
+        <languages>
+          <language name="Scala" files="204" blank="1170" comment="1647" code="14227"/>
+          <language name="Java" files="14" blank="11" comment="0" code="82"/>
+          <language name="XML" files="8" blank="1" comment="0" code="60"/>
+          <language name="JSP" files="1" blank="0" comment="0" code="5"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5370</order>
+    <commit>af288bb199fb201dbb0b4d0729b0ada67e609cfb</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/af288bb199fb201dbb0b4d0729b0ada67e609cfb
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="4.18739700317383" number_of_files="146" number_of_lines="10341" files_per_second="34.8665292279045" lines_per_second="2469.55327908055">
+</header>
+        <languages>
+          <language name="Scala" files="129" blank="701" comment="621" code="8793"/>
+          <language name="Java" files="17" blank="31" comment="52" code="143"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5400</order>
+    <commit>1673a2a3e251b632eacc96bc068651eaa9b21e22</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/1673a2a3e251b632eacc96bc068651eaa9b21e22
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="11.8067529201508" number_of_files="143" number_of_lines="9713" files_per_second="12.1117127602408" lines_per_second="822.664797484047">
+</header>
+        <languages>
+          <language name="Scala" files="127" blank="637" comment="608" code="8253"/>
+          <language name="Java" files="16" blank="30" comment="52" code="133"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5430</order>
+    <commit>0120326160ef324c0ee5c5c9245473964929b4ab</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/0120326160ef324c0ee5c5c9245473964929b4ab
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="49.269003868103" number_of_files="229" number_of_lines="15271" files_per_second="4.64795270903083" lines_per_second="309.951466461178">
+</header>
+        <languages>
+          <language name="Scala" files="206" blank="1095" comment="1463" code="12554"/>
+          <language name="Java" files="14" blank="11" comment="0" code="82"/>
+          <language name="XML" files="8" blank="1" comment="0" code="60"/>
+          <language name="JSP" files="1" blank="0" comment="0" code="5"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5460</order>
+    <commit>2e942915aac326b9c3585bf2cbd5cf242c549998</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/2e942915aac326b9c3585bf2cbd5cf242c549998
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="46.3288581371307" number_of_files="230" number_of_lines="15362" files_per_second="4.96450828378315" lines_per_second="331.585983719464">
+</header>
+        <languages>
+          <language name="Scala" files="207" blank="1088" comment="1468" code="12647"/>
+          <language name="Java" files="14" blank="11" comment="0" code="82"/>
+          <language name="XML" files="8" blank="1" comment="0" code="60"/>
+          <language name="JSP" files="1" blank="0" comment="0" code="5"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5610</order>
+    <commit>26da622276d914472acf5270cac5582609fda1d1</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/26da622276d914472acf5270cac5582609fda1d1
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.56016206741333" number_of_files="90" number_of_lines="6180" files_per_second="160.667787477282" lines_per_second="11032.5214067734">
+</header>
+        <languages>
+          <language name="Scala" files="76" blank="371" comment="493" code="5159"/>
+          <language name="Java" files="13" blank="20" comment="35" code="98"/>
+          <language name="XML" files="1" blank="0" comment="0" code="4"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5640</order>
+    <commit>b79de8d7881ce83953f4ef10b44c4b5f0a551b10</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/b79de8d7881ce83953f4ef10b44c4b5f0a551b10
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="42.2579009532928" number_of_files="220" number_of_lines="16960" files_per_second="5.20612702091293" lines_per_second="401.345064884924">
+</header>
+        <languages>
+          <language name="Scala" files="198" blank="1150" comment="1642" code="14016"/>
+          <language name="Java" files="14" blank="11" comment="0" code="82"/>
+          <language name="XML" files="7" blank="1" comment="0" code="53"/>
+          <language name="JSP" files="1" blank="0" comment="0" code="5"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5670</order>
+    <commit>c8f0a72da9afbe018793a56b69e305d48dd4dc5b</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/c8f0a72da9afbe018793a56b69e305d48dd4dc5b
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="40.1028609275818" number_of_files="214" number_of_lines="16744" files_per_second="5.33627763830724" lines_per_second="417.52632138232">
+</header>
+        <languages>
+          <language name="Scala" files="193" blank="1141" comment="1629" code="13827"/>
+          <language name="Java" files="14" blank="11" comment="0" code="82"/>
+          <language name="XML" files="7" blank="1" comment="0" code="53"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5700</order>
+    <commit>7c6f420b21b522a53596e70067d2de07153bf851</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/7c6f420b21b522a53596e70067d2de07153bf851
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="39.5481531620026" number_of_files="188" number_of_lines="16385" files_per_second="4.75369859193901" lines_per_second="414.305060792131">
+</header>
+        <languages>
+          <language name="Scala" files="176" blank="1100" comment="1613" code="13577"/>
+          <language name="XML" files="7" blank="1" comment="0" code="53"/>
+          <language name="Java" files="5" blank="5" comment="0" code="36"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5250</order>
+    <commit>d13520b164958f999833a7eb8aa975f937acc686</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/d13520b164958f999833a7eb8aa975f937acc686
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="85.0043799877167" number_of_files="514" number_of_lines="26826" files_per_second="6.04674723907491" lines_per_second="315.583738201213">
+</header>
+        <languages>
+          <language name="Scala" files="471" blank="2012" comment="2559" code="21844"/>
+          <language name="Java" files="32" blank="42" comment="52" code="228"/>
+          <language name="XML" files="9" blank="5" comment="0" code="74"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5280</order>
+    <commit>56d64c88cc887a5847b96bcdf9eebdc164330ca4</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/56d64c88cc887a5847b96bcdf9eebdc164330ca4
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="15.1763710975647" number_of_files="148" number_of_lines="10807" files_per_second="9.75200191459137" lines_per_second="712.093815479655">
+</header>
+        <languages>
+          <language name="Scala" files="131" blank="734" comment="967" code="8880"/>
+          <language name="Java" files="17" blank="31" comment="52" code="143"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5310</order>
+    <commit>bd7460f2ee7734a4037107117afe452d65a55dc0</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/bd7460f2ee7734a4037107117afe452d65a55dc0
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="17.3119988441467" number_of_files="148" number_of_lines="10798" files_per_second="8.54898393492208" lines_per_second="623.729246819518">
+</header>
+        <languages>
+          <language name="Scala" files="131" blank="735" comment="967" code="8870"/>
+          <language name="Java" files="17" blank="31" comment="52" code="143"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5340</order>
+    <commit>31822b2e17301e5241ca414e55e823d581b5914f</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/31822b2e17301e5241ca414e55e823d581b5914f
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="49.23233294487" number_of_files="338" number_of_lines="14828" files_per_second="6.86540693447312" lines_per_second="301.184183504046">
+</header>
+        <languages>
+          <language name="Scala" files="313" blank="1136" comment="1383" code="12114"/>
+          <language name="XML" files="10" blank="9" comment="0" code="88"/>
+          <language name="Java" files="14" blank="11" comment="0" code="82"/>
+          <language name="JSP" files="1" blank="0" comment="0" code="5"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4650</order>
+    <commit>b56701f37e16149a975f29c14f09466ce974c8b8</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/b56701f37e16149a975f29c14f09466ce974c8b8
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="72.2997770309448" number_of_files="539" number_of_lines="32119" files_per_second="7.45507140041807" lines_per_second="444.2475664379">
+</header>
+        <languages>
+          <language name="Scala" files="486" blank="3027" comment="2279" code="26149"/>
+          <language name="Java" files="43" blank="68" comment="77" code="400"/>
+          <language name="XML" files="8" blank="6" comment="27" code="76"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4680</order>
+    <commit>6e3a7083e2371441d49cd0d614acb56990d61a87</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/6e3a7083e2371441d49cd0d614acb56990d61a87
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="82.190269947052" number_of_files="558" number_of_lines="32018" files_per_second="6.78912479980259" lines_per_second="389.55949433706">
+</header>
+        <languages>
+          <language name="Scala" files="505" blank="3048" comment="2269" code="26037"/>
+          <language name="Java" files="43" blank="68" comment="77" code="400"/>
+          <language name="XML" files="8" blank="6" comment="27" code="76"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4710</order>
+    <commit>f2270262d2b04313ef8b95b43520b8078b2bff1c</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/f2270262d2b04313ef8b95b43520b8078b2bff1c
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="10.1957159042358" number_of_files="549" number_of_lines="31520" files_per_second="53.8461452983322" lines_per_second="3091.49453516108">
+</header>
+        <languages>
+          <language name="Scala" files="496" blank="2987" comment="2219" code="25651"/>
+          <language name="Java" files="43" blank="68" comment="77" code="399"/>
+          <language name="XML" files="8" blank="6" comment="27" code="76"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4740</order>
+    <commit>4fccc2fa885bf80013c031333a445288ca43cc76</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/4fccc2fa885bf80013c031333a445288ca43cc76
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="33.6431879997253" number_of_files="548" number_of_lines="31303" files_per_second="16.2885871578066" lines_per_second="930.440955840914">
+</header>
+        <languages>
+          <language name="Scala" files="495" blank="2971" comment="2217" code="25452"/>
+          <language name="Java" files="43" blank="68" comment="77" code="399"/>
+          <language name="XML" files="8" blank="6" comment="27" code="76"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4290</order>
+    <commit>67102aadfff5f25ce14957870871fa09669dc219</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/67102aadfff5f25ce14957870871fa09669dc219
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="81.6866688728333" number_of_files="551" number_of_lines="33352" files_per_second="6.74528668634751" lines_per_second="408.291835867627">
+</header>
+        <languages>
+          <language name="Scala" files="493" blank="3099" comment="2208" code="27347"/>
+          <language name="Java" files="53" blank="87" comment="78" code="473"/>
+          <language name="XML" files="4" blank="1" comment="0" code="32"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4320</order>
+    <commit>1c151d116ae158738aadc8832d96c8fc61884402</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/1c151d116ae158738aadc8832d96c8fc61884402
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="80.373645067215" number_of_files="550" number_of_lines="33079" files_per_second="6.84303915220027" lines_per_second="411.565258392059">
+</header>
+        <languages>
+          <language name="Scala" files="492" blank="3082" comment="2206" code="27093"/>
+          <language name="Java" files="53" blank="87" comment="78" code="473"/>
+          <language name="XML" files="4" blank="1" comment="0" code="32"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4350</order>
+    <commit>0b3ec05a815f34ce4df658f77f40335fc806c551</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/0b3ec05a815f34ce4df658f77f40335fc806c551
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="8.79007005691528" number_of_files="542" number_of_lines="32709" files_per_second="61.6604869461308" lines_per_second="3721.13075188375">
+</header>
+        <languages>
+          <language name="Scala" files="489" blank="3071" comment="2184" code="26813"/>
+          <language name="Java" files="48" blank="77" comment="78" code="426"/>
+          <language name="XML" files="4" blank="1" comment="0" code="32"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4380</order>
+    <commit>eb14e974851f918a9c88579baf44491da6698271</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/eb14e974851f918a9c88579baf44491da6698271
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="44.7665829658508" number_of_files="544" number_of_lines="32736" files_per_second="12.151921454782" lines_per_second="731.259744014233">
+</header>
+        <languages>
+          <language name="Scala" files="491" blank="3082" comment="2188" code="26825"/>
+          <language name="Java" files="48" blank="77" comment="78" code="426"/>
+          <language name="XML" files="4" blank="1" comment="0" code="32"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4170</order>
+    <commit>230d15cc5ba3f365bf78e1498df9c979f0ff1345</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/230d15cc5ba3f365bf78e1498df9c979f0ff1345
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="79.7017738819122" number_of_files="567" number_of_lines="34095" files_per_second="7.11401983147927" lines_per_second="427.782197802973">
+</header>
+        <languages>
+          <language name="Scala" files="508" blank="3173" comment="2201" code="28013"/>
+          <language name="Java" files="53" blank="87" comment="78" code="473"/>
+          <language name="XML" files="5" blank="1" comment="0" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4200</order>
+    <commit>abcd9a041f6eb3c4ad1577b341dbbcc40ff1ea16</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/abcd9a041f6eb3c4ad1577b341dbbcc40ff1ea16
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="75.1745710372925" number_of_files="566" number_of_lines="33825" files_per_second="7.52914173223841" lines_per_second="449.952683909831">
+</header>
+        <languages>
+          <language name="Scala" files="507" blank="3135" comment="2194" code="27788"/>
+          <language name="Java" files="53" blank="87" comment="78" code="473"/>
+          <language name="XML" files="5" blank="1" comment="0" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4230</order>
+    <commit>20c7c679871301516b239c1d974a160db05f907f</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/20c7c679871301516b239c1d974a160db05f907f
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="9.98774600028992" number_of_files="565" number_of_lines="33728" files_per_second="56.5693200431408" lines_per_second="3376.93809984965">
+</header>
+        <languages>
+          <language name="Scala" files="506" blank="3132" comment="2191" code="27697"/>
+          <language name="Java" files="53" blank="87" comment="78" code="473"/>
+          <language name="XML" files="5" blank="1" comment="0" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4260</order>
+    <commit>f7f6879f5e23d1fe518968a34eeee1478cb38114</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/f7f6879f5e23d1fe518968a34eeee1478cb38114
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="53.3577861785889" number_of_files="552" number_of_lines="33407" files_per_second="10.3452567944339" lines_per_second="626.094191542853">
+</header>
+        <languages>
+          <language name="Scala" files="494" blank="3114" comment="2192" code="27403"/>
+          <language name="Java" files="53" blank="87" comment="78" code="473"/>
+          <language name="XML" files="4" blank="1" comment="0" code="32"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5130</order>
+    <commit>d73762e20352991602f986cbe85204d0e9dfd4d8</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/d73762e20352991602f986cbe85204d0e9dfd4d8
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="83.255469083786" number_of_files="549" number_of_lines="28453" files_per_second="6.59416139313925" lines_per_second="341.7553262641">
+</header>
+        <languages>
+          <language name="Scala" files="504" blank="2255" comment="2619" code="23154"/>
+          <language name="Java" files="34" blank="44" comment="55" code="237"/>
+          <language name="XML" files="9" blank="5" comment="0" code="74"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5160</order>
+    <commit>5e99d5fdd9c83d2283a9aa40f312fb7ad3d88d11</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/5e99d5fdd9c83d2283a9aa40f312fb7ad3d88d11
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="76.1700739860535" number_of_files="530" number_of_lines="28041" files_per_second="6.9581132361384" lines_per_second="368.136704253881">
+</header>
+        <languages>
+          <language name="Scala" files="485" blank="2145" comment="2557" code="22914"/>
+          <language name="Java" files="34" blank="44" comment="55" code="237"/>
+          <language name="XML" files="9" blank="5" comment="0" code="74"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5190</order>
+    <commit>4d312a01fac110ebae8c090386218a4f94815ce8</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/4d312a01fac110ebae8c090386218a4f94815ce8
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="11.5978419780731" number_of_files="528" number_of_lines="27763" files_per_second="45.5257108174294" lines_per_second="2393.80740421267">
+</header>
+        <languages>
+          <language name="Scala" files="483" blank="2122" comment="2550" code="22666"/>
+          <language name="Java" files="34" blank="44" comment="55" code="237"/>
+          <language name="XML" files="9" blank="5" comment="0" code="74"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5220</order>
+    <commit>30f3fdbfd7ccab888201f8ad0b5769ab821173df</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/30f3fdbfd7ccab888201f8ad0b5769ab821173df
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="55.4457879066467" number_of_files="520" number_of_lines="27422" files_per_second="9.37853026591518" lines_per_second="494.573186446011">
+</header>
+        <languages>
+          <language name="Scala" files="476" blank="2087" comment="2531" code="22383"/>
+          <language name="Java" files="33" blank="43" comment="54" code="235"/>
+          <language name="XML" files="9" blank="5" comment="0" code="74"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4530</order>
+    <commit>915b4d5e2a05db250c6de8ccda94821db96673d2</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/915b4d5e2a05db250c6de8ccda94821db96673d2
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="71.8752701282501" number_of_files="536" number_of_lines="31821" files_per_second="7.45736327729402" lines_per_second="442.725292624576">
+</header>
+        <languages>
+          <language name="Scala" files="483" blank="2999" comment="2182" code="26021"/>
+          <language name="Java" files="48" blank="77" comment="78" code="424"/>
+          <language name="XML" files="5" blank="1" comment="0" code="39"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4560</order>
+    <commit>63acaca0a6e2495b6bd0bcb7e85d573502231cdb</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/63acaca0a6e2495b6bd0bcb7e85d573502231cdb
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="73.2755379676819" number_of_files="525" number_of_lines="31583" files_per_second="7.16473757219702" lines_per_second="431.016965224188">
+</header>
+        <languages>
+          <language name="Scala" files="477" blank="2975" comment="2181" code="25842"/>
+          <language name="Java" files="43" blank="68" comment="77" code="400"/>
+          <language name="XML" files="5" blank="1" comment="0" code="39"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4590</order>
+    <commit>6bd500bbe2e4ff864c4b786d9ae1ee4fcb86e0e7</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/6bd500bbe2e4ff864c4b786d9ae1ee4fcb86e0e7
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="7.26167297363281" number_of_files="525" number_of_lines="31644" files_per_second="72.2973895831276" lines_per_second="4357.67351613046">
+</header>
+        <languages>
+          <language name="Scala" files="477" blank="2972" comment="2220" code="25867"/>
+          <language name="Java" files="43" blank="68" comment="77" code="400"/>
+          <language name="XML" files="5" blank="1" comment="0" code="39"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4620</order>
+    <commit>9c1306ff6e49b1ca93a39efc656989deec70eca1</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/9c1306ff6e49b1ca93a39efc656989deec70eca1
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="66.9499099254608" number_of_files="540" number_of_lines="31657" files_per_second="8.06573153871623" lines_per_second="472.846043187296">
+</header>
+        <languages>
+          <language name="Scala" files="487" blank="3003" comment="2205" code="25785"/>
+          <language name="Java" files="43" blank="68" comment="77" code="400"/>
+          <language name="XML" files="8" blank="6" comment="27" code="76"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4410</order>
+    <commit>f94ab145b51e720be1279881faea680deb0cfc53</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/f94ab145b51e720be1279881faea680deb0cfc53
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="78.9550158977509" number_of_files="541" number_of_lines="32376" files_per_second="6.85200292658558" lines_per_second="410.056278652745">
+</header>
+        <languages>
+          <language name="Scala" files="488" blank="3064" comment="2183" code="26490"/>
+          <language name="Java" files="48" blank="77" comment="78" code="424"/>
+          <language name="XML" files="4" blank="1" comment="0" code="32"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4440</order>
+    <commit>c919a9c3fd2352513c8e7ff34a8ff26950a70665</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/c919a9c3fd2352513c8e7ff34a8ff26950a70665
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="72.1396019458771" number_of_files="537" number_of_lines="31992" files_per_second="7.44390023669504" lines_per_second="443.47347555372">
+</header>
+        <languages>
+          <language name="Scala" files="483" blank="3017" comment="2135" code="26192"/>
+          <language name="Java" files="48" blank="77" comment="78" code="424"/>
+          <language name="XML" files="5" blank="1" comment="0" code="41"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4470</order>
+    <commit>9f5d21931099980ffb90fa494d42fac6b7bfee46</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/9f5d21931099980ffb90fa494d42fac6b7bfee46
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="18.1983759403229" number_of_files="531" number_of_lines="31730" files_per_second="29.1784278850643" lines_per_second="1743.56217851806">
+</header>
+        <languages>
+          <language name="Scala" files="478" blank="2992" comment="2133" code="25984"/>
+          <language name="Java" files="48" blank="77" comment="78" code="424"/>
+          <language name="XML" files="5" blank="1" comment="0" code="41"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4500</order>
+    <commit>1ef2bcff0af8f9fa8823239973bc0b6fa41edaf2</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/1ef2bcff0af8f9fa8823239973bc0b6fa41edaf2
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="60.2751741409302" number_of_files="534" number_of_lines="31891" files_per_second="8.8593688464748" lines_per_second="529.090134612224">
+</header>
+        <languages>
+          <language name="Scala" files="481" blank="2995" comment="2179" code="26096"/>
+          <language name="Java" files="48" blank="77" comment="78" code="424"/>
+          <language name="XML" files="5" blank="1" comment="0" code="41"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3690</order>
+    <commit>d7f7a243e55319f5ad034720babe909e550168d7</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/d7f7a243e55319f5ad034720babe909e550168d7
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="94.4590599536896" number_of_files="681" number_of_lines="39981" files_per_second="7.20947255174754" lines_per_second="423.262734348632">
+</header>
+        <languages>
+          <language name="Scala" files="595" blank="3888" comment="2595" code="32230"/>
+          <language name="Java" files="77" blank="148" comment="237" code="779"/>
+          <language name="XML" files="8" blank="2" comment="0" code="75"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3720</order>
+    <commit>f4c0a0d9a673caff8a95c0b2bd5bfa3495f3fa51</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/f4c0a0d9a673caff8a95c0b2bd5bfa3495f3fa51
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="63.8701171875" number_of_files="677" number_of_lines="39710" files_per_second="10.5996361023195" lines_per_second="621.730501658945">
+</header>
+        <languages>
+          <language name="Scala" files="592" blank="3869" comment="2582" code="31998"/>
+          <language name="Java" files="76" blank="148" comment="235" code="774"/>
+          <language name="XML" files="8" blank="2" comment="0" code="75"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3750</order>
+    <commit>3f92b33350380bc7661be6873d2617ebc4285101</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/3f92b33350380bc7661be6873d2617ebc4285101
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="18.7533919811249" number_of_files="677" number_of_lines="39799" files_per_second="36.1001359477472" lines_per_second="2122.22941002126">
+</header>
+        <languages>
+          <language name="Scala" files="592" blank="3863" comment="2583" code="32093"/>
+          <language name="Java" files="76" blank="148" comment="235" code="773"/>
+          <language name="XML" files="8" blank="2" comment="0" code="75"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3780</order>
+    <commit>4de26c11950205e61069ae8413d66b1f59a5ca1d</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/4de26c11950205e61069ae8413d66b1f59a5ca1d
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="56.8774380683899" number_of_files="651" number_of_lines="39065" files_per_second="11.4456632033467" lines_per_second="686.827700520335">
+</header>
+        <languages>
+          <language name="Scala" files="583" blank="3814" comment="2563" code="31759"/>
+          <language name="Java" files="59" blank="97" comment="90" code="638"/>
+          <language name="XML" files="8" blank="2" comment="0" code="75"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4050</order>
+    <commit>3d4b96e2df82459eac9be0c6648f60c71423d6a2</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/3d4b96e2df82459eac9be0c6648f60c71423d6a2
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="78.0021688938141" number_of_files="593" number_of_lines="36045" files_per_second="7.60235270902868" lines_per_second="462.102535239357">
+</header>
+        <languages>
+          <language name="Scala" files="530" blank="3395" comment="2432" code="29491"/>
+          <language name="Java" files="57" blank="88" comment="82" code="487"/>
+          <language name="XML" files="5" blank="1" comment="0" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4080</order>
+    <commit>944bcb120363abc88849b0b7145a54f01f6cd861</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/944bcb120363abc88849b0b7145a54f01f6cd861
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="72.8016798496246" number_of_files="585" number_of_lines="35463" files_per_second="8.03552886703089" lines_per_second="487.117880703447">
+</header>
+        <languages>
+          <language name="Scala" files="522" blank="3314" comment="2345" code="29077"/>
+          <language name="Java" files="57" blank="88" comment="82" code="487"/>
+          <language name="XML" files="5" blank="1" comment="0" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4110</order>
+    <commit>2805dbde8f5354d50c9b83a6b54053cc234e351e</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/2805dbde8f5354d50c9b83a6b54053cc234e351e
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="26.8293747901917" number_of_files="581" number_of_lines="35343" files_per_second="21.6553685854955" lines_per_second="1317.32477094177">
+</header>
+        <languages>
+          <language name="Scala" files="520" blank="3304" comment="2342" code="28979"/>
+          <language name="Java" files="55" blank="88" comment="80" code="480"/>
+          <language name="XML" files="5" blank="1" comment="0" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4140</order>
+    <commit>ed4935f3fbfaa06dc563c5054e6f828c8b021343</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/ed4935f3fbfaa06dc563c5054e6f828c8b021343
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="66.7475218772888" number_of_files="575" number_of_lines="34866" files_per_second="8.61455202871954" lines_per_second="522.356471362322">
+</header>
+        <languages>
+          <language name="Scala" files="514" blank="3237" comment="2227" code="28684"/>
+          <language name="Java" files="55" blank="88" comment="80" code="480"/>
+          <language name="XML" files="5" blank="1" comment="0" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5010</order>
+    <commit>d6a7401cd8e5d4852b36341fcb5c4034de3fd54c</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/d6a7401cd8e5d4852b36341fcb5c4034de3fd54c
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="90.4875841140747" number_of_files="580" number_of_lines="29908" files_per_second="6.40971914189701" lines_per_second="330.520482923889">
+</header>
+        <languages>
+          <language name="Scala" files="534" blank="2719" comment="2528" code="24240"/>
+          <language name="Java" files="35" blank="47" comment="47" code="238"/>
+          <language name="XML" files="9" blank="5" comment="0" code="74"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5040</order>
+    <commit>179634a019f6d0af0afdecd85657d002b1e573ec</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/179634a019f6d0af0afdecd85657d002b1e573ec
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="64.1673519611359" number_of_files="576" number_of_lines="29616" files_per_second="8.97652750808332" lines_per_second="461.543122707284">
+</header>
+        <languages>
+          <language name="Scala" files="531" blank="2658" comment="2513" code="24014"/>
+          <language name="Java" files="34" blank="44" comment="60" code="238"/>
+          <language name="XML" files="9" blank="5" comment="0" code="74"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5070</order>
+    <commit>9bcd68d28c13f14f6d0a716583269f99f64201a2</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/9bcd68d28c13f14f6d0a716583269f99f64201a2
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="52.2329969406128" number_of_files="567" number_of_lines="28895" files_per_second="10.8552071144733" lines_per_second="553.1943731441">
+</header>
+        <languages>
+          <language name="Scala" files="522" blank="2563" comment="2454" code="23447"/>
+          <language name="Java" files="34" blank="44" comment="60" code="238"/>
+          <language name="XML" files="9" blank="5" comment="0" code="74"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5100</order>
+    <commit>d3f02f7c80660a2b5c0e76f5718ad72befc5acf6</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/d3f02f7c80660a2b5c0e76f5718ad72befc5acf6
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="49.8853230476379" number_of_files="570" number_of_lines="28793" files_per_second="11.4262064506564" lines_per_second="577.183793567983">
+</header>
+        <languages>
+          <language name="Scala" files="525" blank="2487" comment="2494" code="23381"/>
+          <language name="Java" files="34" blank="44" comment="60" code="238"/>
+          <language name="XML" files="9" blank="5" comment="0" code="74"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3570</order>
+    <commit>6354b174e85a1822ecd4e08e608f61c1480ca7c5</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/6354b174e85a1822ecd4e08e608f61c1480ca7c5
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="112.577200889587" number_of_files="716" number_of_lines="43345" files_per_second="6.36007996594473" lines_per_second="385.024673357366">
+</header>
+        <languages>
+          <language name="Scala" files="615" blank="4115" comment="2755" code="33450"/>
+          <language name="Java" files="82" blank="161" comment="251" code="826"/>
+          <language name="CSS" files="4" blank="13" comment="1" code="768"/>
+          <language name="HTML" files="3" blank="32" comment="0" code="541"/>
+          <language name="Python" files="2" blank="44" comment="82" code="185"/>
+          <language name="XML" files="9" blank="3" comment="0" code="91"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3600</order>
+    <commit>b353d0b94cb6e851403fb43238a054dc15704c3d</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/b353d0b94cb6e851403fb43238a054dc15704c3d
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="44.315025806427" number_of_files="702" number_of_lines="41554" files_per_second="15.8411280874892" lines_per_second="937.695493657445">
+</header>
+        <languages>
+          <language name="Scala" files="610" blank="4102" comment="2749" code="33344"/>
+          <language name="Java" files="82" blank="161" comment="251" code="826"/>
+          <language name="XML" files="9" blank="3" comment="0" code="91"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3630</order>
+    <commit>adb7d42f731910cdad025f0e6884489354707255</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/adb7d42f731910cdad025f0e6884489354707255
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="69.8068110942841" number_of_files="686" number_of_lines="40709" files_per_second="9.82712129728228" lines_per_second="583.166590220211">
+</header>
+        <languages>
+          <language name="Scala" files="595" blank="4005" comment="2702" code="32669"/>
+          <language name="Java" files="81" blank="160" comment="247" code="805"/>
+          <language name="XML" files="9" blank="3" comment="0" code="91"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3660</order>
+    <commit>3f12f2eb9fd2b7224e0134b8aa581b628eccd74d</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/3f12f2eb9fd2b7224e0134b8aa581b628eccd74d
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="32.6897099018097" number_of_files="676" number_of_lines="39768" files_per_second="20.6792902730096" lines_per_second="1216.52960884179">
+</header>
+        <languages>
+          <language name="Scala" files="589" blank="3901" comment="2601" code="31981"/>
+          <language name="Java" files="77" blank="148" comment="237" code="779"/>
+          <language name="XML" files="9" blank="3" comment="0" code="91"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3930</order>
+    <commit>b0e86898d13341cb696757fac20156a668e23342</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/b0e86898d13341cb696757fac20156a668e23342
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="89.8160371780396" number_of_files="611" number_of_lines="37551" files_per_second="6.80279401315417" lines_per_second="418.087918147221">
+</header>
+        <languages>
+          <language name="Scala" files="548" blank="3648" comment="2521" code="30653"/>
+          <language name="Java" files="57" blank="88" comment="82" code="489"/>
+          <language name="XML" files="5" blank="1" comment="0" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3960</order>
+    <commit>d54c520cb1ac7158c389ffda1288b3deeb186e29</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/d54c520cb1ac7158c389ffda1288b3deeb186e29
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="63.6865170001984" number_of_files="608" number_of_lines="37383" files_per_second="9.54676167952639" lines_per_second="586.984526094959">
+</header>
+        <languages>
+          <language name="Scala" files="545" blank="3608" comment="2518" code="30528"/>
+          <language name="Java" files="57" blank="88" comment="82" code="489"/>
+          <language name="XML" files="5" blank="1" comment="0" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3990</order>
+    <commit>f55d34f6177b2ba6fae5cb105fcb70bbdf0aa1eb</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/f55d34f6177b2ba6fae5cb105fcb70bbdf0aa1eb
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="46.965723991394" number_of_files="596" number_of_lines="36999" files_per_second="12.6901056632111" lines_per_second="787.787280928101">
+</header>
+        <languages>
+          <language name="Scala" files="533" blank="3537" comment="2468" code="30267"/>
+          <language name="Java" files="57" blank="88" comment="82" code="487"/>
+          <language name="XML" files="5" blank="1" comment="0" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4020</order>
+    <commit>79bbe8f8a4511cd05ae1aa78f66a591e2f494c59</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/79bbe8f8a4511cd05ae1aa78f66a591e2f494c59
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="57.496043920517" number_of_files="593" number_of_lines="36309" files_per_second="10.3137530787295" lines_per_second="631.504317935228">
+</header>
+        <languages>
+          <language name="Scala" files="530" blank="3419" comment="2433" code="29730"/>
+          <language name="Java" files="57" blank="88" comment="82" code="487"/>
+          <language name="XML" files="5" blank="1" comment="0" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3210</order>
+    <commit>b560ef280e0f8aaa358ed262cc1d98702eb630d5</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/b560ef280e0f8aaa358ed262cc1d98702eb630d5
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="144.670068979263" number_of_files="842" number_of_lines="48495" files_per_second="5.82013961796542" lines_per_second="335.211010419516">
+</header>
+        <languages>
+          <language name="Scala" files="732" blank="4827" comment="3358" code="36958"/>
+          <language name="Java" files="89" blank="168" comment="343" code="916"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="30" comment="0" code="556"/>
+          <language name="Python" files="2" blank="50" comment="101" code="194"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3240</order>
+    <commit>9aa575742b0440e2a690dcddb60f2b953b898db4</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/9aa575742b0440e2a690dcddb60f2b953b898db4
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="24.9827661514282" number_of_files="836" number_of_lines="48194" files_per_second="33.4630678977959" lines_per_second="1929.08982567748">
+</header>
+        <languages>
+          <language name="Scala" files="727" blank="4797" comment="3324" code="36725"/>
+          <language name="Java" files="89" blank="168" comment="343" code="916"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="30" comment="0" code="556"/>
+          <language name="Python" files="2" blank="50" comment="101" code="194"/>
+          <language name="XML" files="9" blank="3" comment="0" code="91"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3270</order>
+    <commit>c78fba88258f26ef398b044b9245322637a17493</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/c78fba88258f26ef398b044b9245322637a17493
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="68.6621580123901" number_of_files="829" number_of_lines="47709" files_per_second="12.0736082872666" lines_per_second="694.836885135344">
+</header>
+        <languages>
+          <language name="Scala" files="722" blank="4740" comment="3332" code="36336"/>
+          <language name="Java" files="87" blank="166" comment="305" code="909"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="30" comment="0" code="556"/>
+          <language name="Python" files="2" blank="50" comment="101" code="194"/>
+          <language name="XML" files="9" blank="3" comment="0" code="91"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3300</order>
+    <commit>6350a4b51d061bb82fca04a2880b804db8683236</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/6350a4b51d061bb82fca04a2880b804db8683236
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="18.5932109355927" number_of_files="808" number_of_lines="47342" files_per_second="43.4567220690892" lines_per_second="2546.19818835993">
+</header>
+        <languages>
+          <language name="Scala" files="702" blank="4665" comment="3318" code="36063"/>
+          <language name="Java" files="86" blank="166" comment="304" code="905"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="30" comment="0" code="556"/>
+          <language name="Python" files="2" blank="50" comment="101" code="194"/>
+          <language name="XML" files="9" blank="3" comment="0" code="91"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>810</order>
+    <commit>0365d7cb119dc6d9a8757948eb9cb49fc50fb69c</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/0365d7cb119dc6d9a8757948eb9cb49fc50fb69c
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="155.596626996994" number_of_files="693" number_of_lines="29553" files_per_second="4.45382405373985" lines_per_second="189.933423174854">
+</header>
+        <languages>
+          <language name="Scala" files="606" blank="3378" comment="2994" code="21732"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="18" blank="3" comment="0" code="268"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="1" code="42"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+          <language name="Bourne Shell" files="1" blank="1" comment="0" code="2"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>840</order>
+    <commit>1fa63b64e05a01c91efc2f379948d7ed53f132c4</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/1fa63b64e05a01c91efc2f379948d7ed53f132c4
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="24.2979559898376" number_of_files="674" number_of_lines="28624" files_per_second="27.7389587948012" lines_per_second="1178.04147854954">
+</header>
+        <languages>
+          <language name="Scala" files="586" blank="3282" comment="2904" code="20916"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="18" blank="3" comment="0" code="268"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="JSON" files="1" blank="0" comment="0" code="73"/>
+          <language name="YAML" files="1" blank="8" comment="1" code="42"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+          <language name="Bourne Shell" files="1" blank="1" comment="0" code="2"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>870</order>
+    <commit>2f84e05282148531eb5f35b193265dee1b8025c6</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/2f84e05282148531eb5f35b193265dee1b8025c6
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="67.6854519844055" number_of_files="660" number_of_lines="27917" files_per_second="9.7509875556724" lines_per_second="412.451999381373">
+</header>
+        <languages>
+          <language name="Scala" files="574" blank="3211" comment="2843" code="20417"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="18" blank="3" comment="0" code="268"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="1" code="42"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>900</order>
+    <commit>857fc0f5da0cb43e00f90008188721dd6c8867e0</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/857fc0f5da0cb43e00f90008188721dd6c8867e0
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="22.5315699577332" number_of_files="655" number_of_lines="27747" files_per_second="29.0703222735349" lines_per_second="1231.47211011263">
+</header>
+        <languages>
+          <language name="Scala" files="569" blank="3198" comment="2835" code="20268"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="18" blank="3" comment="0" code="268"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="1" code="42"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4770</order>
+    <commit>d53d5fb7cfdabba73d0e34385635390181b56249</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/d53d5fb7cfdabba73d0e34385635390181b56249
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="84.8578381538391" number_of_files="580" number_of_lines="36179" files_per_second="6.8349608311788" lines_per_second="426.348358467617">
+</header>
+        <languages>
+          <language name="Scala" files="526" blank="3343" comment="2864" code="29305"/>
+          <language name="Java" files="43" blank="68" comment="77" code="399"/>
+          <language name="XML" files="9" blank="6" comment="27" code="80"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4800</order>
+    <commit>11c2b2239c9c7764320fed0a2014ec1e056d88dc</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/11c2b2239c9c7764320fed0a2014ec1e056d88dc
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="84.0822548866272" number_of_files="578" number_of_lines="35960" files_per_second="6.87422097301446" lines_per_second="427.676446694809">
+</header>
+        <languages>
+          <language name="Scala" files="525" blank="3341" comment="2900" code="29071"/>
+          <language name="Java" files="42" blank="66" comment="76" code="383"/>
+          <language name="XML" files="9" blank="6" comment="27" code="80"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4830</order>
+    <commit>a58781edd34d20b1a80fb777aad13266a4b51e16</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/a58781edd34d20b1a80fb777aad13266a4b51e16
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="28.4079937934875" number_of_files="618" number_of_lines="36007" files_per_second="21.7544401231767" lines_per_second="1267.49534873013">
+</header>
+        <languages>
+          <language name="Scala" files="562" blank="3368" comment="2907" code="29067"/>
+          <language name="Java" files="43" blank="66" comment="77" code="382"/>
+          <language name="XML" files="11" blank="6" comment="27" code="97"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4860</order>
+    <commit>b9b607aadea7abb777cdd4da57f6902bdc1d29e7</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/b9b607aadea7abb777cdd4da57f6902bdc1d29e7
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="69.9834039211273" number_of_files="619" number_of_lines="36006" files_per_second="8.84495416509927" lines_per_second="514.493408188311">
+</header>
+        <languages>
+          <language name="Scala" files="563" blank="3394" comment="2909" code="29038"/>
+          <language name="Java" files="43" blank="66" comment="77" code="382"/>
+          <language name="XML" files="11" blank="6" comment="27" code="97"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4890</order>
+    <commit>bfa3a996e9d8f48df4779f0d065f8ef36fd7127e</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/bfa3a996e9d8f48df4779f0d065f8ef36fd7127e
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="99.0053188800812" number_of_files="618" number_of_lines="35373" files_per_second="6.24208887957367" lines_per_second="357.283834849773">
+</header>
+        <languages>
+          <language name="Scala" files="562" blank="3360" comment="2894" code="28454"/>
+          <language name="Java" files="43" blank="66" comment="77" code="382"/>
+          <language name="XML" files="11" blank="6" comment="27" code="97"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4920</order>
+    <commit>9787cfebc76469acdd11141a3f7ac9c2c3fabede</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/9787cfebc76469acdd11141a3f7ac9c2c3fabede
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="56.7291369438171" number_of_files="605" number_of_lines="32748" files_per_second="10.6647136303021" lines_per_second="577.269490851459">
+</header>
+        <languages>
+          <language name="Scala" files="549" blank="3065" comment="2698" code="26320"/>
+          <language name="Java" files="43" blank="66" comment="77" code="382"/>
+          <language name="XML" files="11" blank="6" comment="27" code="97"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4950</order>
+    <commit>5f047f4439209015536f7944a9f94a8238e70062</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/5f047f4439209015536f7944a9f94a8238e70062
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="62.0597341060638" number_of_files="601" number_of_lines="31956" files_per_second="9.68421809498659" lines_per_second="514.923250321783">
+</header>
+        <languages>
+          <language name="Scala" files="546" blank="2949" comment="2639" code="25772"/>
+          <language name="Java" files="42" blank="59" comment="77" code="320"/>
+          <language name="XML" files="11" blank="6" comment="27" code="97"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4980</order>
+    <commit>d185e0aeb46858ed575cd3d2d82e006562997c50</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/d185e0aeb46858ed575cd3d2d82e006562997c50
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="51.5209019184113" number_of_files="582" number_of_lines="30359" files_per_second="11.2963860943595" lines_per_second="589.255988726219">
+</header>
+        <languages>
+          <language name="Scala" files="536" blank="2759" comment="2566" code="24613"/>
+          <language name="Java" files="35" blank="47" comment="47" code="238"/>
+          <language name="XML" files="9" blank="5" comment="0" code="74"/>
+          <language name="JSP" files="2" blank="0" comment="0" code="10"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3330</order>
+    <commit>f3d2df0f9cd0acd6edeed9fed35c6c05195f23f6</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/f3d2df0f9cd0acd6edeed9fed35c6c05195f23f6
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="140.968070030212" number_of_files="800" number_of_lines="47172" files_per_second="5.67504399988269" lines_per_second="334.628969453083">
+</header>
+        <languages>
+          <language name="Scala" files="695" blank="4618" comment="3301" code="35973"/>
+          <language name="Java" files="85" blank="162" comment="302" code="895"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="30" comment="0" code="556"/>
+          <language name="Python" files="2" blank="50" comment="101" code="194"/>
+          <language name="XML" files="9" blank="3" comment="0" code="91"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3360</order>
+    <commit>f6c73ff4c77e121f764fe43dbd982abecd2cff3f</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/f6c73ff4c77e121f764fe43dbd982abecd2cff3f
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.04018402099609" number_of_files="6" number_of_lines="628" files_per_second="5.76821012329561" lines_per_second="603.739326238274">
+</header>
+        <languages>
+          <language name="Scala" files="6" blank="80" comment="151" code="397"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3390</order>
+    <commit>2272efb05aa9377acf156aac992119befba08ac7</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/2272efb05aa9377acf156aac992119befba08ac7
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="34.6276957988739" number_of_files="786" number_of_lines="46401" files_per_second="22.6985937662523" lines_per_second="1339.99675489551">
+</header>
+        <languages>
+          <language name="Scala" files="682" blank="4560" comment="3243" code="35381"/>
+          <language name="Java" files="84" blank="161" comment="292" code="844"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="30" comment="0" code="556"/>
+          <language name="Python" files="2" blank="50" comment="101" code="193"/>
+          <language name="XML" files="9" blank="3" comment="0" code="91"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3420</order>
+    <commit>a3ce5654ba9d76f90f9effd30821e842b0322c93</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/a3ce5654ba9d76f90f9effd30821e842b0322c93
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="91.312567949295" number_of_files="778" number_of_lines="46034" files_per_second="8.52018530934335" lines_per_second="504.136517391146">
+</header>
+        <languages>
+          <language name="Scala" files="674" blank="4488" comment="3147" code="35182"/>
+          <language name="Java" files="84" blank="161" comment="292" code="844"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="30" comment="0" code="556"/>
+          <language name="Python" files="2" blank="50" comment="101" code="193"/>
+          <language name="XML" files="9" blank="3" comment="0" code="91"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3810</order>
+    <commit>e169e4f222c9fcbe489ddcffc0dfdb27478505ed</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/e169e4f222c9fcbe489ddcffc0dfdb27478505ed
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="89.6483869552612" number_of_files="637" number_of_lines="38399" files_per_second="7.10553777524065" lines_per_second="428.328956093353">
+</header>
+        <languages>
+          <language name="Scala" files="573" blank="3725" comment="2547" code="31241"/>
+          <language name="Java" files="58" blank="96" comment="85" code="635"/>
+          <language name="XML" files="5" blank="1" comment="0" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3840</order>
+    <commit>04966c887d02753089a08cbc86c5e46a29ae72a7</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/04966c887d02753089a08cbc86c5e46a29ae72a7
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="81.7636020183563" number_of_files="636" number_of_lines="38152" files_per_second="7.7785222800876" lines_per_second="466.613493757708">
+</header>
+        <languages>
+          <language name="Scala" files="573" blank="3722" comment="2543" code="31152"/>
+          <language name="Java" files="57" blank="88" comment="82" code="495"/>
+          <language name="XML" files="5" blank="1" comment="0" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3870</order>
+    <commit>e92ba43b3f257f6dd4ec8c07997f325a5a22edf5</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/e92ba43b3f257f6dd4ec8c07997f325a5a22edf5
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="36.6017410755157" number_of_files="614" number_of_lines="37761" files_per_second="16.7751582836787" lines_per_second="1031.67223444624">
+</header>
+        <languages>
+          <language name="Scala" files="551" blank="3678" comment="2530" code="30824"/>
+          <language name="Java" files="57" blank="88" comment="82" code="489"/>
+          <language name="XML" files="5" blank="1" comment="0" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3900</order>
+    <commit>e747b7b378799d46b712d09c15f86c2d45eda8f3</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/e747b7b378799d46b712d09c15f86c2d45eda8f3
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="64.4299168586731" number_of_files="614" number_of_lines="37712" files_per_second="9.52973447640493" lines_per_second="585.318154029613">
+</header>
+        <languages>
+          <language name="Scala" files="551" blank="3668" comment="2525" code="30790"/>
+          <language name="Java" files="57" blank="88" comment="82" code="489"/>
+          <language name="XML" files="5" blank="1" comment="0" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3450</order>
+    <commit>4c1c31e19082b183da143932b527b4b5ae7c6d87</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/4c1c31e19082b183da143932b527b4b5ae7c6d87
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="129.30711388588" number_of_files="772" number_of_lines="45924" files_per_second="5.97028250650874" lines_per_second="355.154473871642">
+</header>
+        <languages>
+          <language name="Scala" files="669" blank="4470" comment="3123" code="35126"/>
+          <language name="Java" files="83" blank="161" comment="292" code="843"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="30" comment="0" code="556"/>
+          <language name="Python" files="2" blank="49" comment="92" code="192"/>
+          <language name="XML" files="9" blank="3" comment="0" code="91"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3480</order>
+    <commit>421093616331c6c864801e7a74b9299cf0988f49</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/421093616331c6c864801e7a74b9299cf0988f49
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="30.1460149288177" number_of_files="750" number_of_lines="45639" files_per_second="24.8789102563286" lines_per_second="1513.93144691811">
+</header>
+        <languages>
+          <language name="Scala" files="648" blank="4430" comment="3079" code="34928"/>
+          <language name="Java" files="82" blank="161" comment="292" code="840"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="30" comment="0" code="556"/>
+          <language name="Python" files="2" blank="49" comment="92" code="192"/>
+          <language name="XML" files="9" blank="3" comment="0" code="91"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3510</order>
+    <commit>49e7214fe3205b3bf471fed7e1a78524324e2874</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/49e7214fe3205b3bf471fed7e1a78524324e2874
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="88.8172690868378" number_of_files="745" number_of_lines="45223" files_per_second="8.3880084093962" lines_per_second="509.168999057885">
+</header>
+        <languages>
+          <language name="Scala" files="643" blank="4367" comment="3064" code="34632"/>
+          <language name="Java" files="82" blank="161" comment="251" code="839"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="30" comment="0" code="556"/>
+          <language name="Python" files="2" blank="49" comment="92" code="192"/>
+          <language name="XML" files="9" blank="3" comment="0" code="91"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3540</order>
+    <commit>9bf54056215bd12ef445d79301b81b87c855bc0f</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/9bf54056215bd12ef445d79301b81b87c855bc0f
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="25.2135491371155" number_of_files="719" number_of_lines="43616" files_per_second="28.5164137777652" lines_per_second="1729.86356513353">
+</header>
+        <languages>
+          <language name="Scala" files="617" blank="4125" comment="2765" code="33564"/>
+          <language name="Java" files="82" blank="161" comment="251" code="841"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="30" comment="0" code="556"/>
+          <language name="Python" files="2" blank="49" comment="92" code="192"/>
+          <language name="XML" files="9" blank="3" comment="0" code="91"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1170</order>
+    <commit>07ff2d8e2639b55ac22da296d1047ac6c25fab95</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/07ff2d8e2639b55ac22da296d1047ac6c25fab95
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="157.184406042099" number_of_files="772" number_of_lines="32042" files_per_second="4.91142868073843" lines_per_second="203.849738067644">
+</header>
+        <languages>
+          <language name="Scala" files="682" blank="3599" comment="3058" code="23470"/>
+          <language name="Java" files="65" blank="196" comment="69" code="1214"/>
+          <language name="Maven" files="10" blank="6" comment="0" code="215"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="YAML" files="1" blank="7" comment="6" code="39"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1200</order>
+    <commit>291059a72b56b009a3af32d811cea81b9e632c1f</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/291059a72b56b009a3af32d811cea81b9e632c1f
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="92.8570721149445" number_of_files="769" number_of_lines="32009" files_per_second="8.28154477074274" lines_per_second="344.712570307808">
+</header>
+        <languages>
+          <language name="Scala" files="679" blank="3587" comment="3058" code="23450"/>
+          <language name="Java" files="65" blank="196" comment="69" code="1214"/>
+          <language name="Maven" files="10" blank="6" comment="0" code="215"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="YAML" files="1" blank="7" comment="6" code="38"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1230</order>
+    <commit>98dfeda7c330bfbdc8bcf5f1488ca08299afa8b7</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/98dfeda7c330bfbdc8bcf5f1488ca08299afa8b7
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="24.3270869255066" number_of_files="769" number_of_lines="32014" files_per_second="31.6108542857926" lines_per_second="1315.98165033207">
+</header>
+        <languages>
+          <language name="Scala" files="679" blank="3587" comment="3056" code="23457"/>
+          <language name="Java" files="65" blank="196" comment="69" code="1214"/>
+          <language name="Maven" files="10" blank="6" comment="0" code="215"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="YAML" files="1" blank="7" comment="6" code="38"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1260</order>
+    <commit>bb8133eaba937b54c2262528b9fb8af146c4ba07</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/bb8133eaba937b54c2262528b9fb8af146c4ba07
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="20.7505578994751" number_of_files="771" number_of_lines="31555" files_per_second="37.1556275130079" lines_per_second="1520.6820054124">
+</header>
+        <languages>
+          <language name="Scala" files="681" blank="3583" comment="3051" code="23007"/>
+          <language name="Java" files="65" blank="196" comment="69" code="1214"/>
+          <language name="Maven" files="10" blank="6" comment="0" code="215"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="YAML" files="1" blank="7" comment="4" code="40"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>330</order>
+    <commit>ef03c0295c6b0bbc39b1775650709f88c85d6c43</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/ef03c0295c6b0bbc39b1775650709f88c85d6c43
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="164.847723960876" number_of_files="812" number_of_lines="44223" files_per_second="4.92575802983311" lines_per_second="268.265760287327">
+</header>
+        <languages>
+          <language name="Scala" files="722" blank="4955" comment="4414" code="33377"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="3" code="33"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>360</order>
+    <commit>249c1299a4deaf1756d12dce66e8eb477c719c75</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/249c1299a4deaf1756d12dce66e8eb477c719c75
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="80.7651579380035" number_of_files="769" number_of_lines="39092" files_per_second="9.52143250422781" lines_per_second="484.020597471097">
+</header>
+        <languages>
+          <language name="Scala" files="679" blank="4310" comment="3632" code="29673"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="3" code="33"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>390</order>
+    <commit>260d70f436a0d4f5214d5750acdad2a683e889a0</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/260d70f436a0d4f5214d5750acdad2a683e889a0
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="26.4306991100311" number_of_files="769" number_of_lines="38855" files_per_second="29.0949549536563" lines_per_second="1470.07083839313">
+</header>
+        <languages>
+          <language name="Scala" files="679" blank="4216" comment="3625" code="29537"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="3" code="33"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>420</order>
+    <commit>bd59f647278185a0c6c0894695c767731d212578</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/bd59f647278185a0c6c0894695c767731d212578
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="19.9934279918671" number_of_files="761" number_of_lines="38322" files_per_second="38.062507355395" lines_per_second="1916.72983820427">
+</header>
+        <languages>
+          <language name="Scala" files="671" blank="4171" comment="3616" code="29058"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="3" code="33"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2730</order>
+    <commit>5f7a327e5e44fb3144c831fd5e4b14d7f5299a81</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/5f7a327e5e44fb3144c831fd5e4b14d7f5299a81
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="161.920164823532" number_of_files="929" number_of_lines="51655" files_per_second="5.73739534549305" lines_per_second="319.015238505321">
+</header>
+        <languages>
+          <language name="Scala" files="794" blank="5446" comment="4171" code="38483"/>
+          <language name="Java" files="112" blank="257" comment="380" code="1284"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="260"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2760</order>
+    <commit>4b43110a2c434ffa14825e7737bdf4f3114da664</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/4b43110a2c434ffa14825e7737bdf4f3114da664
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="81.0434069633484" number_of_files="927" number_of_lines="50941" files_per_second="11.4383147838199" lines_per_second="628.564394177529">
+</header>
+        <languages>
+          <language name="Scala" files="793" blank="5350" comment="4140" code="37959"/>
+          <language name="Java" files="111" blank="215" comment="366" code="1277"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="260"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2790</order>
+    <commit>0a2bb3a95831502da60e979584c485ae35c4aae4</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/0a2bb3a95831502da60e979584c485ae35c4aae4
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="27.4120609760284" number_of_files="918" number_of_lines="50428" files_per_second="33.4889084335097" lines_per_second="1839.62818571354">
+</header>
+        <languages>
+          <language name="Scala" files="784" blank="5319" comment="4032" code="37597"/>
+          <language name="Java" files="111" blank="216" comment="354" code="1276"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="260"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2820</order>
+    <commit>e3e95f902dc610f46c3109c2d3156776e45aa9c1</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/e3e95f902dc610f46c3109c2d3156776e45aa9c1
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="22.8029208183289" number_of_files="917" number_of_lines="50136" files_per_second="40.214146569457" lines_per_second="2198.66570600469">
+</header>
+        <languages>
+          <language name="Scala" files="783" blank="5278" comment="4002" code="37376"/>
+          <language name="Java" files="111" blank="216" comment="354" code="1276"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="260"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>690</order>
+    <commit>e8b951c0d1fe2d0aef550173c1be4bd597636246</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/e8b951c0d1fe2d0aef550173c1be4bd597636246
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="157.476232051849" number_of_files="704" number_of_lines="30456" files_per_second="4.47051590469987" lines_per_second="193.400614195368">
+</header>
+        <languages>
+          <language name="Scala" files="615" blank="3446" comment="3035" code="22494"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="1" code="42"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+          <language name="Bourne Shell" files="1" blank="1" comment="0" code="2"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>720</order>
+    <commit>66ec72088402ffee1b22119d6d1eeace0552bfdd</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/66ec72088402ffee1b22119d6d1eeace0552bfdd
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="98.3680100440979" number_of_files="702" number_of_lines="29879" files_per_second="7.13646641510077" lines_per_second="303.747122531048">
+</header>
+        <languages>
+          <language name="Scala" files="613" blank="3401" comment="2967" code="22030"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="1" code="42"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+          <language name="Bourne Shell" files="1" blank="1" comment="0" code="2"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>750</order>
+    <commit>1461bb2e395c98c10c8bf295e304c6a94892a183</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/1461bb2e395c98c10c8bf295e304c6a94892a183
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="21.2763860225677" number_of_files="702" number_of_lines="29879" files_per_second="32.9943252230615" lines_per_second="1404.32684236446">
+</header>
+        <languages>
+          <language name="Scala" files="613" blank="3401" comment="2967" code="22030"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="1" code="42"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+          <language name="Bourne Shell" files="1" blank="1" comment="0" code="2"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>780</order>
+    <commit>7ddbd69e53cf8b5b439020b9b5148ceed79500dc</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/7ddbd69e53cf8b5b439020b9b5148ceed79500dc
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="20.3460381031036" number_of_files="698" number_of_lines="29723" files_per_second="34.3064333440684" lines_per_second="1460.87409496525">
+</header>
+        <languages>
+          <language name="Scala" files="609" blank="3389" comment="3009" code="21844"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="1" code="42"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+          <language name="Bourne Shell" files="1" blank="1" comment="0" code="2"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3090</order>
+    <commit>3f2133729bf733eb02a832d7289eeaf9ba1a50e5</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/3f2133729bf733eb02a832d7289eeaf9ba1a50e5
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="153.784060001373" number_of_files="888" number_of_lines="48217" files_per_second="5.77433057751285" lines_per_second="313.537046684614">
+</header>
+        <languages>
+          <language name="Scala" files="757" blank="4844" comment="3311" code="36293"/>
+          <language name="Java" files="110" blank="216" comment="349" code="1267"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="32" comment="0" code="564"/>
+          <language name="Python" files="2" blank="50" comment="103" code="194"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3120</order>
+    <commit>cd2b1edf6c402225fdd196f88141b877fd166ad4</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/cd2b1edf6c402225fdd196f88141b877fd166ad4
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="100.781735897064" number_of_files="892" number_of_lines="48726" files_per_second="8.85081004073064" lines_per_second="483.480459691302">
+</header>
+        <languages>
+          <language name="Scala" files="764" blank="4877" comment="3382" code="36723"/>
+          <language name="Java" files="107" blank="215" comment="349" code="1255"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="30" comment="0" code="556"/>
+          <language name="Python" files="2" blank="50" comment="101" code="194"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3150</order>
+    <commit>8d461953d47e9c45e2467de9481133dc1b5c9b32</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/8d461953d47e9c45e2467de9481133dc1b5c9b32
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="21.5713419914246" number_of_files="888" number_of_lines="48477" files_per_second="41.1657281384262" lines_per_second="2247.2871655028">
+</header>
+        <languages>
+          <language name="Scala" files="759" blank="4841" comment="3345" code="36539"/>
+          <language name="Java" files="108" blank="216" comment="352" code="1259"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="30" comment="0" code="556"/>
+          <language name="Python" files="2" blank="50" comment="101" code="194"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3180</order>
+    <commit>ad18b4f3aecce5dacc9a7c8a3b53300ee43cca09</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/ad18b4f3aecce5dacc9a7c8a3b53300ee43cca09
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="15.8307600021362" number_of_files="849" number_of_lines="48989" files_per_second="53.6297688730948" lines_per_second="3094.54504985164">
+</header>
+        <languages>
+          <language name="Scala" files="738" blank="4863" comment="3360" code="37112"/>
+          <language name="Java" files="90" blank="213" comment="345" code="1171"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="30" comment="0" code="556"/>
+          <language name="Python" files="2" blank="50" comment="101" code="194"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>930</order>
+    <commit>222a970080f99fbefc45e2c707bdbf112339a976</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/222a970080f99fbefc45e2c707bdbf112339a976
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="154.993191003799" number_of_files="654" number_of_lines="27756" files_per_second="4.21954019892376" lines_per_second="179.078834497443">
+</header>
+        <languages>
+          <language name="Scala" files="568" blank="3185" comment="2837" code="20289"/>
+          <language name="Java" files="56" blank="128" comment="27" code="741"/>
+          <language name="XML" files="18" blank="3" comment="0" code="268"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="7" comment="3" code="39"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>960</order>
+    <commit>f5e8c8736fa79a551e85c144531126a74211766e</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/f5e8c8736fa79a551e85c144531126a74211766e
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="33.456356048584" number_of_files="656" number_of_lines="28199" files_per_second="19.6076344670467" lines_per_second="842.859274902818">
+</header>
+        <languages>
+          <language name="Scala" files="573" blank="3262" comment="2899" code="20687"/>
+          <language name="Java" files="56" blank="128" comment="27" code="741"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="XML" files="15" blank="3" comment="0" code="174"/>
+          <language name="YAML" files="1" blank="7" comment="4" code="38"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>990</order>
+    <commit>420679df108d8734024f85e9e1f88784526eee88</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/420679df108d8734024f85e9e1f88784526eee88
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="91.3677968978882" number_of_files="652" number_of_lines="28119" files_per_second="7.13599344776442" lines_per_second="307.75613459768">
+</header>
+        <languages>
+          <language name="Scala" files="570" blank="3219" comment="2899" code="20664"/>
+          <language name="Java" files="56" blank="128" comment="27" code="741"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="YAML" files="1" blank="7" comment="4" code="38"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1020</order>
+    <commit>738e8fb2f395f79364cb450e97c50d0db0331921</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/738e8fb2f395f79364cb450e97c50d0db0331921
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="19.5081288814545" number_of_files="687" number_of_lines="28286" files_per_second="35.2160888506894" lines_per_second="1449.95966409112">
+</header>
+        <languages>
+          <language name="Scala" files="597" blank="3244" comment="2901" code="20781"/>
+          <language name="Java" files="64" blank="130" comment="29" code="760"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="YAML" files="1" blank="7" comment="4" code="38"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2250</order>
+    <commit>00f12c6046b8fa97ebba0c2479ae13fcf14c81e3</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/00f12c6046b8fa97ebba0c2479ae13fcf14c81e3
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="165.166579961777" number_of_files="1017" number_of_lines="58023" files_per_second="6.1574199831186" lines_per_second="351.299881691731">
+</header>
+        <languages>
+          <language name="Scala" files="875" blank="6171" comment="6617" code="41471"/>
+          <language name="Java" files="118" blank="264" comment="513" code="1318"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="265"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="YAML" files="1" blank="0" comment="2" code="28"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2280</order>
+    <commit>4fbd376afbd7277480cf786e6fd2525b5dd76826</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/4fbd376afbd7277480cf786e6fd2525b5dd76826
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="82.0325541496277" number_of_files="1009" number_of_lines="58444" files_per_second="12.2999949283498" lines_per_second="712.448863818112">
+</header>
+        <languages>
+          <language name="Scala" files="867" blank="6213" comment="5606" code="42872"/>
+          <language name="Java" files="118" blank="264" comment="513" code="1318"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="265"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="YAML" files="1" blank="0" comment="0" code="19"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2310</order>
+    <commit>b730c00b750e2889ca6665e29542eb0450657fec</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/b730c00b750e2889ca6665e29542eb0450657fec
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="27.0628731250763" number_of_files="1009" number_of_lines="58532" files_per_second="37.2835506169915" lines_per_second="2162.81544570242">
+</header>
+        <languages>
+          <language name="Scala" files="867" blank="6224" comment="5620" code="42935"/>
+          <language name="Java" files="118" blank="264" comment="513" code="1318"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="265"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="YAML" files="1" blank="0" comment="0" code="19"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2340</order>
+    <commit>5290e4ace492a628706761616f8d89106c5f9dc2</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/5290e4ace492a628706761616f8d89106c5f9dc2
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="21.5683028697968" number_of_files="1009" number_of_lines="58434" files_per_second="46.7816130963627" lines_per_second="2709.25349818915">
+</header>
+        <languages>
+          <language name="Scala" files="867" blank="6212" comment="5606" code="42868"/>
+          <language name="Java" files="118" blank="264" comment="513" code="1318"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="260"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="YAML" files="1" blank="0" comment="0" code="19"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2490</order>
+    <commit>6588ac1b62259956f4c47713e1b93088f9d47d6a</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/6588ac1b62259956f4c47713e1b93088f9d47d6a
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="161.903386831284" number_of_files="980" number_of_lines="56763" files_per_second="6.05299258514733" lines_per_second="350.597977663998">
+</header>
+        <languages>
+          <language name="Scala" files="838" blank="6004" comment="5234" code="41785"/>
+          <language name="Java" files="118" blank="264" comment="505" code="1318"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="260"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="YAML" files="1" blank="0" comment="0" code="19"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2520</order>
+    <commit>c398b1bf64860682e7e14f663f0799a541bd9a2f</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/c398b1bf64860682e7e14f663f0799a541bd9a2f
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0954759120941162" number_of_files="7" number_of_lines="698" files_per_second="73.3169220012236" lines_per_second="7310.74450812201">
+</header>
+        <languages>
+          <language name="Scala" files="7" blank="90" comment="150" code="458"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2550</order>
+    <commit>a8ab2f3db99139d590ed23b71304fe3c34600441</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/a8ab2f3db99139d590ed23b71304fe3c34600441
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="115.183070898056" number_of_files="973" number_of_lines="56249" files_per_second="8.44742193808293" lines_per_second="488.344333602494">
+</header>
+        <languages>
+          <language name="Scala" files="832" blank="5958" comment="5102" code="41467"/>
+          <language name="Java" files="118" blank="265" comment="505" code="1318"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="260"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2580</order>
+    <commit>c7f435026ff8591085f427b8ee4d192e1f10f783</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/c7f435026ff8591085f427b8ee4d192e1f10f783
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="27.4724810123444" number_of_files="965" number_of_lines="54678" files_per_second="35.1260594034587" lines_per_second="1990.28256586769">
+</header>
+        <languages>
+          <language name="Scala" files="824" blank="5731" comment="4755" code="40470"/>
+          <language name="Java" files="118" blank="265" comment="505" code="1318"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="260"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1290</order>
+    <commit>fc7af22eeff53a340e66e4970e39cdc4c9918cfb</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/fc7af22eeff53a340e66e4970e39cdc4c9918cfb
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="168.403496980667" number_of_files="1064" number_of_lines="63945" files_per_second="6.31815858385737" lines_per_second="379.71301752327">
+</header>
+        <languages>
+          <language name="Scala" files="935" blank="6980" comment="7680" code="46553"/>
+          <language name="Java" files="103" blank="297" comment="365" code="1621"/>
+          <language name="Maven" files="11" blank="9" comment="0" code="227"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="YAML" files="1" blank="7" comment="4" code="39"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1320</order>
+    <commit>1b6dbc90c122d73e590b676516f1699a94456afd</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/1b6dbc90c122d73e590b676516f1699a94456afd
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="82.9985210895538" number_of_files="1059" number_of_lines="63355" files_per_second="12.7592634916634" lines_per_second="763.326854121186">
+</header>
+        <languages>
+          <language name="Scala" files="935" blank="6909" comment="7607" code="46181"/>
+          <language name="Java" files="102" blank="297" comment="364" code="1617"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="Maven" files="7" blank="9" comment="0" code="158"/>
+          <language name="YAML" files="1" blank="7" comment="6" code="37"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1350</order>
+    <commit>ff729643e39b9bcc9109b5c8c968ee176919cf34</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/ff729643e39b9bcc9109b5c8c968ee176919cf34
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="29.1264078617096" number_of_files="1059" number_of_lines="63349" files_per_second="36.3587574900437" lines_per_second="2174.96782647476">
+</header>
+        <languages>
+          <language name="Scala" files="935" blank="6906" comment="7606" code="46179"/>
+          <language name="Java" files="102" blank="297" comment="364" code="1617"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="Maven" files="7" blank="9" comment="0" code="158"/>
+          <language name="YAML" files="1" blank="7" comment="6" code="37"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1380</order>
+    <commit>f944ec98d2b35088857f63713e05e53afb2cd8e4</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/f944ec98d2b35088857f63713e05e53afb2cd8e4
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="23.3830459117889" number_of_files="1060" number_of_lines="63628" files_per_second="45.331989852767" lines_per_second="2721.11683995458">
+</header>
+        <languages>
+          <language name="Scala" files="935" blank="6952" comment="7639" code="46374"/>
+          <language name="Java" files="103" blank="297" comment="365" code="1621"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="Maven" files="7" blank="9" comment="0" code="158"/>
+          <language name="YAML" files="1" blank="7" comment="6" code="37"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2970</order>
+    <commit>50feb1c383e4fff791327dfa1c76a85398ab9294</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/50feb1c383e4fff791327dfa1c76a85398ab9294
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="153.938816070557" number_of_files="896" number_of_lines="48691" files_per_second="5.82049429033757" lines_per_second="316.300990503155">
+</header>
+        <languages>
+          <language name="Scala" files="765" blank="4935" comment="3418" code="36576"/>
+          <language name="Java" files="110" blank="215" comment="349" code="1258"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="32" comment="0" code="564"/>
+          <language name="Python" files="2" blank="51" comment="104" code="195"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3000</order>
+    <commit>3cd0488bb1739ea30b24e1f2269bec6366e20263</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/3cd0488bb1739ea30b24e1f2269bec6366e20263
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="72.9923250675201" number_of_files="895" number_of_lines="48627" files_per_second="12.2615631050538" lines_per_second="666.193328613913">
+</header>
+        <languages>
+          <language name="Scala" files="764" blank="4917" comment="3423" code="36527"/>
+          <language name="Java" files="110" blank="215" comment="349" code="1258"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="32" comment="0" code="564"/>
+          <language name="Python" files="2" blank="50" comment="104" code="194"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3030</order>
+    <commit>644a2c9d13fd4214061d84a8c943377a631d8ca9</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/644a2c9d13fd4214061d84a8c943377a631d8ca9
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="53.3275980949402" number_of_files="895" number_of_lines="48671" files_per_second="16.7830547778772" lines_per_second="912.679395635822">
+</header>
+        <languages>
+          <language name="Scala" files="764" blank="4917" comment="3391" code="36593"/>
+          <language name="Java" files="110" blank="216" comment="349" code="1267"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="32" comment="0" code="564"/>
+          <language name="Python" files="2" blank="50" comment="104" code="194"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3060</order>
+    <commit>602c1759a18852612488fbed784ddda0e9d3dda3</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/602c1759a18852612488fbed784ddda0e9d3dda3
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="23.4146220684052" number_of_files="893" number_of_lines="48473" files_per_second="38.1385613396247" lines_per_second="2070.20210953598">
+</header>
+        <languages>
+          <language name="Scala" files="762" blank="4898" comment="3357" code="36449"/>
+          <language name="Java" files="110" blank="216" comment="349" code="1267"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="HTML" files="3" blank="32" comment="0" code="564"/>
+          <language name="Python" files="2" blank="50" comment="103" code="194"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1770</order>
+    <commit>d9aadaf1e1afc387edb70d311f5c2d90fe36e089</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/d9aadaf1e1afc387edb70d311f5c2d90fe36e089
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="168.47768497467" number_of_files="1074" number_of_lines="63169" files_per_second="6.37473146762118" lines_per_second="374.93986227017">
+</header>
+        <languages>
+          <language name="Scala" files="937" blank="6906" comment="7496" code="46363"/>
+          <language name="Java" files="122" blank="270" comment="522" code="1340"/>
+          <language name="Maven" files="4" blank="4" comment="0" code="131"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="YAML" files="1" blank="6" comment="2" code="31"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1800</order>
+    <commit>65ff77888253e4e5b142ff2297c1f3abbd524863</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/65ff77888253e4e5b142ff2297c1f3abbd524863
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="84.1956369876862" number_of_files="1073" number_of_lines="62805" files_per_second="12.7441282991532" lines_per_second="745.941265450434">
+</header>
+        <languages>
+          <language name="Scala" files="936" blank="6855" comment="7401" code="46145"/>
+          <language name="Java" files="122" blank="270" comment="522" code="1340"/>
+          <language name="Maven" files="4" blank="4" comment="0" code="131"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="YAML" files="1" blank="6" comment="2" code="31"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1830</order>
+    <commit>7a1a21d8c8dcec1273d84150aef7d13a35d49db3</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/7a1a21d8c8dcec1273d84150aef7d13a35d49db3
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="29.5651080608368" number_of_files="1057" number_of_lines="61661" files_per_second="35.751602795599" lines_per_second="2085.60035948858">
+</header>
+        <languages>
+          <language name="Scala" files="923" blank="6742" comment="7196" code="45351"/>
+          <language name="Java" files="119" blank="264" comment="513" code="1323"/>
+          <language name="Maven" files="4" blank="4" comment="0" code="131"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="YAML" files="1" blank="6" comment="2" code="31"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1860</order>
+    <commit>aa3c462c70de384d20799a572fec260c19a7d816</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/aa3c462c70de384d20799a572fec260c19a7d816
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="23.9323480129242" number_of_files="1056" number_of_lines="61507" files_per_second="44.1243792472735" lines_per_second="2570.03616890346">
+</header>
+        <languages>
+          <language name="Scala" files="922" blank="6726" comment="7170" code="45239"/>
+          <language name="Java" files="119" blank="264" comment="513" code="1323"/>
+          <language name="Maven" files="4" blank="4" comment="0" code="131"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="YAML" files="1" blank="6" comment="2" code="31"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2010</order>
+    <commit>c69b0066af588976f9e408b09661bc4055b4e0a2</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/c69b0066af588976f9e408b09661bc4055b4e0a2
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="160.448652982712" number_of_files="1032" number_of_lines="59016" files_per_second="6.43196425033993" lines_per_second="367.818606781067">
+</header>
+        <languages>
+          <language name="Scala" files="899" blank="6423" comment="6802" code="43443"/>
+          <language name="Java" files="119" blank="264" comment="513" code="1323"/>
+          <language name="Maven" files="3" blank="4" comment="0" code="116"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="YAML" files="1" blank="0" comment="2" code="28"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2040</order>
+    <commit>cb9fcc9e56e39d97f0eb77120e7920d287b2c22b</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/cb9fcc9e56e39d97f0eb77120e7920d287b2c22b
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0731348991394043" number_of_files="7" number_of_lines="708" files_per_second="95.7135387123064" lines_per_second="9680.74077261614">
+</header>
+        <languages>
+          <language name="Scala" files="7" blank="88" comment="179" code="441"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2070</order>
+    <commit>a826ac743b79ea7922fd55b6b11ceb1f77babb8b</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/a826ac743b79ea7922fd55b6b11ceb1f77babb8b
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="115.038459062576" number_of_files="1026" number_of_lines="58430" files_per_second="8.91875646075803" lines_per_second="507.917095518608">
+</header>
+        <languages>
+          <language name="Scala" files="893" blank="6407" comment="6708" code="42967"/>
+          <language name="Java" files="119" blank="264" comment="513" code="1323"/>
+          <language name="Maven" files="3" blank="4" comment="0" code="116"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="YAML" files="1" blank="0" comment="2" code="28"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2100</order>
+    <commit>4a83fcaeb186840c9cac942e7509d37ab1d18493</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/4a83fcaeb186840c9cac942e7509d37ab1d18493
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="29.0318348407745" number_of_files="1036" number_of_lines="59902" files_per_second="35.6849646493911" lines_per_second="2063.32118960215">
+</header>
+        <languages>
+          <language name="Scala" files="892" blank="6409" comment="6712" code="42997"/>
+          <language name="Java" files="119" blank="264" comment="513" code="1323"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="265"/>
+          <language name="Maven" files="3" blank="4" comment="0" code="116"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="YAML" files="1" blank="0" comment="2" code="28"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2850</order>
+    <commit>89114bcb595f1360e8ea8605cd8b7f7491ce4d37</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/89114bcb595f1360e8ea8605cd8b7f7491ce4d37
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="164.130284070969" number_of_files="911" number_of_lines="49619" files_per_second="5.55046867283853" lines_per_second="302.314714684495">
+</header>
+        <languages>
+          <language name="Scala" files="778" blank="5218" comment="3915" code="37036"/>
+          <language name="Java" files="111" blank="216" comment="354" code="1268"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="Python" files="4" blank="63" comment="118" code="246"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2880</order>
+    <commit>d1686d438c81ff2eb848fa5a6ec1f0688ddb2ead</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/d1686d438c81ff2eb848fa5a6ec1f0688ddb2ead
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="44.8162388801575" number_of_files="907" number_of_lines="49346" files_per_second="20.2381998727157" lines_per_second="1101.07410244656">
+</header>
+        <languages>
+          <language name="Scala" files="775" blank="5179" comment="3879" code="36877"/>
+          <language name="Java" files="111" blank="216" comment="353" code="1264"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="Python" files="3" blank="60" comment="109" code="224"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2910</order>
+    <commit>2a3462ac12bf455e93cdd9cdced02fc042087ab2</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/2a3462ac12bf455e93cdd9cdced02fc042087ab2
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="74.4626410007477" number_of_files="901" number_of_lines="49001" files_per_second="12.1000274485423" lines_per_second="658.061537187594">
+</header>
+        <languages>
+          <language name="Scala" files="770" blank="5147" comment="3863" code="36658"/>
+          <language name="Java" files="111" blank="216" comment="353" code="1264"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="Python" files="3" blank="60" comment="109" code="224"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2940</order>
+    <commit>f8e66fe89cf013007cbe2bedda21b1cc7dd12267</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/f8e66fe89cf013007cbe2bedda21b1cc7dd12267
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="22.0838508605957" number_of_files="900" number_of_lines="48410" files_per_second="40.753761908702" lines_per_second="2192.0995711114">
+</header>
+        <languages>
+          <language name="Scala" files="769" blank="4969" comment="3481" code="36635"/>
+          <language name="Java" files="111" blank="216" comment="353" code="1262"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="794"/>
+          <language name="Python" files="3" blank="60" comment="107" code="220"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="Maven" files="1" blank="0" comment="0" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2610</order>
+    <commit>bfa507affd72e00f155e01400ad383d95d8a5373</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/bfa507affd72e00f155e01400ad383d95d8a5373
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="160.281598091125" number_of_files="964" number_of_lines="54606" files_per_second="6.01441470187946" lines_per_second="340.68789337223">
+</header>
+        <languages>
+          <language name="Scala" files="823" blank="5725" comment="4742" code="40417"/>
+          <language name="Java" files="118" blank="265" comment="505" code="1318"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="260"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2640</order>
+    <commit>9e7e93c632b42882daa79a603bbcb8f01a256638</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/9e7e93c632b42882daa79a603bbcb8f01a256638
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="103.529855012894" number_of_files="964" number_of_lines="54566" files_per_second="9.3113237710991" lines_per_second="527.055698022607">
+</header>
+        <languages>
+          <language name="Scala" files="823" blank="5726" comment="4733" code="40385"/>
+          <language name="Java" files="118" blank="265" comment="505" code="1318"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="260"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2670</order>
+    <commit>cacb17fb2ea8210d9c8b5c00b0466c4ed4fba44a</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/cacb17fb2ea8210d9c8b5c00b0466c4ed4fba44a
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="22.2410459518433" number_of_files="937" number_of_lines="53199" files_per_second="42.1293136136138" lines_per_second="2391.92887399214">
+</header>
+        <languages>
+          <language name="Scala" files="802" blank="5610" comment="4549" code="39469"/>
+          <language name="Java" files="112" blank="257" comment="394" code="1286"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="260"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2700</order>
+    <commit>1bbbbb38c9dbaee49a7ba02dc45f70d361925aea</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/1bbbbb38c9dbaee49a7ba02dc45f70d361925aea
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="18.5468039512634" number_of_files="937" number_of_lines="53132" files_per_second="50.5208338030753" lines_per_second="2864.75233898079">
+</header>
+        <languages>
+          <language name="Scala" files="802" blank="5593" comment="4536" code="39432"/>
+          <language name="Java" files="112" blank="257" comment="394" code="1286"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="260"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>450</order>
+    <commit>272afa9d737cdbbb00a2b092dc26f2dbeb861494</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/272afa9d737cdbbb00a2b092dc26f2dbeb861494
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="168.794255018234" number_of_files="745" number_of_lines="36825" files_per_second="4.4136573245311" lines_per_second="218.165008021286">
+</header>
+        <languages>
+          <language name="Scala" files="655" blank="4018" comment="3261" code="28071"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="2" code="32"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>480</order>
+    <commit>934fabae25bbd3a238019ed73257c18fd8129e73</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/934fabae25bbd3a238019ed73257c18fd8129e73
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="53.0594439506531" number_of_files="742" number_of_lines="36607" files_per_second="13.9843154159339" lines_per_second="689.924305163198">
+</header>
+        <languages>
+          <language name="Scala" files="652" blank="3995" comment="3207" code="27919"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="1" code="44"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>510</order>
+    <commit>90782b1cd045c84bb82c7d5ba655540c3870cbd7</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/90782b1cd045c84bb82c7d5ba655540c3870cbd7
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="63.0653228759766" number_of_files="737" number_of_lines="32032" files_per_second="11.6862955169416" lines_per_second="507.917799184089">
+</header>
+        <languages>
+          <language name="Scala" files="647" blank="3835" comment="3131" code="23580"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="1" code="44"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>540</order>
+    <commit>2caa324d521fd83d3421bcdd1d344bfbeda62bb8</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/2caa324d521fd83d3421bcdd1d344bfbeda62bb8
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="22.9128179550171" number_of_files="737" number_of_lines="31641" files_per_second="32.1654019792281" lines_per_second="1380.93010044065">
+</header>
+        <languages>
+          <language name="Scala" files="647" blank="3701" comment="3070" code="23384"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="1" code="44"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1050</order>
+    <commit>d5fbe99bddba30e361ad0517c25abc04dcfec9d1</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/d5fbe99bddba30e361ad0517c25abc04dcfec9d1
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="156.396147966385" number_of_files="694" number_of_lines="30137" files_per_second="4.4374494450411" lines_per_second="192.696561851878">
+</header>
+        <languages>
+          <language name="Scala" files="604" blank="3366" comment="3054" code="21797"/>
+          <language name="Java" files="65" blank="196" comment="69" code="1214"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="YAML" files="1" blank="7" comment="4" code="41"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1080</order>
+    <commit>174116b604b7ac0a736e513fb706686e29e31cef</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/174116b604b7ac0a736e513fb706686e29e31cef
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="96.1111030578613" number_of_files="715" number_of_lines="30487" files_per_second="7.43930698172876" lines_per_second="317.205806925825">
+</header>
+        <languages>
+          <language name="Scala" files="625" blank="3406" comment="3048" code="22113"/>
+          <language name="Java" files="65" blank="196" comment="69" code="1214"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="YAML" files="1" blank="7" comment="4" code="41"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1110</order>
+    <commit>06fa0c079e7b3e3c333257d19fe1b9c880148d38</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/06fa0c079e7b3e3c333257d19fe1b9c880148d38
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="32.9062881469727" number_of_files="746" number_of_lines="31329" files_per_second="22.6704390561483" lines_per_second="952.06727237275">
+</header>
+        <languages>
+          <language name="Scala" files="656" blank="3505" comment="3057" code="22847"/>
+          <language name="Java" files="65" blank="196" comment="69" code="1214"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="YAML" files="1" blank="7" comment="4" code="41"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1140</order>
+    <commit>883255b05a53b93a77dd99c8531089a0b9530d69</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/883255b05a53b93a77dd99c8531089a0b9530d69
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="24.8435168266296" number_of_files="772" number_of_lines="32099" files_per_second="31.0745054891946" lines_per_second="1292.04734675862">
+</header>
+        <languages>
+          <language name="Scala" files="682" blank="3602" comment="3091" code="23491"/>
+          <language name="Java" files="65" blank="196" comment="69" code="1214"/>
+          <language name="Maven" files="10" blank="6" comment="0" code="215"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="YAML" files="1" blank="7" comment="4" code="41"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>570</order>
+    <commit>de0faf446fdcf5e9d90cdf99b8ee9f047f27cfef</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/de0faf446fdcf5e9d90cdf99b8ee9f047f27cfef
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="158.786290168762" number_of_files="737" number_of_lines="31764" files_per_second="4.64145864996718" lines_per_second="200.042459372534">
+</header>
+        <languages>
+          <language name="Scala" files="647" blank="3579" comment="3157" code="23544"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="1" code="42"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>600</order>
+    <commit>596dc62d7e62cee0fb9f465aa64c9cbde7337a4e</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/596dc62d7e62cee0fb9f465aa64c9cbde7337a4e
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="104.369098901749" number_of_files="737" number_of_lines="31774" files_per_second="7.0614770823479" lines_per_second="304.438769083477">
+</header>
+        <languages>
+          <language name="Scala" files="647" blank="3581" comment="3166" code="23543"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="1" code="42"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>630</order>
+    <commit>ede2b865b40b5077448d3606a4fd42c2b9d571d0</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/ede2b865b40b5077448d3606a4fd42c2b9d571d0
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="25.729024887085" number_of_files="707" number_of_lines="30701" files_per_second="27.4786939304058" lines_per_second="1193.24382228768">
+</header>
+        <languages>
+          <language name="Scala" files="617" blank="3453" comment="3046" code="22718"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="1" code="42"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>660</order>
+    <commit>206c3e6d4d3b07824a8f4f8eada2eccc853c6fc6</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/206c3e6d4d3b07824a8f4f8eada2eccc853c6fc6
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="22.5110490322113" number_of_files="705" number_of_lines="30590" files_per_second="31.3179540851787" lines_per_second="1358.8882488874">
+</header>
+        <languages>
+          <language name="Scala" files="616" blank="3439" comment="3040" code="22630"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="1" code="42"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+          <language name="Bourne Shell" files="1" blank="1" comment="0" code="2"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>210</order>
+    <commit>a68372fd5212a507743db0611b1b27fb24635f26</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/a68372fd5212a507743db0611b1b27fb24635f26
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="160.436144113541" number_of_files="814" number_of_lines="45207" files_per_second="5.07366968021827" lines_per_second="281.775657535169">
+</header>
+        <languages>
+          <language name="Scala" files="724" blank="5339" comment="4444" code="33945"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="5" code="33"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>240</order>
+    <commit>c279995cddcb14ebc1c5d8fd90fc1661a18bc582</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/c279995cddcb14ebc1c5d8fd90fc1661a18bc582
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="106.262528896332" number_of_files="814" number_of_lines="45147" files_per_second="7.66027317864914" lines_per_second="424.862841764709">
+</header>
+        <languages>
+          <language name="Scala" files="724" blank="5330" comment="4440" code="33900"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="3" code="33"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>270</order>
+    <commit>32d8f4724842aed85e310543c3a745c3900caee3</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/32d8f4724842aed85e310543c3a745c3900caee3
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="24.1324880123138" number_of_files="814" number_of_lines="45039" files_per_second="33.7304632487396" lines_per_second="1866.32227796066">
+</header>
+        <languages>
+          <language name="Scala" files="724" blank="5327" comment="4421" code="33814"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="3" code="33"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>300</order>
+    <commit>1526bf4f853918a3ad8e7a08f935dd1918c88e13</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/1526bf4f853918a3ad8e7a08f935dd1918c88e13
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="21.5134840011597" number_of_files="813" number_of_lines="44498" files_per_second="37.7902528458978" lines_per_second="2068.37720927031">
+</header>
+        <languages>
+          <language name="Scala" files="723" blank="4978" comment="4540" code="33503"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="3" code="33"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>0</order>
+    <commit>4ce4fb72bde3b8acfaf526b79d32ca1463bc687b</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/4ce4fb72bde3b8acfaf526b79d32ca1463bc687b
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="177.363985061646" number_of_files="885" number_of_lines="52896" files_per_second="4.98973903688736" lines_per_second="298.234165079315">
+</header>
+        <languages>
+          <language name="Scala" files="781" blank="5990" comment="6035" code="36669"/>
+          <language name="JSON" files="12" blank="0" comment="0" code="2619"/>
+          <language name="Java" files="56" blank="131" comment="45" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="TypeScript" files="2" blank="13" comment="10" code="55"/>
+          <language name="YAML" files="1" blank="9" comment="2" code="39"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>30</order>
+    <commit>db87e4c8717cf4aa868d421be1a9b30b59c4dd74</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/db87e4c8717cf4aa868d421be1a9b30b59c4dd74
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="110.019992113113" number_of_files="885" number_of_lines="52826" files_per_second="8.04399257809541" lines_per_second="480.149098226518">
+</header>
+        <languages>
+          <language name="Scala" files="781" blank="5975" comment="6044" code="36605"/>
+          <language name="JSON" files="12" blank="0" comment="0" code="2619"/>
+          <language name="Java" files="56" blank="131" comment="45" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="TypeScript" files="2" blank="13" comment="10" code="55"/>
+          <language name="YAML" files="1" blank="9" comment="2" code="39"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>60</order>
+    <commit>f188e60d8f73e23a1630a954c21d6d00e5eaaf30</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/f188e60d8f73e23a1630a954c21d6d00e5eaaf30
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="31.1900198459625" number_of_files="881" number_of_lines="51116" files_per_second="28.2462147940583" lines_per_second="1638.85756573563">
+</header>
+        <languages>
+          <language name="Scala" files="778" blank="5698" comment="4859" code="36432"/>
+          <language name="JSON" files="11" blank="0" comment="0" code="2566"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="TypeScript" files="2" blank="13" comment="10" code="55"/>
+          <language name="YAML" files="1" blank="9" comment="2" code="39"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2370</order>
+    <commit>75f0438946f802b915f95c20dbe3040d6ef617e6</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/75f0438946f802b915f95c20dbe3040d6ef617e6
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="178.212408065796" number_of_files="1000" number_of_lines="57662" files_per_second="5.61128156481001" lines_per_second="323.557717590075">
+</header>
+        <languages>
+          <language name="Scala" files="858" blank="6108" comment="5381" code="42425"/>
+          <language name="Java" files="118" blank="264" comment="513" code="1318"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="260"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="YAML" files="1" blank="0" comment="0" code="19"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2400</order>
+    <commit>717991238797966094fadfc36a3b8f5daf7fcf32</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/717991238797966094fadfc36a3b8f5daf7fcf32
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="106.94264292717" number_of_files="1000" number_of_lines="57630" files_per_second="9.35080686832306" lines_per_second="538.886999821458">
+</header>
+        <languages>
+          <language name="Scala" files="858" blank="6107" comment="5372" code="42403"/>
+          <language name="Java" files="118" blank="264" comment="513" code="1318"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="260"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="YAML" files="1" blank="0" comment="0" code="19"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2430</order>
+    <commit>3629c657a1b5eae846af6f6e94e5d47ad75a6b69</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/3629c657a1b5eae846af6f6e94e5d47ad75a6b69
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0585339069366455" number_of_files="7" number_of_lines="698" files_per_second="119.58880529838" lines_per_second="11924.7122997528">
+</header>
+        <languages>
+          <language name="Scala" files="7" blank="90" comment="150" code="458"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2460</order>
+    <commit>607e061a6a2f681f643dd098a5f3a27fe6dd5729</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/607e061a6a2f681f643dd098a5f3a27fe6dd5729
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="27.7271819114685" number_of_files="986" number_of_lines="57146" files_per_second="35.5607722107587" lines_per_second="2061.01002916432">
+</header>
+        <languages>
+          <language name="Scala" files="844" blank="6053" comment="5261" code="42092"/>
+          <language name="Java" files="118" blank="264" comment="505" code="1318"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="260"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="YAML" files="1" blank="0" comment="0" code="19"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2130</order>
+    <commit>cdf3c6e8578f71f99996e59ed309eff13c9c7400</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/cdf3c6e8578f71f99996e59ed309eff13c9c7400
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="161.168453931808" number_of_files="1035" number_of_lines="59848" files_per_second="6.42185225923875" lines_per_second="371.338177788329">
+</header>
+        <languages>
+          <language name="Scala" files="891" blank="6397" comment="6695" code="42972"/>
+          <language name="Java" files="119" blank="264" comment="513" code="1323"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="265"/>
+          <language name="Maven" files="3" blank="4" comment="0" code="116"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="YAML" files="1" blank="0" comment="2" code="28"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2160</order>
+    <commit>3dbf0ced7d43bfce9fefdd12ff76e29756f3474d</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/3dbf0ced7d43bfce9fefdd12ff76e29756f3474d
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="104.062247991562" number_of_files="999" number_of_lines="56857" files_per_second="9.6000232484023" lines_per_second="546.374896731141">
+</header>
+        <languages>
+          <language name="Scala" files="868" blank="6200" comment="5595" code="42745"/>
+          <language name="Java" files="118" blank="264" comment="513" code="1318"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="YAML" files="1" blank="0" comment="0" code="19"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2190</order>
+    <commit>506d06bf67d05fab95120050820dcdf5f17ea273</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/506d06bf67d05fab95120050820dcdf5f17ea273
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="24.6741819381714" number_of_files="1021" number_of_lines="58081" files_per_second="41.3792847340764" lines_per_second="2353.91795949059">
+</header>
+        <languages>
+          <language name="Scala" files="879" blank="6175" comment="6595" code="41547"/>
+          <language name="Java" files="118" blank="264" comment="513" code="1318"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="265"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="YAML" files="1" blank="0" comment="2" code="28"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2220</order>
+    <commit>68a2f57da9c0a86e12ffa6a7557c5422331e8413</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/68a2f57da9c0a86e12ffa6a7557c5422331e8413
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="21.0543529987335" number_of_files="1021" number_of_lines="58040" files_per_second="48.4935348078099" lines_per_second="2756.67459377599">
+</header>
+        <languages>
+          <language name="Scala" files="879" blank="6171" comment="6581" code="41524"/>
+          <language name="Java" files="118" blank="264" comment="513" code="1318"/>
+          <language name="CSS" files="4" blank="14" comment="1" code="798"/>
+          <language name="Python" files="5" blank="64" comment="121" code="265"/>
+          <language name="HTML" files="1" blank="7" comment="0" code="106"/>
+          <language name="Maven" files="2" blank="1" comment="0" code="104"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="Javascript" files="1" blank="7" comment="11" code="42"/>
+          <language name="YAML" files="1" blank="0" comment="2" code="28"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>90</order>
+    <commit>15ecc9845a0a758e73ca97440a1dbc580d5e43d1</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/15ecc9845a0a758e73ca97440a1dbc580d5e43d1
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="161.143790006638" number_of_files="814" number_of_lines="45415" files_per_second="5.05138919698036" lines_per_second="281.829042236932">
+</header>
+        <languages>
+          <language name="Scala" files="724" blank="5390" comment="4473" code="34069"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="9" comment="2" code="39"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>120</order>
+    <commit>97e1049d5714820499c4ec8617984d8fe63761be</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/97e1049d5714820499c4ec8617984d8fe63761be
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="116.668432950974" number_of_files="813" number_of_lines="45304" files_per_second="6.9684659289256" lines_per_second="388.314121087387">
+</header>
+        <languages>
+          <language name="Scala" files="723" blank="5359" comment="4469" code="33993"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="9" comment="2" code="39"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>150</order>
+    <commit>eb4312e6fa54cdd886b337bdcdb1f450e60e1071</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/eb4312e6fa54cdd886b337bdcdb1f450e60e1071
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="26.8242049217224" number_of_files="813" number_of_lines="45188" files_per_second="30.308447253981" lines_per_second="1684.59792683012">
+</header>
+        <languages>
+          <language name="Scala" files="723" blank="5345" comment="4464" code="33903"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="2" code="33"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>180</order>
+    <commit>816958d8c84a0f82968dbfb8f7f1daa85c3cc7ba</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/816958d8c84a0f82968dbfb8f7f1daa85c3cc7ba
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="19.3264098167419" number_of_files="813" number_of_lines="45126" files_per_second="42.0667887988032" lines_per_second="2334.939620338">
+</header>
+        <languages>
+          <language name="Scala" files="723" blank="5334" comment="4444" code="33870"/>
+          <language name="Java" files="56" blank="127" comment="27" code="741"/>
+          <language name="XML" files="20" blank="3" comment="0" code="300"/>
+          <language name="Maven" files="10" blank="5" comment="0" code="221"/>
+          <language name="YAML" files="1" blank="8" comment="4" code="33"/>
+          <language name="Bourne Shell" files="2" blank="2" comment="0" code="4"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="3"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1650</order>
+    <commit>c685b44482e7c5f2496f90e5e24992ae82065175</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/c685b44482e7c5f2496f90e5e24992ae82065175
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="164.235471963882" number_of_files="1111" number_of_lines="66137" files_per_second="6.76467748845587" lines_per_second="402.696197168322">
+</header>
+        <languages>
+          <language name="Scala" files="965" blank="7087" comment="7790" code="48114"/>
+          <language name="Java" files="125" blank="343" comment="608" code="1822"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="Maven" files="6" blank="9" comment="0" code="152"/>
+          <language name="YAML" files="1" blank="7" comment="4" code="38"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1680</order>
+    <commit>1a3062ed1000303970d6ee8212a688aeaaee14b6</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/1a3062ed1000303970d6ee8212a688aeaaee14b6
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="106.820728063583" number_of_files="1111" number_of_lines="66124" files_per_second="10.4006031426662" lines_per_second="619.018435828678">
+</header>
+        <languages>
+          <language name="Scala" files="965" blank="7094" comment="7774" code="48118"/>
+          <language name="Java" files="125" blank="343" comment="608" code="1822"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="Maven" files="6" blank="9" comment="0" code="152"/>
+          <language name="YAML" files="1" blank="6" comment="2" code="33"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1710</order>
+    <commit>095c129edafa0ee3777ef4130bb6694ed6bb5528</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/095c129edafa0ee3777ef4130bb6694ed6bb5528
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="28.8890209197998" number_of_files="1098" number_of_lines="65836" files_per_second="38.0075186019011" lines_per_second="2278.92804615187">
+</header>
+        <languages>
+          <language name="Scala" files="952" blank="7066" comment="7727" code="47910"/>
+          <language name="Java" files="125" blank="344" comment="608" code="1818"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="Maven" files="6" blank="9" comment="0" code="152"/>
+          <language name="YAML" files="1" blank="6" comment="2" code="31"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1740</order>
+    <commit>8ef3cd58717eb828fb2a158479ec2ccd54f6fdf5</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/8ef3cd58717eb828fb2a158479ec2ccd54f6fdf5
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="21.6756210327148" number_of_files="1075" number_of_lines="63188" files_per_second="49.5948881177389" lines_per_second="2915.16445617087">
+</header>
+        <languages>
+          <language name="Scala" files="937" blank="6905" comment="7465" code="46376"/>
+          <language name="Java" files="123" blank="272" comment="549" code="1349"/>
+          <language name="Maven" files="4" blank="4" comment="0" code="131"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="YAML" files="1" blank="6" comment="2" code="31"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1890</order>
+    <commit>eab7049479a5cab916169aebd21377ea762d44bc</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/eab7049479a5cab916169aebd21377ea762d44bc
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="177.599249124527" number_of_files="1054" number_of_lines="61109" files_per_second="5.93470977605862" lines_per_second="344.083661959361">
+</header>
+        <languages>
+          <language name="Scala" files="920" blank="6653" comment="7043" code="45041"/>
+          <language name="Java" files="119" blank="264" comment="513" code="1323"/>
+          <language name="Maven" files="4" blank="4" comment="0" code="131"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="YAML" files="1" blank="6" comment="2" code="31"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1920</order>
+    <commit>14148c96f7f1b5c2fe9a43cb222459367f31acdf</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/14148c96f7f1b5c2fe9a43cb222459367f31acdf
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="107.813815116882" number_of_files="1038" number_of_lines="59564" files_per_second="9.62770864637979" lines_per_second="552.470942016345">
+</header>
+        <languages>
+          <language name="Scala" files="904" blank="6503" comment="6890" code="43799"/>
+          <language name="Java" files="119" blank="264" comment="513" code="1323"/>
+          <language name="Maven" files="4" blank="4" comment="0" code="131"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="YAML" files="1" blank="6" comment="2" code="31"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1950</order>
+    <commit>ff9baf5987c8d1d6e97a75b6cb181164f8b1829a</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/ff9baf5987c8d1d6e97a75b6cb181164f8b1829a
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="28.484668970108" number_of_files="1034" number_of_lines="59209" files_per_second="36.3002287681519" lines_per_second="2078.6269295295">
+</header>
+        <languages>
+          <language name="Scala" files="901" blank="6456" comment="6827" code="43569"/>
+          <language name="Java" files="119" blank="264" comment="513" code="1323"/>
+          <language name="Maven" files="3" blank="4" comment="0" code="116"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="YAML" files="1" blank="6" comment="2" code="31"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1980</order>
+    <commit>efa71548d153ed4ab2d8450462b8ad5f936c9dc9</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/efa71548d153ed4ab2d8450462b8ad5f936c9dc9
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="15.802582025528" number_of_files="1033" number_of_lines="59233" files_per_second="65.3690642662865" lines_per_second="3748.31150405125">
+</header>
+        <languages>
+          <language name="Scala" files="900" blank="6474" comment="6813" code="43590"/>
+          <language name="Java" files="119" blank="264" comment="513" code="1323"/>
+          <language name="Maven" files="3" blank="4" comment="0" code="116"/>
+          <language name="XML" files="10" blank="3" comment="0" code="95"/>
+          <language name="YAML" files="1" blank="6" comment="2" code="30"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1530</order>
+    <commit>f4dbdae3c3f3d85b6852cbba45e5fba7c512254f</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/f4dbdae3c3f3d85b6852cbba45e5fba7c512254f
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="164.379037857056" number_of_files="1066" number_of_lines="63429" files_per_second="6.48501179893142" lines_per_second="385.870369037918">
+</header>
+        <languages>
+          <language name="Scala" files="942" blank="6932" comment="7584" code="46258"/>
+          <language name="Java" files="102" blank="297" comment="364" code="1615"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="Maven" files="7" blank="9" comment="0" code="158"/>
+          <language name="YAML" files="1" blank="7" comment="6" code="36"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1560</order>
+    <commit>74a9c047f81dd5c7baab1d222d71f151f014b636</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/74a9c047f81dd5c7baab1d222d71f151f014b636
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="118.562606096268" number_of_files="1066" number_of_lines="63405" files_per_second="8.9910304361432" lines_per_second="534.78075497529">
+</header>
+        <languages>
+          <language name="Scala" files="942" blank="6935" comment="7585" code="46230"/>
+          <language name="Java" files="102" blank="297" comment="364" code="1615"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="Maven" files="7" blank="9" comment="0" code="158"/>
+          <language name="YAML" files="1" blank="7" comment="4" code="38"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1590</order>
+    <commit>c9152cb2cb448bd08583bd1edc8176c906809076</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/c9152cb2cb448bd08583bd1edc8176c906809076
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="30.7149879932404" number_of_files="1113" number_of_lines="66564" files_per_second="36.2363807612409" lines_per_second="2167.15044832995">
+</header>
+        <languages>
+          <language name="Scala" files="966" blank="7116" comment="7838" code="48458"/>
+          <language name="Java" files="125" blank="343" comment="608" code="1822"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="Maven" files="7" blank="9" comment="0" code="158"/>
+          <language name="YAML" files="1" blank="7" comment="4" code="38"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1620</order>
+    <commit>82c599d90787040e2f35df85e3fa1eb13ee1a24e</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/82c599d90787040e2f35df85e3fa1eb13ee1a24e
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="18.6531319618225" number_of_files="1112" number_of_lines="66240" files_per_second="59.6146535753855" lines_per_second="3551.14627053376">
+</header>
+        <languages>
+          <language name="Scala" files="965" blank="7096" comment="7819" code="48173"/>
+          <language name="Java" files="125" blank="343" comment="608" code="1822"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="Maven" files="7" blank="9" comment="0" code="158"/>
+          <language name="YAML" files="1" blank="7" comment="4" code="38"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1410</order>
+    <commit>3ffa333c14bee2e0e46b473be54a5a6ce33e504a</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/3ffa333c14bee2e0e46b473be54a5a6ce33e504a
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="180.193247079849" number_of_files="1059" number_of_lines="63166" files_per_second="5.87702379063475" lines_per_second="350.545877959617">
+</header>
+        <languages>
+          <language name="Scala" files="935" blank="6902" comment="7591" code="46015"/>
+          <language name="Java" files="102" blank="297" comment="364" code="1617"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="Maven" files="7" blank="9" comment="0" code="158"/>
+          <language name="YAML" files="1" blank="7" comment="6" code="37"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1440</order>
+    <commit>4bae8b3acb3420173a3ce11a596686fa8a3ceb6d</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/4bae8b3acb3420173a3ce11a596686fa8a3ceb6d
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="107.604839086533" number_of_files="1059" number_of_lines="63159" files_per_second="9.84156483100527" lines_per_second="586.953156904119">
+</header>
+        <languages>
+          <language name="Scala" files="935" blank="6900" comment="7588" code="46013"/>
+          <language name="Java" files="102" blank="297" comment="364" code="1617"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="Maven" files="7" blank="9" comment="0" code="158"/>
+          <language name="YAML" files="1" blank="7" comment="6" code="37"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1470</order>
+    <commit>13b2a8ff4b4f0190c241477077b0983f65949d69</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/13b2a8ff4b4f0190c241477077b0983f65949d69
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="30.8652281761169" number_of_files="1069" number_of_lines="63696" files_per_second="34.6344434552788" lines_per_second="2063.68148767768">
+</header>
+        <languages>
+          <language name="Scala" files="945" blank="6964" comment="7594" code="46481"/>
+          <language name="Java" files="102" blank="297" comment="364" code="1617"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="Maven" files="7" blank="9" comment="0" code="158"/>
+          <language name="YAML" files="1" blank="7" comment="6" code="36"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1500</order>
+    <commit>f334d76f70bb6ba2befc38b414f13776d0b119ac</commit>
+    <path>
+      /projects/SE_HPC/sbt-commits/f334d76f70bb6ba2befc38b414f13776d0b119ac
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="17.2258770465851" number_of_files="1069" number_of_lines="63603" files_per_second="62.0577981085684" lines_per_second="3692.29385696845">
+</header>
+        <languages>
+          <language name="Scala" files="945" blank="6953" comment="7588" code="46407"/>
+          <language name="Java" files="102" blank="297" comment="364" code="1615"/>
+          <language name="XML" files="14" blank="3" comment="0" code="160"/>
+          <language name="Maven" files="7" blank="9" comment="0" code="158"/>
+          <language name="YAML" files="1" blank="7" comment="6" code="36"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+</cloc_report>

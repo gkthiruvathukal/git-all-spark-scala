@@ -1,0 +1,1440 @@
+<cloc_report>
+  <cloc>
+    <order>675000</order>
+    <commit>22db99bd32646aa33051e23420ff3517cc70cad5</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/22db99bd32646aa33051e23420ff3517cc70cad5
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="776.048847913742" number_of_files="18108" number_of_lines="7094345" files_per_second="23.3335827360351" lines_per_second="9141.62171501418">
+</header>
+        <languages>
+          <language name="C" files="8386" blank="750596" comment="829953" code="3874383">
+          </language>
+          <language 
+          name="C/C++ Header" files="7920" blank="168155" comment="264775" code="883576">
+</language>
+          <language 
+          name="Assembly" files="858" blank="34314" comment="75113" code="174767">
+</language>
+          <language name="make" files="864" blank="4142" comment="5174" code="12916"/>
+          <language name="Perl" files="13" blank="501" comment="626" code="3195"/>
+          <language name="yacc" files="4" blank="401" comment="273" code="2632"/>
+          <language name="Bourne Shell" files="40" blank="312" comment="986" code="2050">
+          </language>
+          <language name="C++" files="1" blank="201" comment="55" code="1474"/>
+          <language name="lex" files="4" blank="167" comment="196" code="1170"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="367"/>
+          <language name="Python" files="4" blank="72" comment="85" code="317"/>
+          <language name="NAnt script" files="1" blank="86" comment="0" code="262"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="136"/>
+          <language name="awk" files="2" blank="14" comment="7" code="101"/>
+          <language name="Bourne Again Shell" files="3" blank="8" comment="29" code="52">
+          </language>
+          <language name="Pascal" files="1" blank="9" comment="0" code="41"/>
+          <language name="Prolog" files="1" blank="3" comment="0" code="30"/>
+          <language name="XSLT" files="1" blank="0" comment="1" code="6"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>700000</order>
+    <commit>fd195c49fb17a21e232f50bddb2267150053cf34</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/fd195c49fb17a21e232f50bddb2267150053cf34
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="804.462413072586" number_of_files="16511" number_of_lines="6522410" files_per_second="20.5242653127042" lines_per_second="8107.78713089668">
+</header>
+        <languages>
+          <language name="C" files="7530" blank="680394" comment="765516" code="3540776">
+          </language>
+          <language 
+          name="C/C++ Header" files="7295" blank="156440" comment="242059" code="830925">
+</language>
+          <language 
+          name="Assembly" files="822" blank="32532" comment="71095" code="166236">
+</language>
+          <language name="make" files="790" blank="3984" comment="4905" code="12083"/>
+          <language name="Perl" files="14" blank="490" comment="639" code="3184"/>
+          <language name="yacc" files="4" blank="395" comment="270" code="2603"/>
+          <language name="Bourne Shell" files="35" blank="271" comment="959" code="1750">
+          </language>
+          <language name="C++" files="1" blank="166" comment="62" code="1198"/>
+          <language name="lex" files="4" blank="166" comment="194" code="1176"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="367"/>
+          <language name="NAnt script" files="1" blank="80" comment="0" code="250"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="136"/>
+          <language name="Python" files="2" blank="28" comment="54" code="111"/>
+          <language name="awk" files="2" blank="14" comment="7" code="101"/>
+          <language name="Bourne Again Shell" files="3" blank="8" comment="29" code="52">
+          </language>
+          <language name="Pascal" files="1" blank="9" comment="0" code="41"/>
+          <language name="Prolog" files="1" blank="3" comment="0" code="30"/>
+          <language name="XSLT" files="1" blank="0" comment="0" code="6"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>625000</order>
+    <commit>9fe7c712fc955565c32e2f899d4ffeceaf028398</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/9fe7c712fc955565c32e2f899d4ffeceaf028398
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="820.954572916031" number_of_files="20857" number_of_lines="8306436" files_per_second="25.405790634573" lines_per_second="10118.0214765057">
+</header>
+        <languages>
+          <language name="C" files="9851" blank="891464" comment="956861" code="4556234">
+          </language>
+          <language 
+          name="C/C++ Header" files="8996" blank="195961" comment="310858" code="1051954">
+</language>
+          <language 
+          name="Assembly" files="956" blank="35673" comment="80549" code="181772">
+</language>
+          <language name="make" files="963" blank="4385" comment="5176" code="14537"/>
+          <language name="Perl" files="17" blank="1012" comment="1158" code="5321"/>
+          <language name="yacc" files="5" blank="436" comment="301" code="2901"/>
+          <language 
+          name="Bourne Shell" files="46" blank="388" comment="1162" code="2472">
+</language>
+          <language name="C++" files="1" blank="205" comment="58" code="1496"/>
+          <language name="lex" files="5" blank="225" comment="239" code="1403"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="367"/>
+          <language name="Python" files="4" blank="72" comment="86" code="317"/>
+          <language name="NAnt script" files="1" blank="83" comment="0" code="290"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="136"/>
+          <language name="awk" files="2" blank="14" comment="7" code="98"/>
+          <language name="Pascal" files="1" blank="9" comment="0" code="41"/>
+          <language name="Bourne Again Shell" files="2" blank="7" comment="17" code="34">
+          </language>
+          <language name="Prolog" files="1" blank="3" comment="0" code="30"/>
+          <language name="XSLT" files="1" blank="0" comment="1" code="7"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>650000</order>
+    <commit>d7ea3be56adc95b17351221fd95e78115f3b01f4</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/d7ea3be56adc95b17351221fd95e78115f3b01f4
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="977.710031986237" number_of_files="20046" number_of_lines="7774210" files_per_second="20.5030114698488" lines_per_second="7951.44751067609">
+</header>
+        <languages>
+          <language name="C" files="9339" blank="824317" comment="899940" code="4251295">
+          </language>
+          <language 
+          name="C/C++ Header" files="8713" blank="186513" comment="287757" code="983648">
+</language>
+          <language 
+          name="Assembly" files="962" blank="36049" comment="79773" code="183792">
+</language>
+          <language name="make" files="947" blank="4370" comment="5361" code="14163"/>
+          <language name="Perl" files="15" blank="560" comment="660" code="3503"/>
+          <language name="yacc" files="4" blank="400" comment="273" code="2635"/>
+          <language 
+          name="Bourne Shell" files="44" blank="351" comment="1110" code="2242">
+</language>
+          <language name="C++" files="1" blank="205" comment="57" code="1494"/>
+          <language name="lex" files="4" blank="167" comment="196" code="1170"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="367"/>
+          <language name="Python" files="4" blank="72" comment="85" code="317"/>
+          <language name="NAnt script" files="1" blank="85" comment="0" code="263"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="136"/>
+          <language name="awk" files="2" blank="14" comment="7" code="98"/>
+          <language name="Pascal" files="1" blank="9" comment="0" code="41"/>
+          <language name="Bourne Again Shell" files="2" blank="7" comment="17" code="34">
+          </language>
+          <language name="Prolog" files="1" blank="3" comment="0" code="30"/>
+          <language name="XSLT" files="1" blank="0" comment="1" code="7"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>575000</order>
+    <commit>e584f559c7b8711cccdf319400acd6294b2c074e</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/e584f559c7b8711cccdf319400acd6294b2c074e
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1088.6342959404" number_of_files="23702" number_of_lines="9899290" files_per_second="21.7722334197871" lines_per_second="9093.31079951753">
+</header>
+        <languages>
+          <language 
+          name="C" files="11425" blank="1069923" comment="1140368" code="5477087">
+</language>
+          <language 
+          name="C/C++ Header" files="10063" blank="232590" comment="369908" code="1257511">
+</language>
+          <language 
+          name="Assembly" files="1021" blank="35593" comment="80840" code="183589">
+</language>
+          <language name="make" files="1085" blank="4786" comment="5380" code="16523"/>
+          <language name="Perl" files="25" blank="1413" comment="1628" code="7297"/>
+          <language name="yacc" files="5" blank="447" comment="318" code="2962"/>
+          <language 
+          name="Bourne Shell" files="50" blank="463" comment="1233" code="2915">
+</language>
+          <language name="C++" files="1" blank="205" comment="58" code="1496"/>
+          <language name="lex" files="5" blank="222" comment="246" code="1399"/>
+          <language name="Python" files="6" blank="114" comment="157" code="463"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language name="NAnt script" files="1" blank="85" comment="0" code="299"/>
+          <language 
+          name="Bourne Again Shell" files="4" blank="55" comment="22" code="265">
+</language>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="136"/>
+          <language name="Pascal" files="2" blank="25" comment="0" code="116"/>
+          <language name="awk" files="2" blank="14" comment="7" code="98"/>
+          <language name="sed" files="1" blank="0" comment="3" code="29"/>
+          <language name="XSLT" files="1" blank="0" comment="1" code="7"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>600000</order>
+    <commit>bf068ee266f9dbaa6dacb8433a366bb399e7ae5b</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/bf068ee266f9dbaa6dacb8433a366bb399e7ae5b
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1103.63771605492" number_of_files="21660" number_of_lines="8715197" files_per_second="19.6260056039279" lines_per_second="7896.7915586951">
+</header>
+        <languages>
+          <language 
+          name="C" files="10321" blank="943073" comment="995243" code="4835580">
+</language>
+          <language 
+          name="C/C++ Header" files="9232" blank="202808" comment="320634" code="1074045">
+</language>
+          <language 
+          name="Assembly" files="994" blank="35527" comment="79494" code="181115">
+</language>
+          <language name="make" files="1016" blank="4544" comment="5196" code="15170"/>
+          <language name="Perl" files="20" blank="1190" comment="1310" code="6255"/>
+          <language name="yacc" files="5" blank="437" comment="318" code="2919"/>
+          <language 
+          name="Bourne Shell" files="48" blank="410" comment="1207" code="2670">
+</language>
+          <language name="C++" files="1" blank="205" comment="58" code="1496"/>
+          <language name="lex" files="5" blank="226" comment="248" code="1397"/>
+          <language name="Python" files="5" blank="93" comment="118" code="393"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="367"/>
+          <language name="NAnt script" files="1" blank="83" comment="0" code="290"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="136"/>
+          <language name="Pascal" files="2" blank="25" comment="0" code="116"/>
+          <language name="awk" files="2" blank="14" comment="7" code="98"/>
+          <language name="Bourne Again Shell" files="2" blank="7" comment="17" code="34">
+          </language>
+          <language name="XSLT" files="1" blank="0" comment="1" code="7"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>550000</order>
+    <commit>4733fd328f14280900435d9dbae1487d110a4d56</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/4733fd328f14280900435d9dbae1487d110a4d56
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1366.28612494469" number_of_files="25825" number_of_lines="10818968" files_per_second="18.9016045237563" lines_per_second="7918.52292318199">
+</header>
+        <languages>
+          <language 
+          name="C" files="12569" blank="1178790" comment="1262020" code="6022283">
+</language>
+          <language 
+          name="C/C++ Header" files="10919" blank="254107" comment="410467" code="1324482">
+</language>
+          <language 
+          name="Assembly" files="1060" blank="36541" comment="83917" code="190035">
+</language>
+          <language name="make" files="1158" blank="5188" comment="5886" code="18486"/>
+          <language name="Perl" files="26" blank="1563" comment="1730" code="8123"/>
+          <language 
+          name="Bourne Shell" files="54" blank="504" comment="1351" code="3066">
+</language>
+          <language name="yacc" files="5" blank="447" comment="318" code="2962"/>
+          <language name="C++" files="1" blank="206" comment="58" code="1501"/>
+          <language name="lex" files="5" blank="222" comment="246" code="1399"/>
+          <language name="Python" files="6" blank="114" comment="156" code="463"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language 
+          name="Bourne Again Shell" files="5" blank="66" comment="34" code="318">
+</language>
+          <language name="NAnt script" files="1" blank="86" comment="0" code="302"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="136"/>
+          <language name="Pascal" files="2" blank="25" comment="0" code="116"/>
+          <language name="awk" files="2" blank="14" comment="7" code="98"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="68"/>
+          <language name="sed" files="1" blank="0" comment="3" code="30"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>475000</order>
+    <commit>a0700bdd0b0150ea445159b1dee587f1507c272f</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/a0700bdd0b0150ea445159b1dee587f1507c272f
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1505.65825390816" number_of_files="31839" number_of_lines="13387985" files_per_second="21.1462328302968" lines_per_second="8891.7820263991">
+</header>
+        <languages>
+          <language 
+          name="C" files="15685" blank="1461381" comment="1500761" code="7544607">
+</language>
+          <language 
+          name="C/C++ Header" files="13300" blank="308055" comment="521987" code="1606256">
+</language>
+          <language 
+          name="Assembly" files="1186" blank="39348" comment="90947" code="201780">
+</language>
+          <language name="XML" files="117" blank="2850" comment="924" code="35291"/>
+          <language name="make" files="1368" blank="5933" comment="6525" code="22465"/>
+          <language name="Perl" files="41" blank="2961" comment="2456" code="13802"/>
+          <language 
+          name="Bourne Shell" files="60" blank="573" comment="1415" code="3476">
+</language>
+          <language name="yacc" files="5" blank="451" comment="319" code="2966"/>
+          <language name="Python" files="19" blank="587" comment="329" code="2683"/>
+          <language name="C++" files="1" blank="209" comment="57" code="1521"/>
+          <language name="lex" files="5" blank="202" comment="226" code="1311"/>
+          <language name="awk" files="8" blank="90" comment="79" code="714"/>
+          <language 
+          name="Bourne Again Shell" files="28" blank="74" comment="55" code="446">
+</language>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language name="NAnt script" files="1" blank="86" comment="0" code="324"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="137"/>
+          <language name="Pascal" files="2" blank="26" comment="0" code="121"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="70"/>
+          <language name="sed" files="1" blank="0" comment="3" code="30"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>525000</order>
+    <commit>2848552cef6a14fe4e54e676a61a340c8fd023b3</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/2848552cef6a14fe4e54e676a61a340c8fd023b3
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1519.12326312065" number_of_files="27937" number_of_lines="11647903" files_per_second="18.3902127485103" lines_per_second="7667.51670701978">
+</header>
+        <languages>
+          <language 
+          name="C" files="13630" blank="1275417" comment="1343892" code="6532383">
+</language>
+          <language 
+          name="C/C++ Header" files="11703" blank="267673" comment="444604" code="1367270">
+</language>
+          <language 
+          name="Assembly" files="1104" blank="37380" comment="85561" code="193452">
+</language>
+          <language name="XML" files="110" blank="2785" comment="903" code="34260"/>
+          <language name="make" files="1244" blank="5585" comment="6332" code="20227"/>
+          <language name="Perl" files="36" blank="2027" comment="1997" code="9930"/>
+          <language 
+          name="Bourne Shell" files="55" blank="527" comment="1371" code="3154">
+</language>
+          <language name="yacc" files="5" blank="447" comment="319" code="2964"/>
+          <language name="C++" files="1" blank="206" comment="57" code="1500"/>
+          <language name="lex" files="5" blank="222" comment="246" code="1399"/>
+          <language name="awk" files="7" blank="83" comment="64" code="617"/>
+          <language name="Python" files="6" blank="114" comment="156" code="463"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language 
+          name="Bourne Again Shell" files="15" blank="91" comment="40" code="338">
+</language>
+          <language name="NAnt script" files="1" blank="86" comment="0" code="305"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="137"/>
+          <language name="Pascal" files="2" blank="25" comment="0" code="116"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="69"/>
+          <language name="sed" files="1" blank="0" comment="3" code="30"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>500000</order>
+    <commit>ea9e4376bb545e400a325b3d76fecd02815303c0</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/ea9e4376bb545e400a325b3d76fecd02815303c0
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1574.72917079926" number_of_files="29596" number_of_lines="12362997" files_per_second="18.7943428932472" lines_per_second="7850.87190181734">
+</header>
+        <languages>
+          <language 
+          name="C" files="14557" blank="1356508" comment="1414062" code="6964086">
+</language>
+          <language 
+          name="C/C++ Header" files="12334" blank="283825" comment="467071" code="1451246">
+</language>
+          <language 
+          name="Assembly" files="1143" blank="38152" comment="87484" code="196062">
+</language>
+          <language name="XML" files="113" blank="2811" comment="924" code="34597"/>
+          <language name="make" files="1283" blank="5820" comment="6435" code="21392"/>
+          <language name="Perl" files="38" blank="2312" comment="2285" code="10758"/>
+          <language 
+          name="Bourne Shell" files="57" blank="547" comment="1404" code="3308">
+</language>
+          <language name="yacc" files="5" blank="447" comment="319" code="2977"/>
+          <language name="C++" files="1" blank="206" comment="57" code="1500"/>
+          <language name="lex" files="5" blank="222" comment="246" code="1399"/>
+          <language name="Python" files="14" blank="221" comment="233" code="796"/>
+          <language name="awk" files="8" blank="90" comment="79" code="713"/>
+          <language 
+          name="Bourne Again Shell" files="22" blank="87" comment="51" code="418">
+</language>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language name="NAnt script" files="1" blank="86" comment="0" code="305"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="137"/>
+          <language name="Pascal" files="2" blank="25" comment="0" code="116"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="69"/>
+          <language name="sed" files="1" blank="0" comment="3" code="30"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>425000</order>
+    <commit>215e83d971a04f04d191c7f702943412a19408fd</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/215e83d971a04f04d191c7f702943412a19408fd
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1665.70720291138" number_of_files="33248" number_of_lines="14133026" files_per_second="19.9602907052861" lines_per_second="8484.70005730769">
+</header>
+        <languages>
+          <language 
+          name="C" files="16579" blank="1555575" comment="1573110" code="8035055">
+</language>
+          <language 
+          name="C/C++ Header" files="13570" blank="315885" comment="536984" code="1647976">
+</language>
+          <language 
+          name="Assembly" files="1250" blank="40897" comment="95698" code="209077">
+</language>
+          <language name="XML" files="142" blank="2881" comment="739" code="40365"/>
+          <language name="make" files="1509" blank="6281" comment="6822" code="23866"/>
+          <language name="Perl" files="41" blank="3268" comment="2592" code="15131"/>
+          <language 
+          name="Bourne Shell" files="67" blank="685" comment="1552" code="3885">
+</language>
+          <language name="yacc" files="5" blank="455" comment="323" code="2979"/>
+          <language name="Python" files="22" blank="613" comment="345" code="2797"/>
+          <language name="C++" files="1" blank="208" comment="57" code="1524"/>
+          <language name="lex" files="5" blank="203" comment="237" code="1329"/>
+          <language name="awk" files="8" blank="90" comment="79" code="714"/>
+          <language 
+          name="Bourne Again Shell" files="30" blank="75" comment="56" code="450">
+</language>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language name="NAnt script" files="1" blank="93" comment="0" code="372"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="137"/>
+          <language name="m4" files="1" blank="15" comment="1" code="84"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="70"/>
+          <language name="sed" files="1" blank="0" comment="3" code="30"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="7">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>450000</order>
+    <commit>2456689b3b11ddecc091cd5f00b9adea6a9854cf</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/2456689b3b11ddecc091cd5f00b9adea6a9854cf
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1769.30113196373" number_of_files="32611" number_of_lines="13780764" files_per_second="18.4315713198043" lines_per_second="7788.81771510815">
+</header>
+        <languages>
+          <language 
+          name="C" files="16171" blank="1512972" comment="1541094" code="7803377">
+</language>
+          <language 
+          name="C/C++ Header" files="13483" blank="313326" comment="534966" code="1614977">
+</language>
+          <language 
+          name="Assembly" files="1222" blank="40076" comment="93458" code="205686">
+</language>
+          <language name="XML" files="141" blank="3147" comment="955" code="41474"/>
+          <language name="make" files="1404" blank="6068" comment="6452" code="22815"/>
+          <language name="Perl" files="41" blank="3005" comment="2489" code="14013"/>
+          <language 
+          name="Bourne Shell" files="63" blank="640" comment="1477" code="3690">
+</language>
+          <language name="yacc" files="5" blank="453" comment="322" code="2987"/>
+          <language name="Python" files="21" blank="594" comment="343" code="2727"/>
+          <language name="C++" files="1" blank="209" comment="57" code="1520"/>
+          <language name="lex" files="5" blank="202" comment="237" code="1323"/>
+          <language name="awk" files="8" blank="90" comment="79" code="714"/>
+          <language 
+          name="Bourne Again Shell" files="28" blank="74" comment="55" code="446">
+</language>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language name="NAnt script" files="1" blank="93" comment="0" code="372"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="137"/>
+          <language name="m4" files="1" blank="16" comment="2" code="96"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="70"/>
+          <language name="sed" files="1" blank="0" comment="3" code="30"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>400000</order>
+    <commit>b66d2086c08dac16e6e4cec7642e9e10c4466336</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/b66d2086c08dac16e6e4cec7642e9e10c4466336
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1822.74119091034" number_of_files="33937" number_of_lines="14499134" files_per_second="18.6186608220834" lines_per_second="7954.57636679546">
+</header>
+        <languages>
+          <language 
+          name="C" files="16945" blank="1597261" comment="1606032" code="8251620">
+</language>
+          <language 
+          name="C/C++ Header" files="13839" blank="322581" comment="549869" code="1692762">
+</language>
+          <language 
+          name="Assembly" files="1260" blank="41610" comment="97807" code="212184">
+</language>
+          <language name="XML" files="148" blank="3017" comment="270" code="42827"/>
+          <language name="make" files="1539" blank="6416" comment="6856" code="24681"/>
+          <language name="Perl" files="40" blank="3367" comment="2645" code="15606"/>
+          <language 
+          name="Bourne Shell" files="71" blank="715" comment="1594" code="4160">
+</language>
+          <language name="yacc" files="7" blank="504" comment="328" code="3247"/>
+          <language name="Python" files="22" blank="612" comment="345" code="2769"/>
+          <language name="C++" files="1" blank="208" comment="57" code="1524"/>
+          <language name="lex" files="7" blank="233" comment="243" code="1463"/>
+          <language name="awk" files="8" blank="89" comment="88" code="716"/>
+          <language 
+          name="Bourne Again Shell" files="31" blank="83" comment="61" code="514">
+</language>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language name="NAnt script" files="1" blank="93" comment="0" code="374"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="137"/>
+          <language name="m4" files="1" blank="15" comment="1" code="84"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="70"/>
+          <language name="sed" files="1" blank="0" comment="3" code="30"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="7">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>375000</order>
+    <commit>44f4b56b54d2ab5d06c1726f2cde8ca15c8fac47</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/44f4b56b54d2ab5d06c1726f2cde8ca15c8fac47
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1832.36329889297" number_of_files="34735" number_of_lines="14939686" files_per_second="18.9563936480201" lines_per_second="8153.23359130028">
+</header>
+        <languages>
+          <language 
+          name="C" files="17440" blank="1643510" comment="1641327" code="8514672">
+</language>
+          <language 
+          name="C/C++ Header" files="14092" blank="335181" comment="575220" code="1749527">
+</language>
+          <language 
+          name="Assembly" files="1254" blank="41329" comment="97031" code="210989">
+</language>
+          <language name="XML" files="153" blank="3091" comment="284" code="43871"/>
+          <language name="make" files="1586" blank="6521" comment="6759" code="25466"/>
+          <language name="Perl" files="40" blank="3456" comment="2710" code="15945"/>
+          <language 
+          name="Bourne Shell" files="75" blank="863" comment="1733" code="4773">
+</language>
+          <language name="yacc" files="7" blank="518" comment="328" code="3318"/>
+          <language name="Python" files="22" blank="612" comment="345" code="2769"/>
+          <language name="C++" files="1" blank="208" comment="57" code="1524"/>
+          <language name="lex" files="7" blank="244" comment="253" code="1496"/>
+          <language name="awk" files="8" blank="89" comment="88" code="720"/>
+          <language 
+          name="Bourne Again Shell" files="31" blank="88" comment="63" code="538">
+</language>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language name="NAnt script" files="1" blank="93" comment="0" code="374"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="137"/>
+          <language name="m4" files="1" blank="15" comment="1" code="84"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="70"/>
+          <language name="sed" files="1" blank="0" comment="3" code="30"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="7">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>325000</order>
+    <commit>fc7fe01518b0a29750313a7cc9dc8f8a0416a6b4</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/fc7fe01518b0a29750313a7cc9dc8f8a0416a6b4
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1926.1852478981" number_of_files="37215" number_of_lines="15929693" files_per_second="19.3205716016203" lines_per_second="8270.07320162111">
+</header>
+        <languages>
+          <language 
+          name="C" files="18586" blank="1751360" comment="1729847" code="9043319">
+</language>
+          <language 
+          name="C/C++ Header" files="15184" blank="354892" comment="610616" code="1920394">
+</language>
+          <language 
+          name="Assembly" files="1371" blank="44649" comment="104927" code="230519">
+</language>
+          <language name="XML" files="156" blank="3235" comment="288" code="46619"/>
+          <language name="make" files="1699" blank="6936" comment="7063" code="27786"/>
+          <language name="Perl" files="38" blank="3565" comment="2832" code="16448"/>
+          <language 
+          name="Bourne Shell" files="81" blank="920" comment="1852" code="5024">
+</language>
+          <language name="yacc" files="7" blank="558" comment="342" code="3560"/>
+          <language name="Python" files="25" blank="709" comment="468" code="3151"/>
+          <language name="lex" files="7" blank="258" comment="253" code="1575"/>
+          <language name="C++" files="1" blank="208" comment="57" code="1525"/>
+          <language name="awk" files="8" blank="89" comment="88" code="720"/>
+          <language 
+          name="Bourne Again Shell" files="33" blank="116" comment="76" code="655">
+</language>
+          <language name="NAnt script" files="1" blank="96" comment="0" code="383"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="137"/>
+          <language name="m4" files="1" blank="15" comment="1" code="96"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="70"/>
+          <language name="sed" files="1" blank="0" comment="3" code="30"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="7">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>300000</order>
+    <commit>20b65dd040ce38e2bc0fa3cae13b954c865b61fe</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/20b65dd040ce38e2bc0fa3cae13b954c865b61fe
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="2001.65829205513" number_of_files="37958" number_of_lines="16365443" files_per_second="18.9632766744757" lines_per_second="8175.94244979615">
+</header>
+        <languages>
+          <language 
+          name="C" files="19017" blank="1804977" comment="1769679" code="9299626">
+</language>
+          <language 
+          name="C/C++ Header" files="15430" blank="361212" comment="627832" code="1980484">
+</language>
+          <language 
+          name="Assembly" files="1386" blank="44801" comment="105508" code="231326">
+</language>
+          <language name="XML" files="155" blank="3209" comment="283" code="46350"/>
+          <language name="make" files="1750" blank="7038" comment="7090" code="28258"/>
+          <language name="Perl" files="38" blank="3622" comment="2858" code="16793"/>
+          <language 
+          name="Bourne Shell" files="81" blank="919" comment="1852" code="5035">
+</language>
+          <language name="yacc" files="7" blank="558" comment="342" code="3560"/>
+          <language name="Python" files="25" blank="710" comment="473" code="3149"/>
+          <language name="lex" files="7" blank="258" comment="253" code="1575"/>
+          <language name="C++" files="1" blank="208" comment="57" code="1525"/>
+          <language name="awk" files="8" blank="89" comment="88" code="720"/>
+          <language 
+          name="Bourne Again Shell" files="33" blank="122" comment="80" code="701">
+</language>
+          <language name="NAnt script" files="1" blank="96" comment="0" code="383"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="137"/>
+          <language name="m4" files="1" blank="15" comment="1" code="96"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="70"/>
+          <language name="sed" files="1" blank="0" comment="3" code="30"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="28"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="8">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>350000</order>
+    <commit>a948cae6ab124d7ff4365c9e72b33079b7769ae2</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/a948cae6ab124d7ff4365c9e72b33079b7769ae2
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="2078.92380690575" number_of_files="36084" number_of_lines="15448669" files_per_second="17.3570574737451" lines_per_second="7431.08956118679">
+</header>
+        <languages>
+          <language 
+          name="C" files="17985" blank="1699888" comment="1684714" code="8779673">
+</language>
+          <language 
+          name="C/C++ Header" files="14774" blank="343803" comment="589152" code="1851948">
+</language>
+          <language 
+          name="Assembly" files="1302" blank="42406" comment="100062" code="219801">
+</language>
+          <language name="XML" files="156" blank="3221" comment="284" code="46273"/>
+          <language name="make" files="1647" blank="6698" comment="6916" code="26649"/>
+          <language name="Perl" files="42" blank="3601" comment="2871" code="16756"/>
+          <language 
+          name="Bourne Shell" files="78" blank="874" comment="1837" code="4821">
+</language>
+          <language name="yacc" files="7" blank="557" comment="341" code="3554"/>
+          <language name="Python" files="25" blank="707" comment="468" code="3142"/>
+          <language name="lex" files="7" blank="258" comment="253" code="1575"/>
+          <language name="C++" files="1" blank="208" comment="57" code="1524"/>
+          <language name="awk" files="8" blank="89" comment="88" code="720"/>
+          <language 
+          name="Bourne Again Shell" files="33" blank="89" comment="69" code="541">
+</language>
+          <language name="NAnt script" files="1" blank="96" comment="0" code="382"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="ASP" files="1" blank="33" comment="0" code="137"/>
+          <language name="m4" files="1" blank="15" comment="1" code="84"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="70"/>
+          <language name="sed" files="1" blank="0" comment="3" code="30"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="7">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>275000</order>
+    <commit>dd97b2410e70d881a362e5b31b702f59c21e0da6</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/dd97b2410e70d881a362e5b31b702f59c21e0da6
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="2190.66481590271" number_of_files="39331" number_of_lines="17153009" files_per_second="17.953910481642" lines_per_second="7830.04724204316">
+</header>
+        <languages>
+          <language 
+          name="C" files="19848" blank="1899215" comment="1832020" code="9769346">
+</language>
+          <language 
+          name="C/C++ Header" files="15934" blank="377598" comment="651707" code="2087690">
+</language>
+          <language 
+          name="Assembly" files="1345" blank="45614" comment="105973" code="234367">
+</language>
+          <language name="XML" files="156" blank="3242" comment="280" code="46764"/>
+          <language name="make" files="1801" blank="7241" comment="7226" code="29403"/>
+          <language name="Perl" files="40" blank="3957" comment="3107" code="19334"/>
+          <language 
+          name="Bourne Shell" files="101" blank="1041" comment="2410" code="6138">
+</language>
+          <language name="Python" files="26" blank="786" comment="651" code="4345"/>
+          <language name="yacc" files="8" blank="639" comment="361" code="4233"/>
+          <language name="lex" files="8" blank="274" comment="273" code="1684"/>
+          <language name="C++" files="1" blank="209" comment="57" code="1529"/>
+          <language 
+          name="Bourne Again Shell" files="36" blank="168" comment="152" code="999">
+</language>
+          <language name="awk" files="8" blank="93" comment="88" code="743"/>
+          <language name="NAnt script" files="1" blank="96" comment="0" code="383"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="m4" files="1" blank="15" comment="1" code="95"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="70"/>
+          <language name="sed" files="1" blank="0" comment="3" code="30"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="28"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="8">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>200000</order>
+    <commit>7a26f9ad1b5badfd0200ce2262ad696e2a6b7fbb</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/7a26f9ad1b5badfd0200ce2262ad696e2a6b7fbb
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="2250.87543177605" number_of_files="41096" number_of_lines="18001034" files_per_second="18.2577851354365" lines_per_second="7997.34794110589">
+</header>
+        <languages>
+          <language 
+          name="C" files="20971" blank="2010409" comment="1897104" code="10289547">
+</language>
+          <language 
+          name="C/C++ Header" files="16347" blank="392165" comment="666582" code="2187597">
+</language>
+          <language 
+          name="Assembly" files="1379" blank="46903" comment="108993" code="239324">
+</language>
+          <language name="XML" files="163" blank="3346" comment="242" code="49964"/>
+          <language name="make" files="1936" blank="7494" comment="7452" code="31244"/>
+          <language name="Perl" files="40" blank="4134" comment="3207" code="20296"/>
+          <language 
+          name="Bourne Shell" files="140" blank="1373" comment="2675" code="7834">
+</language>
+          <language name="Python" files="35" blank="1106" comment="1151" code="7011"/>
+          <language name="yacc" files="8" blank="647" comment="361" code="4319"/>
+          <language name="lex" files="8" blank="279" comment="278" code="1751"/>
+          <language name="C++" files="1" blank="209" comment="57" code="1529"/>
+          <language 
+          name="Bourne Again Shell" files="39" blank="200" comment="182" code="1134">
+</language>
+          <language name="awk" files="8" blank="96" comment="88" code="746"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language name="NAnt script" files="1" blank="89" comment="0" code="338"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="m4" files="1" blank="15" comment="1" code="95"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="70"/>
+          <language name="ASP.Net" files="3" blank="0" comment="0" code="33"/>
+          <language name="sed" files="1" blank="0" comment="3" code="30"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="8">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>225000</order>
+    <commit>c8cb5f2c780a6003fcf76eb3ac1675fbb090ecd8</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/c8cb5f2c780a6003fcf76eb3ac1675fbb090ecd8
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="2392.04106616974" number_of_files="40400" number_of_lines="17703686" files_per_second="16.8893421485822" lines_per_second="7401.07945903624">
+</header>
+        <languages>
+          <language 
+          name="C" files="20583" blank="1970438" comment="1873240" code="10107052">
+</language>
+          <language 
+          name="C/C++ Header" files="16109" blank="386557" comment="657439" code="2152893">
+</language>
+          <language 
+          name="Assembly" files="1374" blank="46803" comment="109212" code="241332">
+</language>
+          <language name="XML" files="162" blank="3319" comment="260" code="49020"/>
+          <language name="make" files="1891" blank="7405" comment="7400" code="30875"/>
+          <language name="Perl" files="40" blank="4069" comment="3181" code="19953"/>
+          <language 
+          name="Bourne Shell" files="132" blank="1265" comment="2699" code="7508">
+</language>
+          <language name="Python" files="26" blank="860" comment="997" code="6089"/>
+          <language name="yacc" files="8" blank="645" comment="361" code="4299"/>
+          <language name="lex" files="8" blank="279" comment="278" code="1750"/>
+          <language name="C++" files="1" blank="209" comment="57" code="1529"/>
+          <language 
+          name="Bourne Again Shell" files="37" blank="199" comment="175" code="1105">
+</language>
+          <language name="awk" files="8" blank="96" comment="88" code="746"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language name="NAnt script" files="1" blank="89" comment="0" code="337"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="m4" files="1" blank="15" comment="1" code="95"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="70"/>
+          <language name="ASP.Net" files="3" blank="0" comment="0" code="33"/>
+          <language name="sed" files="1" blank="0" comment="3" code="30"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="8">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>175000</order>
+    <commit>86dca36e6ba019650a94cadf922ea3d06dec0182</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/86dca36e6ba019650a94cadf922ea3d06dec0182
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="2386.67106389999" number_of_files="41369" number_of_lines="18165414" files_per_second="17.3333479530271" lines_per_second="7611.19296025502">
+</header>
+        <languages>
+          <language 
+          name="C" files="21156" blank="2030861" comment="1912783" code="10389997">
+</language>
+          <language 
+          name="C/C++ Header" files="16376" blank="393995" comment="670827" code="2202592">
+</language>
+          <language 
+          name="Assembly" files="1387" blank="46973" comment="109288" code="240637">
+</language>
+          <language name="XML" files="163" blank="3350" comment="242" code="50491"/>
+          <language name="make" files="1967" blank="7537" comment="7438" code="31406"/>
+          <language name="Perl" files="43" blank="4434" comment="3382" code="22958"/>
+          <language 
+          name="Bourne Shell" files="147" blank="1458" comment="2761" code="8115">
+</language>
+          <language name="Python" files="36" blank="1132" comment="1157" code="7054"/>
+          <language name="yacc" files="8" blank="647" comment="361" code="4328"/>
+          <language name="lex" files="8" blank="279" comment="278" code="1753"/>
+          <language name="C++" files="1" blank="209" comment="57" code="1532"/>
+          <language 
+          name="Bourne Again Shell" files="47" blank="340" comment="273" code="1424">
+</language>
+          <language name="awk" files="8" blank="96" comment="88" code="746"/>
+          <language name="NAnt script" files="2" blank="119" comment="0" code="438"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="m4" files="1" blank="15" comment="1" code="95"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="70"/>
+          <language name="ASP.Net" files="3" blank="0" comment="0" code="33"/>
+          <language name="sed" files="1" blank="0" comment="3" code="30"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="8">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>250000</order>
+    <commit>457cfabb99461b9f8d6bf32396f9c14445b7155a</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/457cfabb99461b9f8d6bf32396f9c14445b7155a
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="2417.55722880363" number_of_files="40265" number_of_lines="17672844" files_per_second="16.655241712696" lines_per_second="7310.20709228285">
+</header>
+        <languages>
+          <language 
+          name="C" files="20407" blank="1959512" comment="1876564" code="10078717">
+</language>
+          <language 
+          name="C/C++ Header" files="16222" blank="389840" comment="667995" code="2155096">
+</language>
+          <language 
+          name="Assembly" files="1365" blank="46208" comment="107957" code="237860">
+</language>
+          <language name="XML" files="159" blank="3283" comment="260" code="47764"/>
+          <language name="make" files="1855" blank="7407" comment="7312" code="30497"/>
+          <language name="Perl" files="40" blank="3986" comment="3141" code="19525"/>
+          <language 
+          name="Bourne Shell" files="110" blank="1116" comment="2552" code="6744">
+</language>
+          <language name="Python" files="26" blank="783" comment="651" code="4345"/>
+          <language name="yacc" files="8" blank="640" comment="361" code="4254"/>
+          <language name="lex" files="8" blank="276" comment="273" code="1730"/>
+          <language name="C++" files="1" blank="209" comment="57" code="1529"/>
+          <language 
+          name="Bourne Again Shell" files="37" blank="199" comment="176" code="1102">
+</language>
+          <language name="awk" files="8" blank="93" comment="88" code="741"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language name="NAnt script" files="1" blank="89" comment="0" code="339"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="m4" files="1" blank="15" comment="1" code="95"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="70"/>
+          <language name="sed" files="1" blank="0" comment="3" code="30"/>
+          <language name="ASP.Net" files="1" blank="0" comment="0" code="28"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="8">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>100000</order>
+    <commit>33e53f06850f44ec9722e08a993ecf8816e447a5</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/33e53f06850f44ec9722e08a993ecf8816e447a5
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="2499.95569300652" number_of_files="44795" number_of_lines="20141929" files_per_second="17.9183175627118" lines_per_second="8056.91439106137">
+</header>
+        <languages>
+          <language 
+          name="C" files="23053" blank="2223804" comment="2046324" code="11331420">
+</language>
+          <language 
+          name="C/C++ Header" files="17561" blank="426897" comment="729593" code="2797862">
+</language>
+          <language 
+          name="Assembly" files="1416" blank="47398" comment="110841" code="241758">
+</language>
+          <language name="XML" files="181" blank="3436" comment="243" code="50370"/>
+          <language name="make" files="2192" blank="8266" comment="7870" code="34972"/>
+          <language name="Perl" files="47" blank="4622" comment="3597" code="24341"/>
+          <language 
+          name="Bourne Shell" files="190" blank="2011" comment="3367" code="10710">
+</language>
+          <language name="Python" files="44" blank="1578" comment="1677" code="8568"/>
+          <language name="yacc" files="8" blank="655" comment="355" code="4327"/>
+          <language name="HTML" files="4" blank="509" comment="0" code="4284"/>
+          <language name="lex" files="8" blank="299" comment="288" code="1891"/>
+          <language 
+          name="Bourne Again Shell" files="48" blank="390" comment="261" code="1612">
+</language>
+          <language name="C++" files="1" blank="231" comment="58" code="1581"/>
+          <language name="awk" files="10" blank="132" comment="129" code="1130"/>
+          <language name="ASP.Net" files="16" blank="21" comment="0" code="571"/>
+          <language name="NAnt script" files="2" blank="128" comment="0" code="475"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="m4" files="1" blank="15" comment="1" code="95"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="71"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="8">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>0</order>
+    <commit>33d930e59a98fa10a0db9f56c7fa2f21a4aef9b9</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/33d930e59a98fa10a0db9f56c7fa2f21a4aef9b9
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="2591.59633207321" number_of_files="49815" number_of_lines="23257477" files_per_second="19.2217435190415" lines_per_second="8974.18965761331">
+</header>
+        <languages>
+          <language 
+          name="C" files="25553" blank="2505932" comment="2251708" code="12709754">
+</language>
+          <language 
+          name="C/C++ Header" files="19758" blank="498182" comment="924444" code="3703147">
+</language>
+          <language 
+          name="Assembly" files="1439" blank="49303" comment="114289" code="248349">
+</language>
+          <language name="JSON" files="147" blank="0" comment="0" code="94658"/>
+          <language name="make" files="2387" blank="8706" comment="8190" code="37516"/>
+          <language name="Perl" files="51" blank="5154" comment="3766" code="26778"/>
+          <language 
+          name="Bourne Shell" files="264" blank="3262" comment="4356" code="16620">
+</language>
+          <language name="Python" files="79" blank="2465" comment="2868" code="14300"/>
+          <language name="HTML" files="3" blank="577" comment="0" code="4848"/>
+          <language name="yacc" files="9" blank="686" comment="361" code="4578"/>
+          <language name="lex" files="8" blank="304" comment="300" code="1920"/>
+          <language name="ASP.Net" files="33" blank="167" comment="0" code="1842"/>
+          <language name="C++" files="7" blank="287" comment="71" code="1838"/>
+          <language 
+          name="Bourne Again Shell" files="49" blank="384" comment="319" code="1740">
+</language>
+          <language name="awk" files="12" blank="185" comment="170" code="1510"/>
+          <language name="NAnt script" files="2" blank="160" comment="0" code="597"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="m4" files="1" blank="15" comment="1" code="95"/>
+          <language name="XSLT" files="5" blank="13" comment="26" code="61"/>
+          <language name="CSS" files="1" blank="18" comment="27" code="44"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="8">
+</language>
+          <language name="sed" files="1" blank="2" comment="5" code="5"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>25000</order>
+    <commit>eae1c4ae275fe3e024454c012a548ee0d700f54c</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/eae1c4ae275fe3e024454c012a548ee0d700f54c
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="2619.34236812592" number_of_files="48587" number_of_lines="22327528" files_per_second="18.5493124500418" lines_per_second="8524.09683884695">
+</header>
+        <languages>
+          <language 
+          name="C" files="24918" blank="2430356" comment="2200473" code="12341083">
+</language>
+          <language 
+          name="C/C++ Header" files="19290" blank="474707" comment="866729" code="3369091">
+</language>
+          <language 
+          name="Assembly" files="1433" blank="49217" comment="114606" code="247723">
+</language>
+          <language name="JSON" files="126" blank="0" comment="0" code="82542"/>
+          <language name="make" files="2324" blank="8532" comment="8083" code="36684"/>
+          <language name="Perl" files="50" blank="5064" comment="3741" code="26221"/>
+          <language 
+          name="Bourne Shell" files="242" blank="2898" comment="4033" code="14630">
+</language>
+          <language name="Python" files="69" blank="2233" comment="2619" code="12838"/>
+          <language name="HTML" files="3" blank="564" comment="0" code="4723"/>
+          <language name="yacc" files="9" blank="682" comment="357" code="4530"/>
+          <language name="lex" files="8" blank="302" comment="300" code="1907"/>
+          <language name="C++" files="7" blank="287" comment="71" code="1838"/>
+          <language name="ASP.Net" files="31" blank="144" comment="0" code="1761"/>
+          <language 
+          name="Bourne Again Shell" files="46" blank="387" comment="315" code="1719">
+</language>
+          <language name="awk" files="12" blank="185" comment="170" code="1510"/>
+          <language name="NAnt script" files="2" blank="158" comment="0" code="594"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="m4" files="1" blank="15" comment="1" code="95"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="71"/>
+          <language name="CSS" files="1" blank="14" comment="23" code="35"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language name="sed" files="3" blank="2" comment="30" code="21"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="8">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>125000</order>
+    <commit>4ed9f7dc8823de234f58a74c03242fddbccbea82</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/4ed9f7dc8823de234f58a74c03242fddbccbea82
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="2648.05370497704" number_of_files="43758" number_of_lines="19629055" files_per_second="16.5245893305549" lines_per_second="7412.63478271119">
+</header>
+        <languages>
+          <language 
+          name="C" files="22465" blank="2164539" comment="2002339" code="11057850">
+</language>
+          <language 
+          name="C/C++ Header" files="17202" blank="416632" comment="715339" code="2694888">
+</language>
+          <language 
+          name="Assembly" files="1413" blank="47194" comment="110085" code="241369">
+</language>
+          <language name="XML" files="177" blank="3441" comment="243" code="49968"/>
+          <language name="make" files="2135" blank="8041" comment="7750" code="33847"/>
+          <language name="Perl" files="47" blank="4559" comment="3602" code="23938"/>
+          <language 
+          name="Bourne Shell" files="173" blank="1783" comment="3238" code="9745">
+</language>
+          <language name="Python" files="41" blank="1300" comment="1443" code="7540"/>
+          <language name="yacc" files="8" blank="649" comment="355" code="4357"/>
+          <language name="HTML" files="3" blank="398" comment="2" code="2933"/>
+          <language name="lex" files="8" blank="292" comment="289" code="1823"/>
+          <language name="C++" files="1" blank="231" comment="58" code="1581"/>
+          <language 
+          name="Bourne Again Shell" files="46" blank="292" comment="242" code="1360">
+</language>
+          <language name="awk" files="10" blank="132" comment="129" code="1130"/>
+          <language name="ASP.Net" files="13" blank="21" comment="0" code="461"/>
+          <language name="NAnt script" files="2" blank="121" comment="0" code="449"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="m4" files="1" blank="15" comment="1" code="95"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="71"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="8">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>150000</order>
+    <commit>276197415685e2a91ce367562800cf0f8fbe482c</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/276197415685e2a91ce367562800cf0f8fbe482c
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="2702.11566996574" number_of_files="42920" number_of_lines="19202780" files_per_second="15.8838500057787" lines_per_second="7106.57216248757">
+</header>
+        <languages>
+          <language 
+          name="C" files="21987" blank="2113333" comment="1978620" code="10812334">
+</language>
+          <language 
+          name="C/C++ Header" files="16947" blank="410438" comment="702908" code="2610957">
+</language>
+          <language 
+          name="Assembly" files="1406" blank="47340" comment="110263" code="242560">
+</language>
+          <language name="XML" files="176" blank="3468" comment="242" code="51490"/>
+          <language name="make" files="2054" blank="7808" comment="7590" code="32725"/>
+          <language name="Perl" files="45" blank="4495" comment="3557" code="23636"/>
+          <language 
+          name="Bourne Shell" files="162" blank="1650" comment="3067" code="8912">
+</language>
+          <language name="Python" files="39" blank="1243" comment="1410" code="7395"/>
+          <language name="yacc" files="8" blank="646" comment="355" code="4333"/>
+          <language name="lex" files="8" blank="292" comment="289" code="1815"/>
+          <language name="C++" files="1" blank="209" comment="57" code="1532"/>
+          <language 
+          name="Bourne Again Shell" files="46" blank="290" comment="242" code="1327">
+</language>
+          <language name="awk" files="10" blank="132" comment="129" code="1130"/>
+          <language name="ASP.Net" files="13" blank="21" comment="0" code="461"/>
+          <language name="NAnt script" files="2" blank="121" comment="0" code="445"/>
+          <language name="HTML" files="2" blank="58" comment="0" code="378"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="m4" files="1" blank="15" comment="1" code="95"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="71"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="8">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>75000</order>
+    <commit>62ae14b1edca0aaf27b84b3fa069177dd794e37f</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/62ae14b1edca0aaf27b84b3fa069177dd794e37f
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="2870.34604883194" number_of_files="45269" number_of_lines="20389895" files_per_second="15.7712691187259" lines_per_second="7103.63651389611">
+</header>
+        <languages>
+          <language 
+          name="C" files="23431" blank="2258154" comment="2074596" code="11501375">
+</language>
+          <language 
+          name="C/C++ Header" files="17775" blank="433348" comment="741304" code="2835780">
+</language>
+          <language 
+          name="Assembly" files="1433" blank="48257" comment="112586" code="244476">
+</language>
+          <language name="make" files="2217" blank="8255" comment="7898" code="34533"/>
+          <language name="Perl" files="49" blank="5184" comment="3761" code="27193"/>
+          <language 
+          name="Bourne Shell" files="201" blank="2199" comment="3513" code="11558">
+</language>
+          <language name="Python" files="49" blank="1813" comment="2170" code="10334"/>
+          <language name="yacc" files="8" blank="655" comment="355" code="4327"/>
+          <language name="HTML" files="3" blank="512" comment="0" code="4289"/>
+          <language name="lex" files="8" blank="299" comment="288" code="1895"/>
+          <language name="ASP.Net" files="19" blank="133" comment="0" code="1605"/>
+          <language 
+          name="Bourne Again Shell" files="46" blank="355" comment="260" code="1585">
+</language>
+          <language name="C++" files="1" blank="231" comment="58" code="1581"/>
+          <language name="awk" files="10" blank="132" comment="131" code="1138"/>
+          <language name="NAnt script" files="2" blank="128" comment="0" code="475"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="m4" files="1" blank="15" comment="1" code="95"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="71"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language name="CSS" files="1" blank="12" comment="22" code="24"/>
+          <language name="sed" files="2" blank="0" comment="25" code="16"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="8">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>50000</order>
+    <commit>5ac74757eef78d69cd3aabe503b29aff471fdd56</commit>
+    <path>
+      /projects/SE_HPC/linux-commits/5ac74757eef78d69cd3aabe503b29aff471fdd56
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="3041.83574700356" number_of_files="46476" number_of_lines="21086530" files_per_second="15.2789314958188" lines_per_second="6932.1724622284">
+</header>
+        <languages>
+          <language 
+          name="C" files="24022" blank="2326984" comment="2124582" code="11834717">
+</language>
+          <language 
+          name="C/C++ Header" files="18166" blank="445277" comment="767842" code="2952196">
+</language>
+          <language 
+          name="Assembly" files="1447" blank="48684" comment="114238" code="246996">
+</language>
+          <language name="JSON" files="108" blank="0" comment="0" code="79336"/>
+          <language name="make" files="2265" blank="8469" comment="7947" code="35616"/>
+          <language name="Perl" files="51" blank="5309" comment="3930" code="28047"/>
+          <language 
+          name="Bourne Shell" files="222" blank="2438" comment="3683" code="13028">
+</language>
+          <language name="Python" files="63" blank="1928" comment="2288" code="10809"/>
+          <language name="yacc" files="8" blank="657" comment="355" code="4350"/>
+          <language name="HTML" files="2" blank="458" comment="0" code="3979"/>
+          <language name="lex" files="8" blank="301" comment="300" code="1902"/>
+          <language name="C++" files="7" blank="287" comment="71" code="1838"/>
+          <language name="ASP.Net" files="30" blank="145" comment="0" code="1745"/>
+          <language 
+          name="Bourne Again Shell" files="46" blank="382" comment="314" code="1678">
+</language>
+          <language name="awk" files="11" blank="142" comment="135" code="1213"/>
+          <language name="NAnt script" files="2" blank="155" comment="0" code="577"/>
+          <language name="Pascal" files="3" blank="49" comment="0" code="231"/>
+          <language name="Lisp" files="1" blank="63" comment="0" code="218"/>
+          <language name="Objective C++" files="1" blank="55" comment="0" code="189"/>
+          <language name="m4" files="1" blank="15" comment="1" code="95"/>
+          <language name="XSLT" files="6" blank="13" comment="27" code="71"/>
+          <language name="CSS" files="1" blank="14" comment="23" code="35"/>
+          <language name="vim script" files="1" blank="3" comment="12" code="27"/>
+          <language name="sed" files="3" blank="2" comment="30" code="21"/>
+          <language 
+          name="Windows Module Definition" files="1" blank="0" comment="0" code="8">
+</language>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+</cloc_report>

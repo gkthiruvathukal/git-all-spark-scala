@@ -1,0 +1,28 @@
+<results>
+  <experiment id="git-all-spark-scala"/>
+  <config>
+    <property key="src" value="sbt"/>
+    <property key="dst" value="sbt-commits"/>
+    <property key="cores" value="12"/>
+    <property key="nodes" value="4"/>
+    <property key="src-root" value="/projects/SE_HPC"/>
+    <property key="dst-root" value="/projects/SE_HPC"/>
+    <property key="url" value="https://github.com/sbt/sbt.git"/>
+    <property key="github" value="sbt/sbt"/>
+    <property key="checkout" value="true"/>
+    <property key="cloc" value="true"/>
+    <property key="clocPath" value="/home/thiruvat/local/bin/cloc"/>
+    <property key="start" value="6"/>
+    <property key="stride" value="10"/>
+    <property key="git-clone" value="true"/>
+    <property key="xml" value="experiments/sbt-performance-n4-c12-6-10.xml"/>
+  </config>
+  <report>
+    <time id="clone-time" t="0.028042052" unit="s"/>
+    <time 
+    id="hash-checkout-time" t="0.409510086" avg="7.121914539130435E-4" unit="s">
+</time>
+    <time id="cloc-time" t="1482.537240917" avg="2.578325636377391" unit="s"/>
+    <commits n="575"/>
+  </report>
+</results>

@@ -1,0 +1,639 @@
+<cloc_report>
+  <cloc>
+    <order>8</order>
+    <commit>35172128826db8887e11d03214223c986c5d3d2e</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/35172128826db8887e11d03214223c986c5d3d2e
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0625410079956055" number_of_files="7" number_of_lines="550" files_per_second="111.926561856692" lines_per_second="8794.22986016865">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="325"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>15</order>
+    <commit>884a683f4d62e4369c7a0c494ece79533f119ef9</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/884a683f4d62e4369c7a0c494ece79533f119ef9
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0643551349639893" number_of_files="7" number_of_lines="509" files_per_second="108.771429100676" lines_per_second="7909.23677317773">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="284"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>21</order>
+    <commit>a5c8fa50df5c2e25f9b81167c02e802aa62defe0</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/a5c8fa50df5c2e25f9b81167c02e802aa62defe0
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0723249912261963" number_of_files="11" number_of_lines="644" files_per_second="152.091273203166" lines_per_second="8904.25272207626">
+</header>
+        <languages>
+          <language name="Scala" files="7" blank="72" comment="22" code="395"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>16</order>
+    <commit>47139e13c1dd8379e86026dd0af2521f8c1ea361</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/47139e13c1dd8379e86026dd0af2521f8c1ea361
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0579760074615479" number_of_files="7" number_of_lines="509" files_per_second="120.739600853727" lines_per_second="8779.49383350674">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="284"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>20</order>
+    <commit>f0699dbf80981a1301d863e0da8e1f724d32f0ec</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/f0699dbf80981a1301d863e0da8e1f724d32f0ec
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0776779651641846" number_of_files="11" number_of_lines="655" files_per_second="141.610300639953" lines_per_second="8432.2497199245">
+</header>
+        <languages>
+          <language name="Scala" files="7" blank="74" comment="24" code="402"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>4</order>
+    <commit>f6477e6b9345df8eadedd0ac0754effee7dbf23d</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/f6477e6b9345df8eadedd0ac0754effee7dbf23d
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0654349327087402" number_of_files="7" number_of_lines="583" files_per_second="106.976498793969" lines_per_second="8909.61411384057">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="61" comment="21" code="346"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>33</order>
+    <commit>5f169fe0065c389d2fd85745562e06fafdc55f56</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/5f169fe0065c389d2fd85745562e06fafdc55f56
+    </path>
+    <report>
+      <cloc/>
+    </report>
+  </cloc>
+  <cloc>
+    <order>32</order>
+    <commit>88db127f141a92d63d9db8870ca7fef3773a8cb9</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/88db127f141a92d63d9db8870ca7fef3773a8cb9
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0560219287872314" number_of_files="7" number_of_lines="382" files_per_second="124.951070974112" lines_per_second="6818.75844458725">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="40" comment="15" code="239"/>
+          <language name="Bourne Shell" files="1" blank="9" comment="22" code="30"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>14</order>
+    <commit>9fae3f0666281fd53c496f0bdf5788938702f75a</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/9fae3f0666281fd53c496f0bdf5788938702f75a
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0681219100952148" number_of_files="7" number_of_lines="511" files_per_second="102.756954263555" lines_per_second="7501.25766123952">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="286"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>2</order>
+    <commit>2d2413a5a888aba3129c6a41f08e5538e53415c0</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/2d2413a5a888aba3129c6a41f08e5538e53415c0
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0639638900756836" number_of_files="7" number_of_lines="599" files_per_second="109.436746134693" lines_per_second="9364.65870495445">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="60" comment="21" code="363"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>9</order>
+    <commit>f398779a9ab75c16058202276fae9371634d1c78</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/f398779a9ab75c16058202276fae9371634d1c78
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0633871555328369" number_of_files="7" number_of_lines="550" files_per_second="110.43246760574" lines_per_second="8676.83674045098">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="325"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>7</order>
+    <commit>340a85780aa13fd5f4119fc7ba066c5878775c1e</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/340a85780aa13fd5f4119fc7ba066c5878775c1e
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0667359828948975" number_of_files="7" number_of_lines="576" files_per_second="104.890940334606" lines_per_second="8631.02594753332">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="62" comment="21" code="338"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>22</order>
+    <commit>8442a02fae9ee744d0878c8ea9f09651446f4d48</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/8442a02fae9ee744d0878c8ea9f09651446f4d48
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0779588222503662" number_of_files="10" number_of_lines="628" files_per_second="128.272845988935" lines_per_second="8055.53472810513">
+</header>
+        <languages>
+          <language name="Scala" files="6" blank="71" comment="21" code="381"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>28</order>
+    <commit>74039448aea4a5f4cfdf6a0650f323d5ea463ac1</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/74039448aea4a5f4cfdf6a0650f323d5ea463ac1
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0772449970245361" number_of_files="9" number_of_lines="451" files_per_second="116.512400112349" lines_per_second="5838.56582785218">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="40" comment="15" code="241"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>17</order>
+    <commit>0c87189acf5dc3fd7ecf9724d9754800c3744ef5</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/0c87189acf5dc3fd7ecf9724d9754800c3744ef5
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0745360851287842" number_of_files="7" number_of_lines="509" files_per_second="93.9142428517051" lines_per_second="6828.9070873597">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="284"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>1</order>
+    <commit>d8b819d2cdb81e439f94851b019653f76953faa5</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/d8b819d2cdb81e439f94851b019653f76953faa5
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0910811424255371" number_of_files="11" number_of_lines="656" files_per_second="120.771432011769" lines_per_second="7202.36903633822">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="60" comment="21" code="363"/>
+          <language name="Bourne Shell" files="7" blank="31" comment="51" code="103"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>6</order>
+    <commit>73022eb3b3be28767d7e916e6166de065a937025</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/73022eb3b3be28767d7e916e6166de065a937025
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0688018798828125" number_of_files="7" number_of_lines="583" files_per_second="101.741406076735" lines_per_second="8473.60567753382">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="61" comment="21" code="346"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>23</order>
+    <commit>83f6229894a57a662e02654f942a97cf91ddcba5</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/83f6229894a57a662e02654f942a97cf91ddcba5
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.10590386390686" number_of_files="9" number_of_lines="558" files_per_second="84.9827349823162" lines_per_second="5268.92956890361">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="57" comment="20" code="326"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>5</order>
+    <commit>47c76ba2efda030f83523df4a15edca8fba747c4</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/47c76ba2efda030f83523df4a15edca8fba747c4
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.107116937637329" number_of_files="7" number_of_lines="583" files_per_second="65.3491422962467" lines_per_second="5442.64999410169">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="61" comment="21" code="346"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>12</order>
+    <commit>557e4ebb66c96d5abb0398295e277792774a1ccb</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/557e4ebb66c96d5abb0398295e277792774a1ccb
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.106754064559937" number_of_files="7" number_of_lines="536" files_per_second="65.5712738325751" lines_per_second="5020.88611060861">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="311"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>27</order>
+    <commit>f5023d05b626f179091d00b146f13d5f0404f555</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/f5023d05b626f179091d00b146f13d5f0404f555
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0942180156707764" number_of_files="9" number_of_lines="503" files_per_second="95.5231325551206" lines_per_second="5338.68174169174">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="46" comment="19" code="283"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>10</order>
+    <commit>5f1648e3742dce388dc2ec40dd6b658579f12d8b</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/5f1648e3742dce388dc2ec40dd6b658579f12d8b
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0865991115570068" number_of_files="7" number_of_lines="550" files_per_second="80.8322380465995" lines_per_second="6351.1044179471">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="325"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>19</order>
+    <commit>2efdd1161533dbb0bccd63964c5abe8484819b20</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/2efdd1161533dbb0bccd63964c5abe8484819b20
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0967700481414795" number_of_files="11" number_of_lines="655" files_per_second="113.671535885957" lines_per_second="6768.62327320927">
+</header>
+        <languages>
+          <language name="Scala" files="7" blank="74" comment="24" code="402"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>3</order>
+    <commit>2fbcbdac0ffc5143a7ba35f655407877b7959dcb</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/2fbcbdac0ffc5143a7ba35f655407877b7959dcb
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0866868495941162" number_of_files="7" number_of_lines="583" files_per_second="80.7504256155955" lines_per_second="6725.35687627031">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="61" comment="21" code="346"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>13</order>
+    <commit>e8613fc16464fba3f0bbf95a9837a2dff9b87078</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/e8613fc16464fba3f0bbf95a9837a2dff9b87078
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0675258636474609" number_of_files="7" number_of_lines="536" files_per_second="103.663983278253" lines_per_second="7937.69929102054">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="311"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>26</order>
+    <commit>98ea4f18ac5a07deea7f7d96fe0ab79ca32bd8cf</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/98ea4f18ac5a07deea7f7d96fe0ab79ca32bd8cf
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0729870796203613" number_of_files="9" number_of_lines="527" files_per_second="123.309495965766" lines_per_second="7220.45604155097">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="53" comment="20" code="299"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>24</order>
+    <commit>db0295b2400505011ecfd1e627ca5e57a9a81cfd</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/db0295b2400505011ecfd1e627ca5e57a9a81cfd
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0965671539306641" number_of_files="9" number_of_lines="546" files_per_second="93.1993916530052" lines_per_second="5654.09642694898">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="56" comment="20" code="315"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>25</order>
+    <commit>00736069e6405f2ded8b504f0690db02102506ac</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/00736069e6405f2ded8b504f0690db02102506ac
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0980851650238037" number_of_files="9" number_of_lines="543" files_per_second="91.7569950340181" lines_per_second="5536.00536705242">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="56" comment="20" code="312"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>30</order>
+    <commit>4359570f5c4d75fcd68047609985ddba9533e796</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/4359570f5c4d75fcd68047609985ddba9533e796
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0608060359954834" number_of_files="8" number_of_lines="402" files_per_second="131.565886001749" lines_per_second="6611.18577158788">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="40" comment="15" code="241"/>
+          <language name="Bourne Shell" files="2" blank="13" comment="37" code="29"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>0</order>
+    <commit>9150f1b85e1dd5f0699b2efe226a636835b03d22</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/9150f1b85e1dd5f0699b2efe226a636835b03d22
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.105333089828491" number_of_files="11" number_of_lines="669" files_per_second="104.430621164828" lines_per_second="6351.2805053882">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="60" comment="21" code="376"/>
+          <language name="Bourne Shell" files="7" blank="31" comment="51" code="103"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>29</order>
+    <commit>01cb777491929ab0a54f3e5e5632fa83e1ce09ff</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/01cb777491929ab0a54f3e5e5632fa83e1ce09ff
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0657150745391846" number_of_files="8" number_of_lines="402" files_per_second="121.737669113192" lines_per_second="6117.3178729379">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="40" comment="15" code="241"/>
+          <language name="Bourne Shell" files="2" blank="13" comment="37" code="29"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>31</order>
+    <commit>2f08ac89bac4350cf00e997d88d2e4b9a78071a5</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/2f08ac89bac4350cf00e997d88d2e4b9a78071a5
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0858500003814697" number_of_files="7" number_of_lines="382" files_per_second="81.5375651589503" lines_per_second="4449.62141295986">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="40" comment="15" code="239"/>
+          <language name="Bourne Shell" files="1" blank="9" comment="22" code="30"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>11</order>
+    <commit>a73a568cb150ba095b2d8266940ddc454c7ee2f2</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/a73a568cb150ba095b2d8266940ddc454c7ee2f2
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0715150833129883" number_of_files="7" number_of_lines="550" files_per_second="97.8814492792276" lines_per_second="7690.68530051074">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="325"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+  <cloc>
+    <order>18</order>
+    <commit>fc98c5e77ff72da51656b1636e9171deb1d401e2</commit>
+    <path>
+      /scratch/SE_HPC/git-all-spark-scala-commits/fc98c5e77ff72da51656b1636e9171deb1d401e2
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0721161365509033" number_of_files="7" number_of_lines="509" files_per_second="97.0656545786952" lines_per_second="7058.05974007941">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="284"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc>
+</cloc_report>

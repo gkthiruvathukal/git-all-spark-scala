@@ -1,0 +1,1030 @@
+<cloc_report>
+  <cloc_phase>
+    <order>29</order>
+    <commit>557e4ebb66c96d5abb0398295e277792774a1ccb</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/557e4ebb66c96d5abb0398295e277792774a1ccb
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.772878170013428" number_of_files="7" number_of_lines="536" files_per_second="9.05705487823312" lines_per_second="693.511630676136">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="311"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>34</order>
+    <commit>0c87189acf5dc3fd7ecf9724d9754800c3744ef5</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/0c87189acf5dc3fd7ecf9724d9754800c3744ef5
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.74432110786438" number_of_files="7" number_of_lines="509" files_per_second="9.40454318175193" lines_per_second="683.844639930248">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="284"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>0</order>
+    <commit>cd61ec1e6fc7edc1d57e5c3149ac86b86ac9f1c6</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/cd61ec1e6fc7edc1d57e5c3149ac86b86ac9f1c6
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.12721300125122" number_of_files="9" number_of_lines="811" files_per_second="7.98429399768268" lines_per_second="719.473603568961">
+</header>
+        <languages>
+          <language name="Scala" files="2" blank="61" comment="56" code="356"/>
+          <language name="Python" files="3" blank="35" comment="22" code="130"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="6" comment="2" code="15"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>21</order>
+    <commit>f6477e6b9345df8eadedd0ac0754effee7dbf23d</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/f6477e6b9345df8eadedd0ac0754effee7dbf23d
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.0703010559082" number_of_files="7" number_of_lines="583" files_per_second="6.54021591528764" lines_per_second="544.706554087528">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="61" comment="21" code="346"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>23</order>
+    <commit>73022eb3b3be28767d7e916e6166de065a937025</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/73022eb3b3be28767d7e916e6166de065a937025
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.2698609828949" number_of_files="7" number_of_lines="583" files_per_second="5.51241442511457" lines_per_second="459.105372834542">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="61" comment="21" code="346"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>4</order>
+    <commit>a7a2c7c3118703535ad6fe75adc9cd4ffd6e3240</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/a7a2c7c3118703535ad6fe75adc9cd4ffd6e3240
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.40000987052917" number_of_files="10" number_of_lines="747" files_per_second="7.14280678336947" lines_per_second="533.567666717699">
+</header>
+        <languages>
+          <language name="Scala" files="4" blank="62" comment="23" code="387"/>
+          <language name="Python" files="2" blank="20" comment="14" code="90"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="6" comment="2" code="15"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>10</order>
+    <commit>648fd07a43e724a05d3651b126d169f0f3615b78</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/648fd07a43e724a05d3651b126d169f0f3615b78
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.41442608833313" number_of_files="8" number_of_lines="696" files_per_second="5.65600427338542" lines_per_second="492.072371784531">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="59" comment="22" code="379"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="Python" files="1" blank="14" comment="17" code="50"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>27</order>
+    <commit>5f1648e3742dce388dc2ec40dd6b658579f12d8b</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/5f1648e3742dce388dc2ec40dd6b658579f12d8b
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.22370195388794" number_of_files="7" number_of_lines="550" files_per_second="5.72034716277083" lines_per_second="449.455848503423">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="325"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>12</order>
+    <commit>d1213cc8f04155024e13c74df1bdb648712ae884</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/d1213cc8f04155024e13c74df1bdb648712ae884
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.45953106880188" number_of_files="8" number_of_lines="688" files_per_second="5.4812125421675" lines_per_second="471.384278626405">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="60" comment="22" code="378"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="Python" files="1" blank="13" comment="17" code="43"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>36</order>
+    <commit>2efdd1161533dbb0bccd63964c5abe8484819b20</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/2efdd1161533dbb0bccd63964c5abe8484819b20
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.31555199623108" number_of_files="11" number_of_lines="655" files_per_second="8.36150910911455" lines_per_second="497.889860588185">
+</header>
+        <languages>
+          <language name="Scala" files="7" blank="74" comment="24" code="402"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>26</order>
+    <commit>f398779a9ab75c16058202276fae9371634d1c78</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/f398779a9ab75c16058202276fae9371634d1c78
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.34969210624695" number_of_files="7" number_of_lines="550" files_per_second="5.18636803727385" lines_per_second="407.500345785803">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="325"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>31</order>
+    <commit>9fae3f0666281fd53c496f0bdf5788938702f75a</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/9fae3f0666281fd53c496f0bdf5788938702f75a
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.36723303794861" number_of_files="7" number_of_lines="511" files_per_second="5.11982946996569" lines_per_second="373.747551307495">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="286"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>30</order>
+    <commit>e8613fc16464fba3f0bbf95a9837a2dff9b87078</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/e8613fc16464fba3f0bbf95a9837a2dff9b87078
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.36683893203735" number_of_files="7" number_of_lines="536" files_per_second="5.12130569003188" lines_per_second="392.145692836727">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="311"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>28</order>
+    <commit>a73a568cb150ba095b2d8266940ddc454c7ee2f2</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/a73a568cb150ba095b2d8266940ddc454c7ee2f2
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.39126491546631" number_of_files="7" number_of_lines="550" files_per_second="5.03139259977229" lines_per_second="395.323704267822">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="325"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>17</order>
+    <commit>9150f1b85e1dd5f0699b2efe226a636835b03d22</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/9150f1b85e1dd5f0699b2efe226a636835b03d22
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.63072991371155" number_of_files="11" number_of_lines="669" files_per_second="6.74544564830111" lines_per_second="410.24573988304">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="60" comment="21" code="376"/>
+          <language name="Bourne Shell" files="7" blank="31" comment="51" code="103"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>25</order>
+    <commit>35172128826db8887e11d03214223c986c5d3d2e</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/35172128826db8887e11d03214223c986c5d3d2e
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.38664603233337" number_of_files="7" number_of_lines="550" files_per_second="5.04815204224886" lines_per_second="396.640517605268">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="325"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>35</order>
+    <commit>fc98c5e77ff72da51656b1636e9171deb1d401e2</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/fc98c5e77ff72da51656b1636e9171deb1d401e2
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.36035203933716" number_of_files="7" number_of_lines="509" files_per_second="5.14572683951046" lines_per_second="374.167851615832">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="284"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>37</order>
+    <commit>f0699dbf80981a1301d863e0da8e1f724d32f0ec</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/f0699dbf80981a1301d863e0da8e1f724d32f0ec
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.39447498321533" number_of_files="11" number_of_lines="655" files_per_second="7.88827345947547" lines_per_second="469.710828723312">
+</header>
+        <languages>
+          <language name="Scala" files="7" blank="74" comment="24" code="402"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>6</order>
+    <commit>9b990d26a6cb5a34db82d337222ba251bdec9b8d</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/9b990d26a6cb5a34db82d337222ba251bdec9b8d
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.55742406845093" number_of_files="8" number_of_lines="687" files_per_second="5.13668702189578" lines_per_second="441.1129980053">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="59" comment="22" code="377"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="Python" files="1" blank="14" comment="13" code="51"/>
+          <language name="make" files="1" blank="6" comment="2" code="15"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>14</order>
+    <commit>7aa434532aeb594e46d2966f38db5b016ed7bfe5</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/7aa434532aeb594e46d2966f38db5b016ed7bfe5
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.70334792137146" number_of_files="12" number_of_lines="743" files_per_second="7.04494944892887" lines_per_second="436.199786712846">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="60" comment="21" code="377"/>
+          <language name="Bourne Shell" files="7" blank="31" comment="51" code="103"/>
+          <language name="Python" files="1" blank="13" comment="17" code="43"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>9</order>
+    <commit>29e192c2d2c1860ccb4894c335a8c965b5977bc4</commit>
+    <hostname>cc093.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/29e192c2d2c1860ccb4894c335a8c965b5977bc4
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.38624382019043" number_of_files="8" number_of_lines="692" files_per_second="5.7709905598721" lines_per_second="499.190683428936">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="59" comment="22" code="379"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="Python" files="1" blank="14" comment="17" code="50"/>
+          <language name="make" files="1" blank="6" comment="2" code="15"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>8</order>
+    <commit>a1f431b2ed42acfe6636f5ae79b74eb65b1c20a1</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/a1f431b2ed42acfe6636f5ae79b74eb65b1c20a1
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.46965599060059" number_of_files="8" number_of_lines="689" files_per_second="5.44345074708996" lines_per_second="468.817195593123">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="59" comment="22" code="379"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="Python" files="1" blank="15" comment="13" code="50"/>
+          <language name="make" files="1" blank="6" comment="2" code="15"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>7</order>
+    <commit>341db8ff70e4338f482c270e93b10a047a7be36e</commit>
+    <hostname>cc093.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/341db8ff70e4338f482c270e93b10a047a7be36e
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.48395395278931" number_of_files="8" number_of_lines="687" files_per_second="5.39100285757711" lines_per_second="462.952370394434">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="59" comment="22" code="377"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="Python" files="1" blank="15" comment="13" code="50"/>
+          <language name="make" files="1" blank="6" comment="2" code="15"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>20</order>
+    <commit>2fbcbdac0ffc5143a7ba35f655407877b7959dcb</commit>
+    <hostname>cc093.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/2fbcbdac0ffc5143a7ba35f655407877b7959dcb
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.48326897621155" number_of_files="7" number_of_lines="583" files_per_second="4.71930587928756" lines_per_second="393.050761089235">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="61" comment="21" code="346"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>22</order>
+    <commit>47c76ba2efda030f83523df4a15edca8fba747c4</commit>
+    <hostname>cc093.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/47c76ba2efda030f83523df4a15edca8fba747c4
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.48599410057068" number_of_files="7" number_of_lines="583" files_per_second="4.71065127197459" lines_per_second="392.329955937312">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="61" comment="21" code="346"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>24</order>
+    <commit>340a85780aa13fd5f4119fc7ba066c5878775c1e</commit>
+    <hostname>cc093.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/340a85780aa13fd5f4119fc7ba066c5878775c1e
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.46218991279602" number_of_files="7" number_of_lines="576" files_per_second="4.78733982415082" lines_per_second="393.929676958696">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="62" comment="21" code="338"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>19</order>
+    <commit>2d2413a5a888aba3129c6a41f08e5538e53415c0</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/2d2413a5a888aba3129c6a41f08e5538e53415c0
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.729537963867188" number_of_files="7" number_of_lines="599" files_per_second="9.59511409508272" lines_per_second="821.067620422079">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="60" comment="21" code="363"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>2</order>
+    <commit>f25cbfe8e70508e2988bc2764d6e3499a28188e7</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/f25cbfe8e70508e2988bc2764d6e3499a28188e7
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.750990867614746" number_of_files="11" number_of_lines="810" files_per_second="14.647315266213" lines_per_second="1078.57503323932">
+</header>
+        <languages>
+          <language name="Scala" files="4" blank="62" comment="23" code="387"/>
+          <language name="Python" files="3" blank="35" comment="22" code="130"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="6" comment="2" code="15"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>3</order>
+    <commit>780cb788c592beaff077df4d64a0f1376bd74bec</commit>
+    <hostname>cc093.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/780cb788c592beaff077df4d64a0f1376bd74bec
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.54263710975647" number_of_files="10" number_of_lines="751" files_per_second="6.48240596362852" lines_per_second="486.828687868502">
+</header>
+        <languages>
+          <language name="Scala" files="4" blank="62" comment="23" code="387"/>
+          <language name="Python" files="2" blank="22" comment="15" code="91"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="6" comment="2" code="15"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>13</order>
+    <commit>33f30d191a1075566605e448f0a0ee6f151204ff</commit>
+    <hostname>cc093.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/33f30d191a1075566605e448f0a0ee6f151204ff
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.53661203384399" number_of_files="8" number_of_lines="686" files_per_second="5.20625884985891" lines_per_second="446.436696375402">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="60" comment="21" code="377"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="Python" files="1" blank="13" comment="17" code="43"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>5</order>
+    <commit>260a784c84d7af3fea3c0580318a9b95982b405a</commit>
+    <hostname>cc093.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/260a784c84d7af3fea3c0580318a9b95982b405a
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.53916478157043" number_of_files="9" number_of_lines="701" files_per_second="5.84732713986423" lines_per_second="455.441813893869">
+</header>
+        <languages>
+          <language name="Scala" files="4" blank="62" comment="23" code="387"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="Python" files="1" blank="14" comment="13" code="51"/>
+          <language name="make" files="1" blank="6" comment="2" code="15"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>11</order>
+    <commit>44bb1b5330f5fc12f8a51aa0b1427f7fa3b47f4f</commit>
+    <hostname>cc093.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/44bb1b5330f5fc12f8a51aa0b1427f7fa3b47f4f
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.54355192184448" number_of_files="8" number_of_lines="688" files_per_second="5.1828512450947" lines_per_second="445.725207078145">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="59" comment="22" code="379"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="Python" files="1" blank="13" comment="17" code="43"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>1</order>
+    <commit>9b182ada1ddf9e8bfcac2dff007d66bdcd430bf0</commit>
+    <hostname>cc093.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/9b182ada1ddf9e8bfcac2dff007d66bdcd430bf0
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.54151511192322" number_of_files="9" number_of_lines="776" files_per_second="5.83841178745985" lines_per_second="503.400838563205">
+</header>
+        <languages>
+          <language name="Scala" files="2" blank="57" comment="22" code="359"/>
+          <language name="Python" files="3" blank="35" comment="22" code="130"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="6" comment="2" code="15"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>18</order>
+    <commit>d8b819d2cdb81e439f94851b019653f76953faa5</commit>
+    <hostname>cc093.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/d8b819d2cdb81e439f94851b019653f76953faa5
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.55486989021301" number_of_files="11" number_of_lines="656" files_per_second="7.07454692462598" lines_per_second="421.900252959513">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="60" comment="21" code="363"/>
+          <language name="Bourne Shell" files="7" blank="31" comment="51" code="103"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>32</order>
+    <commit>884a683f4d62e4369c7a0c494ece79533f119ef9</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/884a683f4d62e4369c7a0c494ece79533f119ef9
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.10049295425415" number_of_files="7" number_of_lines="509" files_per_second="6.36078583960057" lines_per_second="462.519998908099">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="284"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>33</order>
+    <commit>47139e13c1dd8379e86026dd0af2521f8c1ea361</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/47139e13c1dd8379e86026dd0af2521f8c1ea361
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0925779342651367" number_of_files="7" number_of_lines="509" files_per_second="75.6119701261911" lines_per_second="5498.07039917589">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="55" comment="15" code="284"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>39</order>
+    <commit>8442a02fae9ee744d0878c8ea9f09651446f4d48</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/8442a02fae9ee744d0878c8ea9f09651446f4d48
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.108242034912109" number_of_files="10" number_of_lines="628" files_per_second="92.385550660793" lines_per_second="5801.8125814978">
+</header>
+        <languages>
+          <language name="Scala" files="6" blank="71" comment="21" code="381"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>38</order>
+    <commit>a5c8fa50df5c2e25f9b81167c02e802aa62defe0</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/a5c8fa50df5c2e25f9b81167c02e802aa62defe0
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.110701084136963" number_of_files="11" number_of_lines="644" files_per_second="99.3666871987491" lines_per_second="5817.46786872677">
+</header>
+        <languages>
+          <language name="Scala" files="7" blank="72" comment="22" code="395"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>41</order>
+    <commit>db0295b2400505011ecfd1e627ca5e57a9a81cfd</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/db0295b2400505011ecfd1e627ca5e57a9a81cfd
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0819950103759766" number_of_files="9" number_of_lines="546" files_per_second="109.762776524227" lines_per_second="6658.94177580311">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="56" comment="20" code="315"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>45</order>
+    <commit>74039448aea4a5f4cfdf6a0650f323d5ea463ac1</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/74039448aea4a5f4cfdf6a0650f323d5ea463ac1
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0854179859161377" number_of_files="9" number_of_lines="451" files_per_second="105.364226321563" lines_per_second="5279.91845233609">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="40" comment="15" code="241"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>47</order>
+    <commit>4359570f5c4d75fcd68047609985ddba9533e796</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/4359570f5c4d75fcd68047609985ddba9533e796
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0728499889373779" number_of_files="8" number_of_lines="402" files_per_second="109.814704390372" lines_per_second="5518.18889561617">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="40" comment="15" code="241"/>
+          <language name="Bourne Shell" files="2" blank="13" comment="37" code="29"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>15</order>
+    <commit>f91ba865bd19838d68f7181d5c5150b2738950a1</commit>
+    <hostname>cc093.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/f91ba865bd19838d68f7181d5c5150b2738950a1
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="1.04086899757385" number_of_files="12" number_of_lines="715" files_per_second="11.5288283424433" lines_per_second="686.926022070581">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="60" comment="21" code="377"/>
+          <language name="Bourne Shell" files="7" blank="31" comment="51" code="103"/>
+          <language name="Python" files="1" blank="6" comment="17" code="22"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>16</order>
+    <commit>d08b1c8e824f3ea31bc79d5dadb4f0531f8b4c2a</commit>
+    <hostname>cc093.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/d08b1c8e824f3ea31bc79d5dadb4f0531f8b4c2a
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.086259126663208" number_of_files="12" number_of_lines="714" files_per_second="139.115714060647" lines_per_second="8277.38498660851">
+</header>
+        <languages>
+          <language name="Scala" files="3" blank="60" comment="21" code="376"/>
+          <language name="Bourne Shell" files="7" blank="31" comment="51" code="103"/>
+          <language name="Python" files="1" blank="6" comment="17" code="22"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>48</order>
+    <commit>2f08ac89bac4350cf00e997d88d2e4b9a78071a5</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/2f08ac89bac4350cf00e997d88d2e4b9a78071a5
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0690090656280518" number_of_files="7" number_of_lines="382" files_per_second="101.435948107585" lines_per_second="5535.50459672822">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="40" comment="15" code="239"/>
+          <language name="Bourne Shell" files="1" blank="9" comment="22" code="30"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>42</order>
+    <commit>00736069e6405f2ded8b504f0690db02102506ac</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/00736069e6405f2ded8b504f0690db02102506ac
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0940899848937988" number_of_files="9" number_of_lines="543" files_per_second="95.6531134547261" lines_per_second="5771.07117843514">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="56" comment="20" code="312"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>40</order>
+    <commit>83f6229894a57a662e02654f942a97cf91ddcba5</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/83f6229894a57a662e02654f942a97cf91ddcba5
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0968070030212402" number_of_files="9" number_of_lines="558" files_per_second="92.9684807825869" lines_per_second="5764.04580852038">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="57" comment="20" code="326"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>43</order>
+    <commit>98ea4f18ac5a07deea7f7d96fe0ab79ca32bd8cf</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/98ea4f18ac5a07deea7f7d96fe0ab79ca32bd8cf
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0952959060668945" number_of_files="9" number_of_lines="527" files_per_second="94.442672004003" lines_per_second="5530.14312734551">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="53" comment="20" code="299"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>46</order>
+    <commit>01cb777491929ab0a54f3e5e5632fa83e1ce09ff</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/01cb777491929ab0a54f3e5e5632fa83e1ce09ff
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0911369323730469" number_of_files="8" number_of_lines="402" files_per_second="87.7800008371353" lines_per_second="4410.94504206605">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="40" comment="15" code="241"/>
+          <language name="Bourne Shell" files="2" blank="13" comment="37" code="29"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>44</order>
+    <commit>f5023d05b626f179091d00b146f13d5f0404f555</commit>
+    <hostname>cc041.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/f5023d05b626f179091d00b146f13d5f0404f555
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.085547924041748" number_of_files="9" number_of_lines="503" files_per_second="105.20418935716" lines_per_second="5879.74524962794">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="46" comment="19" code="283"/>
+          <language name="Bourne Shell" files="3" blank="22" comment="43" code="63"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>49</order>
+    <commit>88db127f141a92d63d9db8870ca7fef3773a8cb9</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/88db127f141a92d63d9db8870ca7fef3773a8cb9
+    </path>
+    <report>
+      <cloc>
+        <header 
+        url="http://cloc.sourceforge.net" cloc_version="1.64" elapsed_seconds="0.0559508800506592" number_of_files="7" number_of_lines="382" files_per_second="125.109739000746" lines_per_second="6827.41718546927">
+</header>
+        <languages>
+          <language name="Scala" files="5" blank="40" comment="15" code="239"/>
+          <language name="Bourne Shell" files="1" blank="9" comment="22" code="30"/>
+          <language name="make" files="1" blank="7" comment="2" code="18"/>
+        </languages>
+      </cloc>
+    </report>
+  </cloc_phase>
+  <cloc_phase>
+    <order>50</order>
+    <commit>5f169fe0065c389d2fd85745562e06fafdc55f56</commit>
+    <hostname>cc085.fst.alcf.anl.gov </hostname>
+    <path>
+      /projects/SE_HPC/git-all-spark-scala-commits/5f169fe0065c389d2fd85745562e06fafdc55f56
+    </path>
+    <report>
+      <cloc/>
+    </report>
+  </cloc_phase>
+</cloc_report>

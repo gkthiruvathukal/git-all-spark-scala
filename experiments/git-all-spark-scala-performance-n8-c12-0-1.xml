@@ -1,0 +1,31 @@
+<results>
+  <experiment id="git-all-spark-scala"/>
+  <config>
+    <property key="src" value="git-all-spark-scala"/>
+    <property key="dst" value="git-all-spark-scala-commits"/>
+    <property key="cores" value="12"/>
+    <property key="nodes" value="8"/>
+    <property key="src-root" value="/projects/SE_HPC"/>
+    <property key="dst-root" value="/scratch/SE_HPC"/>
+    <property 
+    key="url" value="https://github.com/gkthiruvathukal/git-all-spark-scala.git">
+</property>
+    <property key="github" value="gkthiruvathukal/git-all-spark-scala"/>
+    <property key="checkout" value="true"/>
+    <property key="cloc" value="true"/>
+    <property key="clocPath" value="/home/thiruvat/local/bin/cloc"/>
+    <property key="start" value="0"/>
+    <property key="stride" value="1"/>
+    <property key="git-clone" value="true"/>
+    <property 
+    key="xml" value="experiments/git-all-spark-scala-performance-n8-c12-0-1.xml">
+</property>
+  </config>
+  <report>
+    <time id="clone-time" t="0.017764998" unit="s"/>
+    <time id="hash-checkout-time" t="2.585115902" unit="s"/>
+    <time id="hash-checkout-time-per-commit" t="0.07603282064705882" unit="s"/>
+    <time id="cloc-time-per-commit" t="0.050135664941176473" unit="s"/>
+    <commits n="34"/>
+  </report>
+</results>

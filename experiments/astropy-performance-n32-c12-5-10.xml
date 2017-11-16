@@ -1,0 +1,28 @@
+<results>
+  <experiment id="git-all-spark-scala"/>
+  <config>
+    <property key="src" value="astropy"/>
+    <property key="dst" value="astropy-commits"/>
+    <property key="cores" value="12"/>
+    <property key="nodes" value="32"/>
+    <property key="src-root" value="/projects/SE_HPC"/>
+    <property key="dst-root" value="/scratch/SE_HPC"/>
+    <property key="url" value="https://github.com/astropy/astropy.git"/>
+    <property key="github" value="astropy/astropy"/>
+    <property key="checkout" value="true"/>
+    <property key="cloc" value="true"/>
+    <property key="clocPath" value="/home/thiruvat/local/bin/cloc"/>
+    <property key="start" value="5"/>
+    <property key="stride" value="10"/>
+    <property key="git-clone" value="true"/>
+    <property key="xml" value="experiments/astropy-performance-n32-c12-5-10.xml"/>
+  </config>
+  <report>
+    <time id="clone-time" t="0.009872303" unit="s"/>
+    <time 
+    id="hash-checkout-time" t="0.805229647" avg="3.9317853857421875E-4" unit="s">
+</time>
+    <time id="cloc-time" t="692.599708661" avg="0.3381834514946289" unit="s"/>
+    <commits n="2048"/>
+  </report>
+</results>

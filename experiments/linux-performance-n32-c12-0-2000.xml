@@ -1,0 +1,28 @@
+<results>
+  <experiment id="git-all-spark-scala"/>
+  <config>
+    <property key="src" value="linux"/>
+    <property key="dst" value="linux-commits"/>
+    <property key="cores" value="12"/>
+    <property key="nodes" value="32"/>
+    <property key="src-root" value="/projects/SE_HPC"/>
+    <property key="dst-root" value="/scratch/SE_HPC"/>
+    <property key="url" value="https://github.com/torvalds/linux.git"/>
+    <property key="github" value="torvalds/linux"/>
+    <property key="checkout" value="true"/>
+    <property key="cloc" value="true"/>
+    <property key="clocPath" value="/home/thiruvat/local/bin/cloc"/>
+    <property key="start" value="0"/>
+    <property key="stride" value="2000"/>
+    <property key="git-clone" value="true"/>
+    <property key="xml" value="experiments/linux-performance-n32-c12-0-2000.xml"/>
+  </config>
+  <report>
+    <time id="clone-time" t="329.031200491" unit="s"/>
+    <time 
+    id="hash-checkout-time" t="26.939148976" avg="0.07545980105322128" unit="s">
+</time>
+    <time id="cloc-time" t="3391.04507946" avg="9.49872571277311" unit="s"/>
+    <commits n="357"/>
+  </report>
+</results>
