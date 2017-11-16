@@ -10,16 +10,20 @@ HEADER = """#/bin/bash
 
 QSUB = """
 
-DEPS=`qsub $DEPENDENCIES -n %(nodes)s -t %(qsub_time)s -A SE_HPC -q pubnet \\
-	./scripts/do-basic.sh \\
-	--github %(github)s --git-clone --checkout \\
-	--src-root /projects/SE_HPC --dst-root /projects/SE_HPC --src %(src)s --dst %(dst)s --start %(start)s --stride %(stride)s \\
-	--nodes %(nodes)s --cores %(cores)s \\
-	--cloc --cloc-path /home/thiruvat/local/bin/cloc \\
-	--xml experiments/%(repo)s-performance-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s.xml \\
-	--cloc-report experiments/%(repo)s-cloc-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s.xml`
+# repo: %(github)s
+# nodes: %(nodes)s
+# cores: %(cores)s
+# start: %(start)s
+# stride: %(stride)s
 
-DEPENDENCIES="--dependencies $DEPS"
+qsub -n %(nodes)s -t %(qsub_time)s -A SE_HPC -q pubnet \\
+	./scripts/do-basic.sh \\
+	--github "%(github)s" --git-clone --checkout \\
+	--src-root /projects/SE_HPC --dst-root "/scratch/SE_HPC" --src "%(src)s" --dst "%(dst)s" --start %(start)s --stride %(stride)s \\
+	--nodes %(nodes)s --cores %(cores)s \\
+	--cloc --cloc-path "/home/thiruvat/local/bin/cloc" \\
+	--xml "experiments/%(repo)s-performance-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s.xml" \\
+	--cloc-report "experiments/%(repo)s-cloc-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s.xml"
 
 """
 
@@ -68,9 +72,14 @@ def generate():
 
     for i in range(min_log, max_log+1):
         nodes = 2 ** i
+        if nodes > max_nodes:
+           break
         qsub_time = time.strftime(
             '%H:%M:%S', time.gmtime(seconds / nodes + fudge))
-        for start in range(start_range[0], start_range[1]+1):
+        if len(start_range) < 2:
+            start_range = [start_range[0], start_range[0]+1]
+
+        for start in range(start_range[0], start_range[1]):
             print(QSUB % vars())
 
 
