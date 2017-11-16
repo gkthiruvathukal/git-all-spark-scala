@@ -121,3 +121,7 @@ project/project/
 *.cobaltlog
 *.error
 *.output
+
+# Misc
+submit-*.sh
+
