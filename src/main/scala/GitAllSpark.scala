@@ -389,4 +389,43 @@ object GitAllSparkScala {
     bw.close()
   }
 
+  /*
+   * Utility for Examining Disk Usage
+   */
+
+  def du(path: String): DiskUsage = {
+    val apath = Path(path)
+    val usage = %%("df", "-Pkh", apath)
+    val lines = usage.out.lines
+    val headings = lines(0).replace("Mounted on", "Mounted-on").split("\\s+")
+    val fields = lines(1).split("\\s+")
+    val dfMap = (headings zip fields) toMap
+
+    val filesystem = dfMap.getOrElse("Filesystem", "")
+    val size = dfMap.getOrElse("Size", "0G")
+    val used = dfMap.getOrElse("Used", "0G")
+    val avail = dfMap.getOrElse("Avail", "0G")
+    val percent = dfMap.getOrElse("Use%", "0%")
+    val mount = dfMap.getOrElse("Mounted-on", "")
+    val percentMatcher = "\\d+%".r
+    val storageMatcher = "\\d+(K|M|G|P)".r
+    val sizeFound = storageMatcher.findFirstIn(size).get
+    val usedFound = storageMatcher.findFirstIn(used).get
+    val availFound = storageMatcher.findFirstIn(avail).get
+    val percentFound = percentMatcher.findFirstIn(percent).get
+
+    DiskUsage(
+      filesystem,
+      Storage(sizeFound.dropRight(1), sizeFound.last),
+      Storage(usedFound.dropRight(1), usedFound.last),
+      Storage(availFound.dropRight(1), availFound.last),
+      percentFound.dropRight(1).toInt,
+      mount
+    )
+  }
+
+  case class Storage(amount: String, unit: Char)
+
+  case class DiskUsage(fs: String, size: Storage, used: Storage, avail: Storage, percent: Int, mount: String)
+
 }
