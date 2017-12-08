@@ -122,7 +122,7 @@ object GitAllSparkScala {
    * The result of this phase is an RDD of GitCheckoutPhase results, which can also be reported to an XML file
    * for post processing.
    */
-  case class GitCheckoutPhase(order: Int, commit: String, hostname: String, path: String, successful: Boolean, time: Double) {
+  case class GitCheckoutPhase(order: Int, commit: String, hostname: String, path: String, successful: Boolean, time: Double, usage: Int) {
     def toXML(): xml.Node = {
       <checkout>
         <order>{ order }</order>
@@ -131,6 +131,7 @@ object GitAllSparkScala {
         <path>{ path }</path>
         <success>{ successful }</success>
         <time>{ time }</time>
+        <usage>{ usage }</usage>
       </checkout>
     }
   }
@@ -147,9 +148,12 @@ object GitAllSparkScala {
       mkdir ! destinationPath
     }
     mkdir ! destinationPath / hash
-    var currentPath = destinationPath / hash
+    val diskUsage = du(destinationPath)
+    val currentPath = destinationPath / hash
+    // TODO: Make disk usage threshold a command-line option.
+    val checkout = config.checkout && diskUsage.percent < 90
     val hashCheckoutTime = simpleTimer {
-      val success = if (config.checkout) {
+      val success = if (checkout) {
         val r1 = Try {
           System.out.println("git init " + currentPath.toString)
           %.git('init)(currentPath)
@@ -187,7 +191,7 @@ object GitAllSparkScala {
 
     val commitHashPath = destinationPath / hash
 
-    GitCheckoutPhase(id, hash, InetAddress.getLocalHost.getHostName, commitHashPath.toString, hashCheckoutTime.result, hashCheckoutTime.time / 1e9)
+    GitCheckoutPhase(id, hash, InetAddress.getLocalHost.getHostName, commitHashPath.toString, hashCheckoutTime.result, hashCheckoutTime.time / 1e9, diskUsage.percent)
   }
 
   def hashCodes(rootPath: Path, args: String): Array[String] = {
@@ -215,13 +219,13 @@ object GitAllSparkScala {
    * So subsequent phases can add an analysis method like doCloc() and return a structure/report of information
    * similar to ClocPhase.
    */
-  case class ClocPhase(order: Int, commit: String, cloc: Option[CountLOC], hostname: String, path: String) {
+  case class ClocPhase(order: Int, commit: String, cloc: Option[CountLOC], hostname: String, gcf: GitCheckoutPhase) {
     def toXML(): xml.Node = {
       <cloc_phase>
         <order>{ order }</order>
         <commit>{ commit }</commit>
         <hostname>{ hostname } </hostname>
-        <path>{ path } </path>
+        <path>{ gcf.toXML } </path>
         <report>{ Try { cloc.get.toXML } getOrElse (<cloc/>) }</report>
       </cloc_phase>
     }
@@ -239,7 +243,7 @@ object GitAllSparkScala {
         None
       }
     }
-    ClocPhase(gcp.order, gcp.commit, clocTime.result, InetAddress.getLocalHost().getHostName(), gcp.path)
+    ClocPhase(gcp.order, gcp.commit, clocTime.result, InetAddress.getLocalHost().getHostName(), gcp)
   }
 
   def writeClocReport(config: Config, document: xml.Node) {
@@ -393,9 +397,8 @@ object GitAllSparkScala {
    * Utility for Examining Disk Usage
    */
 
-  def du(path: String): DiskUsage = {
-    val apath = Path(path)
-    val usage = %%("df", "-Pkh", apath)
+  def du(path: Path): DiskUsage = {
+    val usage = %%("df", "-Pkh", path)
     val lines = usage.out.lines
     val headings = lines(0).replace("Mounted on", "Mounted-on").split("\\s+")
     val fields = lines(1).split("\\s+")
