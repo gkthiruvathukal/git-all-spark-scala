@@ -4,37 +4,72 @@ import sys
 import argparse
 import os
 
-HEADER = "#/bin/bash\n"
+HEADER = """#/bin/bash
+
+# Common Setup
+
+APP_DIR=~/Work/git-all-spark-scala
+
+if [ ! -d "$APP_DIR" ]; then
+    echo "Cannot find application directory: $APP_DIR"
+    exit 1
+fi
+
+SPARK_SCRIPT_DIR=~/Work/Cooley_Spark
+
+if [ ! -d "$SPARK_SCRIPT_DIR" ]; then
+    echo "Cannot find Spark script directory: $SPARK_SCRIPT_DIR"
+    exit 1
+fi
+
+APP_JAR=$(find $APP_DIR -name '*.jar' | head -n1)
+
+if [ "$APP_JAR" == "" ]; then
+    echo "No .jar file found in $APP_DIR"
+    exit 1
+fi
+
+"""
 
 COOLEY = """
 
-APP_DIR=~/Work/git-all-spark-scala
-mkdir -p $APP_DIR/experiments/cooley
+EXP_DIR=$APP_DIR/experiments/%(template)s
+mkdir -p $EXP_DIR
 
-qsub -n %(nodes)s -t %(qsub_time)s -A %(allocation)s -q %(queue)s --notify %(email)s \\
-	--src-root /projects/SE_HPC --dst-root /scratch/SE_HPC \
-        --src "%(src)s" --dst "%(dst)s" \
-        --start %(start)s --stride %(stride)s \\
-	--nodes %(nodes)s --cores %(cores)s \\
-	--cloc --cloc-path "/home/thiruvat/local/bin/cloc" \\
-	--xml "experiments/cooley/%(repo)s-performance-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s.xml" \\
-	--cloc-report "experiments/cooley/%(repo)s-cloc-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s.xml"
+pushd $SPARK_SCRIPT_DIR
+
+./submit-spark.sh -n %(nodes)s -A %(allocation)s -t %(qsub_time)s -q %(queue)s \
+  $APP_JAR \
+  --src-root /projects/SE_HPC --dst-root /scratch/SE_HPC \
+  --src "%(src)s" --dst "%(dst)s" \
+  --start %(start)s --stride %(stride)s \\
+  --nodes %(nodes)s --cores %(cores)s \\
+  --cloc --cloc-path "/home/thiruvat/local/bin/cloc" \\
+  --xml "$EXP_DIR/%(template)s/%(repo)s-performance-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s.xml" \\
+  --cloc-report "$EXP_DIR/%(template)s/%(repo)s-cloc-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s.xml"
+
+popd
 
 """
 
 THETA="""
-APP_DIR=~/Work/git-all-spark-scala
-mkdir -p $APP_DIR/experiments/theta
+
+mkdir -p $APP_DIR/experiments/%(template)s
+
+pushd $SPARK_SCRIPT_DIR
+
 
 ./submit-spark.sh -n %(nodes)s -A %(allocation)s -t %(qsub_time)s -q %(queue)s \
-        $APP_DIR/target/scala-2.11/git-all-spark-scala-assembly-1.0.jar \
-        --src-root /projects/datascience/thiruvat --dst-root /local/scratch \
-        --src "%(src)s" --dst "%(dst)s" \
-        --start %(start)s --stride %(stride)s \
-	--nodes %(nodes)s --cores %(cores)s \
-        --cloc --cloc-path "/home/thiruvat/local/bin/cloc" \
-	--xml "$APP_DIR/experiments/theta/%(repo)s-performance-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s.xml" \\
-	--cloc-report "$APP_DIR/experiments/theta/%(repo)s-cloc-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s.xml"
+ $APP_JAR \
+ --src-root /projects/datascience/thiruvat --dst-root /local/scratch \
+ --src "%(src)s" --dst "%(dst)s" \
+ --start %(start)s --stride %(stride)s \
+ --nodes %(nodes)s --cores %(cores)s \
+ --cloc --cloc-path "/home/thiruvat/local/bin/cloc" \
+ --xml "$APP_DIR/experiments/%(template)s/%(repo)s-performance-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s.xml" \\
+ --cloc-report "$APP_DIR/experiments/%(template)s/%(repo)s-cloc-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s.xml"
+
+popd
 """
 
 templates = { 'cooley' : COOLEY, 'theta' : THETA }
@@ -62,11 +97,12 @@ def get_argparse():
     parser.add_argument('--template', default="cooley", help="Use one of " + ",".join(list(templates.keys())))
     return parser
 
-FILENAME="%(name)s-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s.sh"
+FILENAME="%(name)s-n%(nodes)s-c%(cores)s-%(start)s-%(stride)s-%(template)s.sh"
 
 def generate():
     parser = get_argparse()
     args = parser.parse_args()
+
     name = args.name
     min_nodes = args.min_nodes
     max_nodes = args.max_nodes
@@ -77,8 +113,8 @@ def generate():
     email = args.email
     queue = args.queue
     template = args.template
-    qsub = templates.get(args.template, COOLEY)
     allocation = args.allocation
+    qsub = templates.get(args.template, COOLEY)
     src = repo
     dst = repo + "-commits"
     github = "/".join([org, repo])
@@ -101,7 +137,6 @@ def generate():
             start_range = [start_range[0], start_range[0]+1]
 
         for start in range(start_range[0], start_range[1]):
-            print(start, start_range)
             with open(FILENAME % vars(), "w") as outfile:
                outfile.write(HEADER)
                outfile.write(qsub % vars())
